@@ -14,6 +14,9 @@ function LunaCtrl($scope, $http, $timeout) {
   console.log('luna ctrl init');
   $scope.disable_animations = !CONFIG.ENABLE_ANIMATIONS;
   $scope.all_posts_loaded = false;
+  $scope.blog = { 
+    title: CONFIG.BLOG_TITLE
+  }
 
   $http.get('content/posts.json').success(function(data) {
     $scope.posts = data;
