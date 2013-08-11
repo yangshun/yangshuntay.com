@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="large-12 columns">
+    <h1>My Blog Title</h1>
+    <hr/>
+  </div>
+</div>
+<div class="row">
+  <div class="large-9 columns">
+    <!--Body content-->
+    <div ng-repeat="post in current_page_posts | orderBy:orderProp:true">
+      <h2><a href="#/{{post.post_id}}">{{post.title}}</a></h2>
+      <p class="post-date">{{post.date}}</p>
+      <div ng-bind-html-unsafe="post.content"></div>
+    </div>
+    <a ng-show="prev_page" href="#/page/{{prev_page}}" style="float:left">Newer Entries</a>
+    <a ng-show="next_page" href="#/page/{{next_page}}" style="float:right">Older Entries</a>
+  </div>
+
+  <div class="large-3 columns">
+    <h5>Recent Posts</h5>
+    <ul>
+      <li ng-repeat="post in posts | orderBy:orderProp:true">
+        <a href="#/{{post.post_id}}">{{post.title}}</a>
+      </li>
+    </ul>
+  </div>
+</div>
