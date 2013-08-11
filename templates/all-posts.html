@@ -1,16 +1,15 @@
 <div class="row">
   <div class="large-12 columns">
-    <h1>Posts</h1>
+    <h1>All Posts</h1>
     <hr/>
   </div>
 </div>
 <div class="row">
   <div class="large-12 columns">
-    Search all posts: <input type="text" ng-model="query" />
     <!--Body content-->
-    <div class="all-posts" ng-repeat="post in posts | orderBy:orderProp:true | filter: query" ng-animate=" 'all-posts' ">
-      <h4><a href="#/{{post.post_id}}">{{post.title}}</a></h4>
-      <p class="post-date">{{post.date}}</p>
+    <div ng-repeat="post in posts | orderBy:orderProp:true">
+      <h2><a href="#/{{post.post_id}}">{{post.title}}</a></h2>
+      <div ng-bind-html-unsafe="post.content"></div>
     </div>
   </div>
 </div>
