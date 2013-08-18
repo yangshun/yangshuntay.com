@@ -7,7 +7,7 @@
 <div class="row luna-main-container">
   <div class="large-9 columns">
     <!--Body content-->
-    <div ng-repeat="post in current_page_posts | orderBy:orderProp:true">
+    <div class="post-content" ng-repeat="post in current_page_posts | orderBy:orderProp:true">
       <h2><a href="#/{{post.post_id}}">{{post.title}}</a></h2>
       <p class="post-date">{{post.date}}</p>
       <div ng-bind-html-unsafe="post.content"></div>

@@ -24,7 +24,7 @@ for file_path in file_paths:
             }
     json_output.append(post)
 
-json_output = sorted(json_output, key=lambda post: post['timestamp'], reverse=True)
+json_output = sorted(json_output, key=lambda post: post['modified'], reverse=True)
 print json.dumps(json_output, None, indent=4)
 
 posts_json_file = open(POSTS_JSON_FILE_PATH, 'w+')
