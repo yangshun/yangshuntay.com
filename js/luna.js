@@ -15,7 +15,9 @@ function LunaCtrl($scope, $http, $timeout) {
   $scope.disable_animations = !CONFIG.ENABLE_ANIMATIONS;
   $scope.all_posts_loaded = false;
   $scope.blog = { 
-    title: CONFIG.BLOG_TITLE
+    title: CONFIG.BLOG_TITLE,
+    nav_title: CONFIG.NAV_TITLE,
+    use_disqus: CONFIG.USE_DISQUS
   }
 
   $http.get('content/posts.json').success(function(data) {
@@ -35,8 +37,6 @@ function LunaCtrl($scope, $http, $timeout) {
 
 function LandingCtrl($scope, $routeParams) {
   console.log('landing ctrl init');
-
-  console.log('all posts loaded: ' + $scope.$parent.all_posts_loaded);
   if ($scope.$parent.all_posts_loaded) {
     getPagePosts();
   } else {
@@ -50,16 +50,18 @@ function LandingCtrl($scope, $routeParams) {
     var starting_index = Math.max($scope.current_page - 1, 0) * CONFIG.NUM_POSTS_PER_PAGE;
     $scope.current_page_posts = $scope.posts.slice(starting_index, starting_index + CONFIG.NUM_POSTS_PER_PAGE);
     $scope.orderProp = 'timestamp';
-    console.log('current page posts init');
   }
 
+  angular.element(document.getElementById('disqus_thread')).html('');
 }
 
 function AllPostsCtrl($scope) {
   $scope.orderProp = 'timestamp';
+
+  angular.element(document.getElementById('disqus_thread')).html('');
 }
 
-function SinglePostCtrl($scope, $routeParams) {
+function SinglePostCtrl($scope, $routeParams, $location) {
   
   $scope.post_loaded = false;
   $scope.newer_post_id = undefined;
@@ -86,4 +88,24 @@ function SinglePostCtrl($scope, $routeParams) {
     }
   }
 
+  function loadDisqus() {
+    var currentPageId = $location.path();
+    window.disqus_shortname = CONFIG.DISQUS_SHORT_NAME;
+    window.disqus_identifier = currentPageId;
+    window.disqus_url = CONFIG.SITE_DOMAIN + currentPageId;
+
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] ||
+        document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    angular.element(document.getElementById('disqus_thread')).html('');
+  }
+
+  console.log('before partial loaded')
+  if ($scope.$parent.blog.use_disqus) {
+    loadDisqus();
+  }
 }

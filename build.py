@@ -81,7 +81,7 @@ def build_posts():
 	            'modified': int(os.path.getmtime(current_file_path)),
 	            'content': file_content.strip(),
 	            'filename': file_path,
-	            'post_id': post_title.replace(' ', '-').lower().strip() # TODO: Make sure there are no duplicate ids
+	            'post_id': post_title.replace(' ', '-').replace('?', '').replace('!', '').lower().strip() # TODO: Make sure there are no duplicate ids
 	            }
 
 	    data_output.append(post)
