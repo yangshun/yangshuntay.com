@@ -92,7 +92,10 @@ function SinglePostCtrl($scope, $routeParams) {
     var currentPageId = $routeParams.post_id;
     window.disqus_shortname = CONFIG.DISQUS_SHORT_NAME;
     window.disqus_identifier = currentPageId;
-
+    window.disqus_url = 'http://' + CONFIG.SITE_DOMAIN + '/' + currentPageId;
+    
+    console.log(window.disqus_url);
+    
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
