@@ -61,7 +61,7 @@ function AllPostsCtrl($scope) {
   angular.element(document.getElementById('disqus_thread')).html('');
 }
 
-function SinglePostCtrl($scope, $routeParams, $location) {
+function SinglePostCtrl($scope, $routeParams) {
   
   $scope.post_loaded = false;
   $scope.newer_post_id = undefined;
@@ -89,10 +89,9 @@ function SinglePostCtrl($scope, $routeParams, $location) {
   }
 
   function loadDisqus() {
-    var currentPageId = $location.path();
+    var currentPageId = $routeParams.post_id;
     window.disqus_shortname = CONFIG.DISQUS_SHORT_NAME;
     window.disqus_identifier = currentPageId;
-    window.disqus_url = CONFIG.SITE_DOMAIN + currentPageId;
 
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
