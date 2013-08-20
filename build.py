@@ -4,11 +4,11 @@ import dicttoxml
 import datetime
 from xml.dom.minidom import parseString
 
-SITE_LINK = "http://yangshun.github.io/luna/#/"
+SITE_LINK = "http://yangshun.im/cs3216/#/"
 
 # Not in use yet
-SITE_TITLE = 'Luna Blogging Engine'
-SITE_DESCRIPTION = 'This is a demonstration of Luna Blogging Engine'
+SITE_TITLE = 'Yang Shun\'s CS3216 Blog'
+SITE_DESCRIPTION = 'Hi I\'m Yang Shun. This is my blog. I build cool stuff.'
 
 POSTS_DIR_PATH = "./posts/"
 POSTS_JSON_FILE_PATH = "./content/posts.json"
