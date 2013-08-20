@@ -15,7 +15,7 @@ a { color: #09c; text-decoration: none; }
 a:hover { color: rgb(0, 70, 94); }
 li { list-style-type: none; }
 .post-date { color: #aaa; }
-.post-content { margin-bottom: 150px; }
+.post-content { margin-bottom: 75px; }
 .all-posts { height: 69px; }
 
 .all-posts-enter, 
