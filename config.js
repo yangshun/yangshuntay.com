@@ -10,4 +10,4 @@ CONFIG.ENABLE_ANIMATIONS = true;
 
 CONFIG.USE_DISQUS = true;
 CONFIG.DISQUS_SHORT_NAME = 'yangshunblog';
-CONFIG.SITE_DOMAIN = 'yangshun.im';
+CONFIG.SITE_DOMAIN = 'yangshun.im/cs3216/';
