@@ -5,8 +5,6 @@
 		<description>Hi I'm Yang Shun. This is my blog. I build cool stuff.</description>
 		<link>http://yangshun.im/cs3216/#/</link>
 		<item type="dict">
-			<guid type="str">what-i-hope-to-learn-in-cs3216</guid>
-			<link type="str">http://yangshun.im/cs3216/#/what-i-hope-to-learn-in-cs3216</link>
 			<description type="str">Having taken CS3217 before, I understand that CS3216 is unlike most CS modules, the learning curve is extremely steep and students are expected to turn from zero to hero in a span of few weeks. CS3217 caught my off guard; I literally spent every single day coding and learning Objective-C, severely losing sleep and hair. I know many CS3216 alumni and heard their experiences about the module and the hard times they have gone through. Why do people put themselves through so much suffering and hardship when there are easier alternatives around? It is because stretching myself to ours limits is the fastest way to level up. We all are equal in the sense that each person has the same limited resource: time. Hence we have to optimise our time, and spend it in a way that we enjoy and also gain the most out of. For me, I believe that coding is the right field for me where it is in the sweet intersection of something I enjoy doing, can make a living out of, and am good at.
 
 #### Wearing Multiple Hats ####
@@ -24,12 +22,12 @@ Technically speaking, I'm a year 4 in SoC but the truth is that I have only comp
 But this also means that I was behind many of my peers. I have to work doubly hard in order to make up for the lost time. As warm up for CS3216, I coded this static site blogging engine using AngularJS, called [**Luna**](https://github.com/yangshun/luna). I'm a front end guy, I dislike using command line interfaces and dealing with databases, hence I was fascinated by static site templating engines. I was inspired by [**Jekyll**](http://jekyllrb.com/) and [**Empress**](https://github.com/hodgesmr/Empress), which are static site engines that generate HTML pages from markdown files. **Luna** is more flexible to use compared to Blogger and Wordpress (mainly because I built it) as I only have to write the blog content in markdown and run a python script to generate the content in JSON. I also happen to like to customise my own sites and I quite enjoy using this so far! (:
 
 I will probably not get another chance to improve rapidly in web development in school if I don't take CS3216. So why not?</description>
+			<guid type="str">what-i-hope-to-learn-in-cs3216</guid>
+			<link type="str">http://yangshun.im/cs3216/#/what-i-hope-to-learn-in-cs3216</link>
 			<title type="str">What I hope to learn in CS3216</title>
 			<pubDate type="str">2013-08-21</pubDate>
 		</item>
 		<item type="dict">
-			<guid type="str">what-i-want-to-build-for-cs3216</guid>
-			<link type="str">http://yangshun.im/cs3216/#/what-i-want-to-build-for-cs3216</link>
 			<description type="str">&quot;What exactly do I want to build for CS3216?&quot;. This question has been bugging me for the entire summer and I still do not have an answer to this question. Initially, I wanted to build a multiplayer game that uses WebRTC because it has been really hot after Google demonstrated prototypes of their WebRTC games during Google I/O, such as [Chrome Maze](http://chrome.com/maze/), [Cube Slam](https://www.cubeslam.com/) and [Racer](http://www.chrome.com/racer). Most people will shy away from building games simply because it's tough to produce the assets for the game. However, with a background in design, and because I have experience in building an iPad game [Tenza Yakitori](http://www.youtube.com/watch?v=wI-4l_FhHsk) as the final project of CS3217, I felt that I could build a game for a project and it will still turn out decent. Also, I was getting bored of building CRUD (Create, Read, Update, Delete) apps; game logic was definitely more fun to code.
 
 However, launching Corspedia in the last month made me rethink my decision of building a game in CS3216. A few friends have came to tell me that it was super useful and were glad that I solved a pain point in their bidding process. I'm not entirely sure if I will get such feedback or even be able to reach out to that many users if I built a game instead. I like the feeling of having users use a product I have built. (:
@@ -37,19 +35,32 @@ However, launching Corspedia in the last month made me rethink my decision of bu
 Games aren't all that tough to build. But making it fun and incorporating fun elements into it, is extremely tough. Games are there to provide entertainment, not so much so solve a pain point (unless you consider stress as one). Once a user gets bored of the game, it loses its value entirely. Also, I don't have the confidence to build an addictive and fun game especially when I get bored of the own game that I built.
 
 Therefore, I'm looking at building something useful. It may not be fun, but will definitely improve the lives of its users. NUS Computing students have built better timetable builders, better IVLE experiences and improved many other NUS-related services. Hence, for the first assignment (and possibly the final project), my team and I shall make an attempt at improving a school-related service: A better forum.</description>
+			<guid type="str">what-i-want-to-build-for-cs3216</guid>
+			<link type="str">http://yangshun.im/cs3216/#/what-i-want-to-build-for-cs3216</link>
 			<title type="str">What I Want to Build for CS3216</title>
 			<pubDate type="str">2013-08-21</pubDate>
 		</item>
 		<item type="dict">
-			<guid type="str">learning-how-to-learn</guid>
-			<link type="str">http://yangshun.im/cs3216/#/learning-how-to-learn</link>
 			<description type="str">My team has decided to use [Sails.js](http://sailsjs.org/#!) for the first assignment. It is an MVC framework for node.js that is pretty much like rails. It's time to learn a new framework/library again! And sadly, because it's a new framework, there isn't much documentation and tutorials for me to refer to. I learn best through doing and experimenting. As the saying goes: *I see and I understand, I do and I remember*. Getting my hands dirty and trying things out for myself is an important phase of learning something new.
 
 Being involved in the rapidly evolving field of technology, one has to constantly upgrade oneself. Hence I think the most important skill is to learn how to learn anything, fast and well. I'm thankful that I teamed with a strong team for the first assignment. Soedar, Viet Tien and Chun Mun are extremely fast learners and talented programmers. We actually do alot of pair programming and meet up very often to work on our Facebook app together. I have learnt quite abit from them and hopefully they get to learn something from me too.
 
 Tutorials start this week and it shall be my first time tutoring a class of CS1010S freshies. Prof Ben is an inspiration to many of his students and I also strive to be an inspiration to my student and spark their interest in Computer Science. In an email thread among the CS1010S tutors, we were discussing about our teaching approaches and about the neediness of the students; they were emailing Prof Ben and asking for help in debugging. I find it amusing because I personally have not done that before and this behaviour is never seen in higher level modules. The goal of CS1010S is to rewire the students' brains to think computaionally. A higher level goal will be to teach the students how to learn on their own, to Google their question whenever they meet a problem instead of relying on someone for an answer. It is hard to achieve that, but extremely important.</description>
+			<guid type="str">learning-how-to-learn</guid>
+			<link type="str">http://yangshun.im/cs3216/#/learning-how-to-learn</link>
 			<title type="str">Learning how to Learn</title>
 			<pubDate type="str">2013-08-26</pubDate>
+		</item>
+		<item type="dict">
+			<description type="str">The topic of growth hacking has always intrigued me. Coming from an engineering background, I was never exposed to the non-technical aspects of a product. Although my NOC stints allowed me to work with the marketing and business development team, I wasn't involved in the decision-making process and marketing strategies. 
+
+I was thoroughly impressed by Bjorn's presentation. Anyone could tell he was an experienced growth hacker from the techniques that he shared. I especially agree with him that 'Build and they will come' is a bloody damned myth. In the creation process of an app, it's also important to consider the various marketing channels and viral techniques that will be put into the app. An app without a solid plan of how it is going to market itself, is unlikely to be heard of by many after it is being built.
+
+For my CS3216 Facebook assignment, Osmose, I'm proud to say that we already have a pool of beta testers: our students from CS1010S and in future, the NUS population. However, I'm not very confident of growth hacking Osmose to reach out to the rest of NUS. **Corspedia** had it easy because we had help from **NUSMods**, built by Beng Hee also from this class of CS3216. **NUSMods** is truly one of the best NUS-based projects I have seen so far, its UI and UX work so well, it was a joy to use. Looks like we'll have to come up with good strategies before embarking on our final project, which aims to bring Osmose to a new level.</description>
+			<guid type="str">growth-hacking</guid>
+			<link type="str">http://yangshun.im/cs3216/#/growth-hacking</link>
+			<title type="str">Growth Hacking</title>
+			<pubDate type="str">2013-09-02</pubDate>
 		</item>
 	</channel>
 </rss>
