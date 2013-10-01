@@ -1,12 +1,13 @@
 <div class="row luna-main-container">
-  <div class="large-12 columns single-post" ng-show="post_loaded">
+  <div class="large-8 large-centered columns single-post" ng-show="post_loaded">
     <h2>{{current_post.title}}</h2>
     <p class="post-date">{{current_post.date}}</p>
+    <hr/>
     <div ng-bind-html-unsafe="current_post.content"></div>
     <a ng-show="newer_post_id" href="#/{{newer_post_id}}" style="float:left">Newer</a>
     <a ng-show="older_post_id" href="#/{{older_post_id}}" style="float:right">Older</a>
   </div>
-  <div class="large-12 columns" ng-show="blog.use_disqus">
+  <div class="large-8 large-centered columns" ng-show="blog.use_disqus">
     <hr/>
     <div id="disqus_thread"></div>
   </div>
