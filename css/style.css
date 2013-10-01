@@ -31,6 +31,7 @@ p {
 .top-bar-section li a:not(.button) { background: #fafafa; }
 .top-bar-section li a:not(.button):hover { background: #fafafa; }
 
+.single-post { margin-bottom: 60px; }
 .single-post .post-date { color: #aaa; text-transform: uppercase; text-align: center;}
 .post-content { margin-bottom: 75px; }
 .all-posts { height: 69px; }
