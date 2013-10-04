@@ -10,7 +10,7 @@ angular.module('luna', []).
     otherwise({redirectTo: '/'});
 }]);
 
-function LunaCtrl($scope, $http, $timeout) {
+function LunaCtrl($scope, $rootScope, $http, $timeout, $location) {
   console.log('luna ctrl init');
   $scope.disable_animations = !CONFIG.ENABLE_ANIMATIONS;
   $scope.all_posts_loaded = false;
@@ -32,6 +32,12 @@ function LunaCtrl($scope, $http, $timeout) {
     $timeout(function() {
       $scope.$broadcast('allPostsLoaded');
     }, 0);
+  });
+
+  $rootScope.$on('$routeChangeSuccess', function(event) {
+    if (window._gaq) {
+      window._gaq.push(['_trackPageview', $location.path()]);
+    }
   });
 }
 
@@ -62,7 +68,6 @@ function AllPostsCtrl($scope) {
 }
 
 function SinglePostCtrl($scope, $routeParams) {
-  
   $scope.post_loaded = false;
   $scope.newer_post_id = undefined;
   $scope.older_post_id = undefined;
@@ -75,6 +80,8 @@ function SinglePostCtrl($scope, $routeParams) {
 
   function loadSinglePost() {
     $scope.current_post = findPostFromPostId($routeParams.post_id);
+    console.log($routeParams.post_id)
+    // _gaq.push(['_trackPageview', $routeParams.post_id]);
     function findPostFromPostId(post_id) {
       for (var i = 0; i < $scope.$parent.posts.length; i++) {
         if ($scope.$parent.posts[i].post_id === post_id) {          
