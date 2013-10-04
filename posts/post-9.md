@@ -35,4 +35,4 @@ In the book [Rework](http://37signals.com/rework) by Jason Fried, Founder of 37 
 ##### 3. Mismatch of Skillsets #####
 Since the team members are set in stone (kinda), the team should change what can be changed: their project focus. If there is only one coder present, then the project should probably be something less technically challenging and have a heavier emphasis on the UI/UX and content.
 
-A very good example of a CS3216 project that isn't super technically challenging to build, but manages to impress people would be [**Letters to Amanda**](www.letterstoamanda.com). They have a clear value proposition and handles it extremely well. 
+A very good example of a CS3216 project that isn't super technically challenging to build, but manages to impress people would be [**Letters to Amanda**](http://www.letterstoamanda.com). They have a clear value proposition and handles it extremely well. 
