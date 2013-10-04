@@ -11,6 +11,7 @@
       <h2><a href="#/{{post.post_id}}">{{post.title}}</a></h2>
       <p class="post-date">{{post.date}}</p>
       <div ng-bind-html-unsafe="post.content"></div>
+      <hr/>
     </div>
     <a ng-show="prev_page" href="#/page/{{prev_page}}" style="float:left">Newer Entries</a>
     <a ng-show="next_page" href="#/page/{{next_page}}" style="float:right">Older Entries</a>

@@ -8,7 +8,7 @@ body.skip-animations * {
   -o-transition:none!important;
   transition:none!important;
 }
-h1, h2, h3, h4, h5, h6 { font-family: "proxima-nova", sans-serif; color: #666; font-weight: 300; }
+h1, h2, h3, h4, h5, h6 { font-family: "proxima-nova", sans-serif; color: #666; font-weight: 300; margin-top: 50px; }
 h1 { font-size: 48px; }
 h2 { margin-top: 42px; font-weight: 100; }
 .single-post h2 {
@@ -31,8 +31,9 @@ p {
 .top-bar-section li a:not(.button) { background: #fafafa; }
 .top-bar-section li a:not(.button):hover { background: #fafafa; }
 
+.post-date { color: #ccc; }
 .single-post { margin-bottom: 60px; }
-.single-post .post-date { color: #aaa; text-transform: uppercase; text-align: center;}
+.single-post .post-date { text-transform: uppercase; text-align: center;}
 .post-content { margin-bottom: 75px; }
 .all-posts { height: 69px; }
 .all-posts-enter, 
