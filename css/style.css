@@ -1,6 +1,6 @@
 .main-container { width: 960px; margin: 0 auto; padding: 20px; }
 @media all and (max-width: 767px) { .main-container { width: auto; margin: 0; } }
-body { font-family: "proxima-nova", sans-serif; }
+body { font-family: "proxima-nova", sans-serif; font-weight: 100; }
 body.skip-animations * {
   -webkit-transition:none!important;
   -moz-transition:none!important;
@@ -17,11 +17,14 @@ h2 { margin-top: 42px; font-weight: 100; }
 }
 a { color: #47d17c; text-decoration: none; }
 a:hover { color: #2eb863; }
-li { list-style-type: none; }
+.sidebar ul { list-style-type: none; padding-left: 0px; }
+.sidebar li { padding-bottom: 10px; }
+ul, ol { padding-left: 20px; }
 p {
   font-weight: 300;
   color: #777;
 }
+img { margin: 0 auto; }
 
 .top-bar { background: #fafafa; margin-bottom: 0; }
 .top-bar .name h1 a { color: #47d17c; }
