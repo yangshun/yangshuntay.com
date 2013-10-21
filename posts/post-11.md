@@ -3,7 +3,7 @@ More Thinking, Less Coding
 
 We are nearing the halfway mark of our final project but to be honest we haven't finalized on the game idea. We went on an excursion to the arcade and spent roughly 8 bucks each, trying out the games the arcade had to offer. Here's a picture of Chun Mun and Viet Tien having fun playing Bishi Bashi:
 
-<img src="/img/arcade.jpg" width="400">
+<img src="img/arcade.jpg" width="400">
 
 Initially we wanted to emulate the game [**Gyro**](https://play.google.com/store/apps/details?id=pl.submachine.gyro&hl=en) and make a multiplayer version of it. However, after further consideration, I found it inappropriate and people would get bored easily and called for a discussion with the team.
 
@@ -20,6 +20,6 @@ The next decision was to decide on the theme of the game. As I am the sole desig
 
 Here's a sneakpeek at what we have for the project so far: 
 
-![Splashscreen](/img/mockup.jpg) 
+![Splashscreen](img/mockup.jpg) 
 
 Looks pretty okay? I think so too. Let's see what we can come up with in the next 3 weeks. (:
