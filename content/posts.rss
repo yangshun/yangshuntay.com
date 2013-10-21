@@ -23,9 +23,86 @@ Technically speaking, I'm a year 4 in SoC but the truth is that I have only comp
 But this also means that I was behind many of my peers. I have to work doubly hard in order to make up for the lost time. As warm up for CS3216, I coded this static site blogging engine using AngularJS, called [**Luna**](https://github.com/yangshun/luna). I'm a front end guy, I dislike using command line interfaces and dealing with databases, hence I was fascinated by static site templating engines. I was inspired by [**Jekyll**](http://jekyllrb.com/) and [**Empress**](https://github.com/hodgesmr/Empress), which are static site engines that generate HTML pages from markdown files. **Luna** is more flexible to use compared to Blogger and Wordpress (mainly because I built it) as I only have to write the blog content in markdown and run a python script to generate the content in JSON. I also happen to like to customise my own sites and I quite enjoy using this so far! (:
 
 I will probably not get another chance to improve rapidly in web development in school if I don't take CS3216. So why not?</description>
-			<guid type="str">what-i-hope-to-learn-in-cs3216</guid>
 			<title type="str">What I hope to learn in CS3216</title>
 			<pubDate type="str">2013-08-21</pubDate>
+			<guid type="str">what-i-hope-to-learn-in-cs3216</guid>
+		</item>
+		<item type="dict">
+			<link type="str">http://yangshun.im/cs3216/#/mobile-assignment-reflections</link>
+			<description type="str">This assignment made me worry alot because of the little time we spent coding and testing it. I still stand by my previous rants that mobile web development is a PITA, there are simply too many nitty gritty things to consider and pitfalls to avoid when developing for mobile.
+
+But surprisingly we did extremely well for this assignment! Far exceeding my expectations by just too much. Based on the feedback given from the teaching team, I'm glad that the decisions I made when designing (both aesthetic and product) the application turned out to be the right ones:
+
+**Choosing a Suitable CSS Framework**
+
+I didn't use Bootstrap, Foundation nor jQuery Mobile (because every other team would be using it) for the HTML and CSS. Instead, I chose to use [**UIKit**](http://www.getuikit.com/), which I chanced upon (thankfully) in a Web Designer newsletter a week before the start of Assignment 3. I chose UIKit because they had a slide-to-reveal navigation component which was prevalent in pre-iOS7 mobile apps. This helped me score quite a few points in achieving a native-like feel.
+
+**Flat Design**
+
+Almost every new UI design is flat now! Not that I really like flat design, but flat design is seriously easier to implement because I can do away with drop shadows, inner shadows, etc. I also wanted to try out developing an iOS7-like app, with heavy usage of Helvetica Neue and little use of borders.
+
+**Optional to Sign Up**
+
+For our app, Qivi, which is a mobile version of a classroom clicker, if every user needed to sign up before being able to use it, I'm pretty sure nobody would use it. I actually learnt this from my the startup I interned over my NOC program, [**EasilyDo**](http://www.easilydo.com). The EasilyDo app does not require users to sign up before allowing them to use it, because users have to see the value in it before being willing to sign up. This was a pain to implement because users had to be given a temporary identity, but it's necessary to gain some users.
+
+**AngularJS**
+
+[**AngularJS**](http://angularjs.org/) was perfect for this app because the app has to be backed by a RESTful service. The trouble with using RESTful APIs comes when you have to handle the updating of the view after the data has been retrieved. Those without frameworks will either append raw HTML or use jQuery to manipulate the DOM. I hate mixing my HTML and JS together because it becomes an unmaintainable mess very soon. 
+
+Also, AngularJS is pretty good for making Single-Page Applications, which is extremely suitable for a mobile web app that requires caching of files. Routing is done on the client side, and the number of page loads/refreshes is reduced.
+
+Admittedly, I used some hackish methods to get around some issues of using UIKit and AngularJS together, but kinda bobian because we were under schedule constraints &gt;_&lt;
+
+**Building a Help/FAQ Page**
+
+This is another tip that I picked up from the **EasilyDo** mobile app. If your app has a certain level of complexity, it's not realistic to expect users to learn the app on their own. This is made even harder if the interface is confusing and does not stick to the convention of mobile apps. 
+
+As Su Yuen said, 
+
+&gt;&quot;Most average laymen users however would give up within about 5-10 seconds if they open your app/website and can't figure out what is going on. It is especially confusing if the data you have populated in the website/app upon landing on your site is data like 'Test 123'. &quot;
+
+Thankfully I created a sample event titled **&quot;Testing Event for Qivi&quot;** with detailed instructions in the &quot;Help&quot; page on how to understand and experience what Qivi does.
+
+**Keep Things Simple**
+
+Given the lack of time, my team had to cut features and ultimately we reduced our feature set to the core functionality of real-time response to polls. In the pitch, I repeatedly stressed the key value proposition of Qivi and guided users in experiencing it through the &quot;Help&quot; page. 
+
+Focus on one thing, do it extremely well before moving on to other features.
+
+**Overall**
+
+Overall, I'm *extremely* glad that things turned out alright and that the (coincidentally?) good UI/UX decisions made up for the lack of time in building an app that is robust against the dumbest users. I definitely learnt something valuable from this assignment and shall apply it to the final project (:</description>
+			<title type="str">Mobile Assignment Reflections</title>
+			<pubDate type="str">2013-10-21</pubDate>
+			<guid type="str">mobile-assignment-reflections</guid>
+		</item>
+		<item type="dict">
+			<link type="str">http://yangshun.im/cs3216/#/more-thinking,-less-coding</link>
+			<description type="str">We are nearing the halfway mark of our final project but to be honest we haven't finalized on the game idea. We went on an excursion to the arcade and spent roughly 8 bucks each, trying out the games the arcade had to offer. Here's a picture of Chun Mun and Viet Tien having fun playing Bishi Bashi:
+
+&lt;img src=&quot;/img/arcade.jpg&quot; width=&quot;400&quot;&gt;
+
+Initially we wanted to emulate the game [**Gyro**](https://play.google.com/store/apps/details?id=pl.submachine.gyro&amp;hl=en) and make a multiplayer version of it. However, after further consideration, I found it inappropriate and people would get bored easily and called for a discussion with the team.
+
+Our target application has to be:
+
+- Multiplayer (Support up to 10 concurrent players)
+- Casual
+- Newcomers who just joined the game should not be too disadvantaged
+- Make use of a mobile devices' capabilities
+
+The games that came to my mind that fell into this category were multiplayer First-Person shooters such as **Counter Strike** and **Team Fortress 2**. A team-based shooting game should work for us!
+
+The next decision was to decide on the theme of the game. As I am the sole designer and front end styler (I'm not the only front end engineer here because Soedar, Viet Tien and Chun Mun all write better Javascript than me), we have to pick a theme that was nice, easy and fast to design. Sounds like the Project Management triangle where you pick two from 'Fast', 'Good' and 'Cheap'? Not so much here because in design that is possible. *Good Artists Copy, Great Artists Steal*. But the best artists steal, modify, combine things, and make it their own! That's how the iPhone was made anyways.
+
+Here's a sneakpeek at what we have for the project so far: 
+
+![Splashscreen](/img/mockup.jpg) 
+
+Looks pretty okay? I think so too. Let's see what we can come up with in the next 3 weeks. (:</description>
+			<title type="str">More Thinking, Less Coding</title>
+			<pubDate type="str">2013-10-22</pubDate>
+			<guid type="str">more-thinking,-less-coding</guid>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/what-i-want-to-build-for-cs3216</link>
@@ -36,9 +113,9 @@ However, launching Corspedia in the last month made me rethink my decision of bu
 Games aren't all that tough to build. But making it fun and incorporating fun elements into it, is extremely tough. Games are there to provide entertainment, not so much so solve a pain point (unless you consider stress as one). Once a user gets bored of the game, it loses its value entirely. Also, I don't have the confidence to build an addictive and fun game especially when I get bored of the own game that I built.
 
 Therefore, I'm looking at building something useful. It may not be fun, but will definitely improve the lives of its users. NUS Computing students have built better timetable builders, better IVLE experiences and improved many other NUS-related services. Hence, for the first assignment (and possibly the final project), my team and I shall make an attempt at improving a school-related service: A better forum.</description>
-			<guid type="str">what-i-want-to-build-for-cs3216</guid>
 			<title type="str">What I Want to Build for CS3216</title>
 			<pubDate type="str">2013-08-21</pubDate>
+			<guid type="str">what-i-want-to-build-for-cs3216</guid>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/learning-how-to-learn</link>
@@ -47,9 +124,9 @@ Therefore, I'm looking at building something useful. It may not be fun, but will
 Being involved in the rapidly evolving field of technology, one has to constantly upgrade oneself. Hence I think the most important skill is to learn how to learn anything, fast and well. I'm thankful that I teamed with a strong team for the first assignment. Soedar, Viet Tien and Chun Mun are extremely fast learners and talented programmers. We actually do alot of pair programming and meet up very often to work on our Facebook app together. I have learnt quite abit from them and hopefully they get to learn something from me too.
 
 Tutorials start this week and it shall be my first time tutoring a class of CS1010S freshies. Prof Ben is an inspiration to many of his students and I also strive to be an inspiration to my student and spark their interest in Computer Science. In an email thread among the CS1010S tutors, we were discussing about our teaching approaches and about the neediness of the students; they were emailing Prof Ben and asking for help in debugging. I find it amusing because I personally have not done that before and this behaviour is never seen in higher level modules. The goal of CS1010S is to rewire the students' brains to think computaionally. A higher level goal will be to teach the students how to learn on their own, to Google their question whenever they meet a problem instead of relying on someone for an answer. It is hard to achieve that, but extremely important.</description>
-			<guid type="str">learning-how-to-learn</guid>
 			<title type="str">Learning how to Learn</title>
 			<pubDate type="str">2013-08-26</pubDate>
+			<guid type="str">learning-how-to-learn</guid>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/growth-hacking</link>
@@ -58,9 +135,9 @@ Tutorials start this week and it shall be my first time tutoring a class of CS10
 I was thoroughly impressed by Bjorn's presentation. Anyone could tell he was an experienced growth hacker from the techniques that he shared. I especially agree with him that 'Build and they will come' is a bloody damned myth. In the creation process of an app, it's also important to consider the various marketing channels and viral techniques that will be put into the app. An app without a solid plan of how it is going to market itself, is unlikely to be heard of by many after it is being built.
 
 For my CS3216 Facebook assignment, Osmose, I'm proud to say that we already have a pool of beta testers: our students from CS1010S and in future, the NUS population. However, I'm not very confident of growth hacking Osmose to reach out to the rest of NUS. **Corspedia** had it easy because we had help from **NUSMods**, built by Beng Hee also from this class of CS3216. **NUSMods** is truly one of the best NUS-based projects I have seen so far, its UI and UX work so well, it was a joy to use. Looks like we'll have to come up with good strategies before embarking on our final project, which aims to bring Osmose to a new level.</description>
-			<guid type="str">growth-hacking</guid>
 			<title type="str">Growth Hacking</title>
 			<pubDate type="str">2013-09-25</pubDate>
+			<guid type="str">growth-hacking</guid>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/facebook-ipad-application-seminar:-maps</link>
@@ -85,9 +162,9 @@ Crowdsourcing is the new buzzword now. It is the act of seeking contributions fr
 Few months back, I happened to switch back to using my iPhone 4S to navigate. I was driving along the roads of Mountain View, and I found the maps app extremely hard to use; the interface looked familiar, but the gestures were unintuitive, flow of the application didn't make much sense to me too. Then it dawned upon me: I was using Apple's new Map app. It was my first time using iOS 6 on my iPhone and I forgot that the default maps app in the device was no longer by Google. Wasting no time, I went to the App Store and downloaded Google's version of the maps app and continued on my journey.
 
 It is appalling that Apple, a guru of UI/UX, produced a Maps app of such quality; the initial version of Apple's Map app seems horrible, but it was improved tremendously in the past year, by finetuning based on user feedback and also acquisition of navigation related startups and technology. The iOS 7 redesign unveiled during WWDC this year also faced the same fate of being flamed and slammed. Perhaps Apple is adopting the [Lean Startup Methodology](http://theleanstartup.com/) and iteratively building products and services. But I'd expect more from Apple if they want to regain their market share of handheld devices. Apple certainly has got much more to improve on.</description>
-			<guid type="str">facebook-ipad-application-seminar:-maps</guid>
 			<title type="str">Facebook/iPad Application Seminar: Maps</title>
 			<pubDate type="str">2013-09-25</pubDate>
+			<guid type="str">facebook-ipad-application-seminar:-maps</guid>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/the-calm-before-the-storm</link>
@@ -102,9 +179,9 @@ I'm honestly quite worried for my CS3216 Assignment 3. Will be working with a bu
 Was thinking of ideas for assignment 3 and I'm pretty sure I won't want the app to be a platform this time. Almost all assignment 1 projects were platforms, will assignment 3 be similar? Given the short span of time available, I'm not confident of pulling off a mobile web platform well. Initially wanted to do a game but since native applications is no longer allowed, games are not too viable an option. Hence I'm thinking of creating something nimble but useful, something along the lines of a utility application.
 
 Weather app? To-do list app? Calendar app? Perhaps a gamified twist to them. (:</description>
-			<guid type="str">the-calm-before-the-storm</guid>
 			<title type="str">The Calm Before The Storm</title>
 			<pubDate type="str">2013-09-25</pubDate>
+			<guid type="str">the-calm-before-the-storm</guid>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/web-development-is-a-pita</link>
@@ -125,18 +202,18 @@ This is a common pitfall for developers who test their mobile site on the comput
 My favorite asset will be these pretty icons from [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/) that are actually SVGs (scalable vector graphics). With this, no longer is there a need for icon spritesheets that aren't exactly flexible and retina-friendly. EVERYONE SHOULD USE THIS!
 
 Okay, back to my Assignment 3.</description>
-			<guid type="str">web-development-is-a-pita</guid>
 			<title type="str">Web Development is a PITA</title>
 			<pubDate type="str">2013-09-25</pubDate>
+			<guid type="str">web-development-is-a-pita</guid>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/new-skin</link>
 			<description type="str">Decided not to let my typekit account go to waste hence I changed the font of the site to the famous **Proxima Nova** and tweaked the colors slightly so that it does not look totally similar to [Chun Mun's Blog](http://chunmun.github.io/CS3216). Benefits of building [your own blogging engine](https://github.com/yangshun/luna) is that you have the flexibility to customize it in however way you want it!
 
 Finally, a break from all the HTML and CSS coding now that all the assignments have been completed. I'm really excited at what my team is going to build for the final project. &quot;What is it?&quot;, you ask. I don't know the answer to it myself. Now that's where the fun starts (:</description>
-			<guid type="str">new-skin</guid>
 			<title type="str">New Skin!</title>
 			<pubDate type="str">2013-10-01</pubDate>
+			<guid type="str">new-skin</guid>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/team-dynamics-issues</link>
@@ -182,9 +259,9 @@ A very good example of a CS3216 project that isn't super technically challenging
 Now I appreciate why we were made to read Rework and Mythical Man-Month back in CS3217. In some cases, good project management skills can be more important than the technical aptitude of the developers.
 
 Will be starting on my final project this weekend. Apprehensive but excited at the possibilities. (:</description>
-			<guid type="str">team-dynamics-issues</guid>
 			<title type="str">Team Dynamics Issues</title>
 			<pubDate type="str">2013-10-04</pubDate>
+			<guid type="str">team-dynamics-issues</guid>
 		</item>
 	</channel>
 </rss>
