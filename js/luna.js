@@ -31,6 +31,8 @@ function LunaCtrl($scope, $rootScope, $http, $timeout, $location) {
     $scope.all_posts_loaded = true;
     $timeout(function() {
       $scope.$broadcast('allPostsLoaded');
+      $('.page-title').addClass('animated fadeInLeft');
+      $('.post-content').addClass('animated fadeInRight');
     }, 0);
   });
 
