@@ -4,6 +4,7 @@ angular.module('luna', []).
   config(['$routeProvider', function($routeProvider) {
   $routeProvider.
     when('/', {templateUrl: 'templates/landing.html', controller: LandingCtrl}).
+    when('/portfolio', {templateUrl: 'templates/portfolio.html', controller: PortfolioCtrl}).
     when('/posts', {templateUrl: 'templates/all-posts.html', controller: AllPostsCtrl}).
     when('/:post_id', {templateUrl: 'templates/single-post.html', controller: SinglePostCtrl}).
     when('/page/:page', {templateUrl: 'templates/landing.html', controller: LandingCtrl}).
@@ -119,4 +120,10 @@ function SinglePostCtrl($scope, $routeParams) {
   if ($scope.$parent.blog.use_disqus) {
     loadDisqus();
   }
+}
+
+function PortfolioCtrl($scope) {
+  console.log('portfolio');
+  angular.element(document.getElementById('disqus_thread')).html('');
+  $scope.yolo = 'asdadada'
 }
