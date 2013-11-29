@@ -43,6 +43,8 @@ img { margin: 0 auto; }
 .top-bar.expanded .title-area { background-color: #fafafa; }
 .top-bar.expanded .top-bar-section li a:not(.button) { padding: 10px 20px; }
 
+.page-title { font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+
 .banner { 
   background-image: url(../img/banner-gray.jpg); 
   background-size: cover; 
@@ -87,6 +89,10 @@ img { margin: 0 auto; }
 @media all and (max-width: 767px) {
   .title-container .thumbnail { display: block; margin: 10px auto;}
   .title-container { text-align: center; }
+  .grayscale {
+    filter: none;
+    -webkit-filter: none;
+  }
   /*h1, h2, h3, h4, h5, h6 { margin-top: 0; }*/
 }
 
@@ -95,6 +101,7 @@ img { margin: 0 auto; }
 .single-post .post-date { text-transform: uppercase; text-align: center;}
 .post-content { margin-bottom: 75px; opacity: 0; }
 .all-posts { height: 69px; }
+.all-posts h4 { margin-top: 30px; }
 .all-posts-enter, 
 .all-posts-leave
 { 
@@ -171,7 +178,7 @@ img { margin: 0 auto; }
   opacity: 0;
 }
 
-.portfolio .portfolio-item:not(:last-child) {
+.portfolio .row:not(:last-child) .portfolio-item {
   border-bottom: 1px solid #ccc;
 }
 
