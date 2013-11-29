@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Yang Shun</title>
+        <title>Yang Shun Blogs</title>
         <meta name="description" content="Yang Shun blogs. Rants. Writes.">
         <meta name="viewport" content="width=device-width">
 
@@ -14,9 +14,12 @@
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://yangshun.im">
         <meta property="og:title" content="Yang Shun">
-        <meta property="og:image" content="http://yangshun.im/img/una.jpg"> 
-        <meta property="og:description" content="Hi my name is Yang Shun. I code and design.">
+        <meta property="og:image" content="http://yangshun.im/cs3216/img/fb-share-banner.jpg"> 
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:description" content="A driven and creative person, Yang Shun's two main passions lie in coding and designing. He has developed a few apps for the iOS platform and has extensive experience in graphic designing having performed freelance design tasks and winning design competitions. He spent a year in Silicon Valley as a Software Engineering intern at a bay area startup, exploring front-end web development technologies and is currently building beautiful kickass sites, such as this site.">
         <meta property="og:site_name" content="Yang Shun's Blog">
+        <meta property="og:type" content="website">
         
         <script type="text/javascript" src="//use.typekit.net/agu6ept.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -80,7 +83,7 @@
         <div class="main-container" ng-view>
 
         </div>
-        <div class="main-container" ng-show="all_posts_loaded">
+        <div class="main-container" ng-show="all_posts_loaded" style="display:none">
           <div class="row footer">
             <div class="large-12 columns">
               <hr/>
@@ -95,7 +98,7 @@
 
             $(document).foundation();
             $(function() {
-                // $('.top-bar').addClass('animated fadeInDown');
+                $('.top-bar').addClass('animated fadeInDown');
             });
         </script>
     </body>
