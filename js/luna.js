@@ -5,6 +5,7 @@ angular.module('luna', []).
   $routeProvider.
     when('/', {templateUrl: 'templates/landing.html', controller: LandingCtrl}).
     when('/portfolio', {templateUrl: 'templates/portfolio.html', controller: PortfolioCtrl}).
+    when('/resume', {templateUrl: 'templates/resume.html', controller: ResumeCtrl}).
     when('/posts', {templateUrl: 'templates/all-posts.html', controller: AllPostsCtrl}).
     when('/:post_id', {templateUrl: 'templates/single-post.html', controller: SinglePostCtrl}).
     when('/page/:page', {templateUrl: 'templates/landing.html', controller: LandingCtrl}).
@@ -141,4 +142,8 @@ function PortfolioCtrl($scope) {
     }, { offset: $(window).height() - 200 });
   });
   angular.element(document.getElementById('disqus_thread')).html('');
+}
+
+function ResumeCtrl($scope) {
+  
 }
