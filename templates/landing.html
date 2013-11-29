@@ -18,7 +18,7 @@
     <div class="post-content" ng-repeat="post in current_page_posts | orderBy:orderProp:true">
       <h2><a href="#/{{post.post_id}}">{{post.title}}</a></h2>
       <p class="post-date">{{post.date}}</p>
-      <div ng-bind-html-unsafe="post.content"></div>
+      <div class="post-content-text" ng-bind-html-unsafe="post.content"></div>
       <hr ng-show="$index != current_page_posts.length-1"/>
     </div>
     <a ng-show="prev_page" href="#/page/{{prev_page}}" style="float:left"><span class="round label">Newer Entries</span></a>

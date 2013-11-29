@@ -100,6 +100,7 @@ img { margin: 0 auto; }
 .single-post { margin-bottom: 60px; }
 .single-post .post-date { text-transform: uppercase; text-align: center;}
 .post-content { margin-bottom: 75px; opacity: 0; }
+
 .all-posts { height: 69px; }
 .all-posts h4 { margin-top: 30px; }
 .all-posts-enter, 
@@ -188,6 +189,10 @@ img { margin: 0 auto; }
 
 .label {
   background-color: #47d17c;
+}
+
+.footer {
+  margin-top: 30px; 
 }
 
 .footer p {
