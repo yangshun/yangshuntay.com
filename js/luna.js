@@ -32,8 +32,7 @@ function LunaCtrl($scope, $rootScope, $http, $timeout, $location) {
     $scope.all_posts_loaded = true;
     $timeout(function() {
       $scope.$broadcast('allPostsLoaded');
-      $('.page-title').addClass('animated fadeInLeft');
-      $('.post-content').addClass('animated fadeInRight');
+      
     }, 0);
   });
 
@@ -44,7 +43,7 @@ function LunaCtrl($scope, $rootScope, $http, $timeout, $location) {
   });
 }
 
-function LandingCtrl($scope, $routeParams) {
+function LandingCtrl($scope, $routeParams, $timeout) {
   console.log('landing ctrl init');
   if ($scope.$parent.all_posts_loaded) {
     getPagePosts();
@@ -59,6 +58,17 @@ function LandingCtrl($scope, $routeParams) {
     var starting_index = Math.max($scope.current_page - 1, 0) * CONFIG.NUM_POSTS_PER_PAGE;
     $scope.current_page_posts = $scope.posts.slice(starting_index, starting_index + CONFIG.NUM_POSTS_PER_PAGE);
     $scope.orderProp = 'timestamp';
+    $timeout(function() {
+      $('.title-container').addClass('animated fadeInRight');
+      var delay = 500;
+      $('.post-content').each(function() {
+        var that = this;
+        $timeout(function() {
+          $(that).addClass('animated fadeInRight');
+        }, delay);
+        delay += 500;
+      });
+    }, 0);
   }
 
   angular.element(document.getElementById('disqus_thread')).html('');
