@@ -51,6 +51,9 @@ img { margin: 0 auto; }
   padding-bottom: 30px; 
   margin-bottom: 30px; 
 }
+.title-container {
+  opacity: 0;
+}
 .title-container .title-text { display: inline-block; }
 .title-container .title-text h1, 
 .title-container .title-text p { 
@@ -66,6 +69,9 @@ img { margin: 0 auto; }
   width: 100px; 
   border-radius: 50%; 
   margin-right: 20px; 
+  border: 3px solid #fff;
+}
+.grayscale {
   filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1);
@@ -73,9 +79,8 @@ img { margin: 0 auto; }
   transition: all 0.5s; 
   -webkit-transition: all 0.5s; 
   -moz-transition: all 0.5s;
-  border: 3px solid #fff;
 }
-.title-container .thumbnail:hover {
+.grayscale:hover {
   filter: none;
   -webkit-filter: none;
 }
@@ -140,12 +145,30 @@ img { margin: 0 auto; }
   text-align: left;
 }
 
-.portfolio img {
+.portfolio img { 
+  margin-bottom: 30px;
+  display: block;
+  transition: all 0.5s; 
+  -webkit-transition: all 0.5s; 
+  -moz-transition: all 0.5s;
+  transform:scale(0.95, 0.95);
+  -ms-transform:scale(0.95, 0.95); /* IE 9 */
+  -moz-transform:scale(0.95, 0.95);
+  -webkit-transform:scale(0.95, 0.95); /* Safari and Chrome */
+}
+
+.portfolio img:hover {
   -webkit-box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.64);
   -moz-box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.64);
   box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.64);
-  display: block;
-  margin-bottom: 30px;
+  transform:scale(1.0, 1.0);
+  -ms-transform:scale(1.0, 1.0); /* IE 9 */
+  -moz-transform:scale(1.0, 1.0);
+  -webkit-transform:scale(1.0, 1.0); /* Safari and Chrome */
+}
+
+.portfolio .portfolio-item {
+  opacity: 0;
 }
 
 .portfolio .portfolio-item:not(:last-child) {

@@ -134,6 +134,11 @@ function SinglePostCtrl($scope, $routeParams) {
 
 function PortfolioCtrl($scope) {
   console.log('portfolio');
+  $.each($('.portfolio-item'), function() {
+    var that = this;
+    $(this).waypoint(function() {
+      $(that).addClass('animated fadeInUp');
+    }, { offset: $(window).height() - 200 });
+  });
   angular.element(document.getElementById('disqus_thread')).html('');
-  $scope.yolo = 'asdadada'
 }
