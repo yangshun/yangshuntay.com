@@ -30,7 +30,7 @@ p {
 }
 img { margin: 0 auto; }
 
-.top-bar { background: #fafafa; margin-bottom: 0; }
+.top-bar { background: #fafafa; margin-bottom: 0; opacity: 0; }
 .top-bar .name h1 a { color: #47d17c; }
 .top-bar-section ul li a { text-transform: uppercase; letter-spacing: 1px; }
 .top-bar-section ul li a:hover { color: #47d17c; }
