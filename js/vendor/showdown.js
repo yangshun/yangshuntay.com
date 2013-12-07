@@ -647,7 +647,7 @@ var writeAnchorTag = function(wholeMatch,m1,m2,m3,m4,m5,m6,m7) {
 	}
 
 	url = escapeCharacters(url,"*_");
-	var result = "<a href=\"" + url + "\"";
+	var result = "<a target=\"_blank\" href=\"" + url + "\"";
 
 	if (title != "") {
 		title = title.replace(/"/g,"&quot;");
@@ -1276,7 +1276,7 @@ var _EncodeBackslashEscapes = function(text) {
 
 var _DoAutoLinks = function(text) {
 
-	text = text.replace(/<((https?|ftp|dict):[^'">\s]+)>/gi,"<a href=\"$1\">$1</a>");
+	text = text.replace(/<((https?|ftp|dict):[^'">\s]+)>/gi,"<a target=\"_blank\" href=\"$1\">$1</a>");
 
 	// Email addresses: <address@domain.foo>
 
@@ -1343,7 +1343,7 @@ var _EncodeEmailAddress = function(addr) {
 		return ch;
 	});
 
-	addr = "<a href=\"" + addr + "\">" + addr + "</a>";
+	addr = "<a target=\"_blank\" href=\"" + addr + "\">" + addr + "</a>";
 	addr = addr.replace(/">.+:/g,"\">"); // strip the mailto: from the visible part
 
 	return addr;
