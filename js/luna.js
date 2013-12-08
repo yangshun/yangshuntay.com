@@ -13,7 +13,7 @@ angular.module('luna', []).
 }]);
 
 function LunaCtrl($scope, $rootScope, $http, $timeout, $location) {
-  console.log('luna ctrl init');
+  
   $scope.disable_animations = !CONFIG.ENABLE_ANIMATIONS;
   $scope.all_posts_loaded = false;
   $scope.blog = { 
@@ -29,7 +29,7 @@ function LunaCtrl($scope, $rootScope, $http, $timeout, $location) {
       var d = new Date($scope.posts[i].timestamp * 1000);
       $scope.posts[i].date = d.toString();
     }
-    console.log('all posts loaded');
+    
     $scope.all_posts_loaded = true;
     $timeout(function() {
       $scope.$broadcast('allPostsLoaded');
@@ -45,7 +45,7 @@ function LunaCtrl($scope, $rootScope, $http, $timeout, $location) {
 }
 
 function LandingCtrl($scope, $routeParams, $timeout) {
-  console.log('landing ctrl init');
+  
   if ($scope.$parent.all_posts_loaded) {
     getPagePosts();
   } else {
@@ -94,18 +94,18 @@ function SinglePostCtrl($scope, $routeParams) {
 
   function loadSinglePost() {
     $scope.current_post = findPostFromPostId($routeParams.post_id);
-    console.log($routeParams.post_id)
-    // _gaq.push(['_trackPageview', $routeParams.post_id]);
+    
     function findPostFromPostId(post_id) {
       for (var i = 0; i < $scope.$parent.posts.length; i++) {
         if ($scope.$parent.posts[i].post_id === post_id) {          
+          _gaq.push(['_trackPageview', $routeParams.post_id]);
           $scope.post_loaded = true;
           $scope.newer_post_id = i - 1 >= 0 ? $scope.$parent.posts[i-1].post_id : undefined;
           $scope.older_post_id = i + 1 <= $scope.$parent.posts.length - 1 ? $scope.$parent.posts[i+1].post_id : undefined;
           return $scope.$parent.posts[i];
         }
       }
-      return ''; // TODO: Redirect to a 404 page
+      $location.path('/'); // TODO: Redirect to a 404 page
     }
   }
 
@@ -113,9 +113,6 @@ function SinglePostCtrl($scope, $routeParams) {
     var currentPageId = $routeParams.post_id;
     window.disqus_shortname = CONFIG.DISQUS_SHORT_NAME;
     window.disqus_identifier = currentPageId;
-    window.disqus_url = 'http://' + CONFIG.SITE_DOMAIN + '#/' + currentPageId;
-    
-    console.log(window.disqus_url);
     
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -127,14 +124,13 @@ function SinglePostCtrl($scope, $routeParams) {
     angular.element(document.getElementById('disqus_thread')).html('');
   }
 
-  console.log('before partial loaded')
   if ($scope.$parent.blog.use_disqus) {
     loadDisqus();
   }
 }
 
 function PortfolioCtrl($scope) {
-  console.log('portfolio');
+
   $.each($('.portfolio-item'), function() {
     var that = this;
     $(this).waypoint(function() {
