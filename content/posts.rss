@@ -6,7 +6,6 @@
 		<link>http://yangshun.im/cs3216/#/</link>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/what-i-hope-to-learn-in-cs3216</link>
-			<guid type="str">what-i-hope-to-learn-in-cs3216</guid>
 			<description type="str">Having taken CS3217 before, I understand that CS3216 is unlike most CS modules, the learning curve is extremely steep and students are expected to turn from zero to hero in a span of few weeks. CS3217 caught my off guard; I literally spent every single day coding and learning Objective-C, severely losing sleep and hair. I know many CS3216 alumni and heard their experiences about the module and the hard times they have gone through. Why do people put themselves through so much suffering and hardship when there are easier alternatives around? It is because stretching myself to ours limits is the fastest way to level up. We all are equal in the sense that each person has the same limited resource: time. Hence we have to optimise our time, and spend it in a way that we enjoy and also gain the most out of. For me, I believe that coding is the right field for me where it is in the sweet intersection of something I enjoy doing, can make a living out of, and am good at.
 
 #### Wearing Multiple Hats ####
@@ -24,12 +23,12 @@ Technically speaking, I'm a year 4 in SoC but the truth is that I have only comp
 But this also means that I was behind many of my peers. I have to work doubly hard in order to make up for the lost time. As warm up for CS3216, I coded this static site blogging engine using AngularJS, called [**Luna**](https://github.com/yangshun/luna). I'm a front end guy, I dislike using command line interfaces and dealing with databases, hence I was fascinated by static site templating engines. I was inspired by [**Jekyll**](http://jekyllrb.com/) and [**Empress**](https://github.com/hodgesmr/Empress), which are static site engines that generate HTML pages from markdown files. **Luna** is more flexible to use compared to Blogger and Wordpress (mainly because I built it) as I only have to write the blog content in markdown and run a python script to generate the content in JSON. I also happen to like to customise my own sites and I quite enjoy using this so far! (:
 
 I will probably not get another chance to improve rapidly in web development in school if I don't take CS3216. So why not?</description>
+			<guid type="str">what-i-hope-to-learn-in-cs3216</guid>
 			<title type="str">What I hope to learn in CS3216</title>
 			<pubDate type="str">2013-08-21</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/mobile-assignment-reflections</link>
-			<guid type="str">mobile-assignment-reflections</guid>
 			<description type="str">This assignment made me worry alot because of the little time we spent coding and testing it. I still stand by my previous rants that mobile web development is a PITA, there are simply too many nitty gritty things to consider and pitfalls to avoid when developing for mobile.
 
 But surprisingly we did extremely well for this assignment! Far exceeding my expectations by just too much. Based on the feedback given from the teaching team, I'm glad that the decisions I made when designing (both aesthetic and product) the application turned out to be the right ones:
@@ -73,12 +72,12 @@ Focus on one thing, do it extremely well before moving on to other features.
 **Overall**
 
 Overall, I'm *extremely* glad that things turned out alright and that the (coincidentally?) good UI/UX decisions made up for the lack of time in building an app that is robust against the dumbest users. I definitely learnt something valuable from this assignment and shall apply it to the final project (:</description>
+			<guid type="str">mobile-assignment-reflections</guid>
 			<title type="str">Mobile Assignment Reflections</title>
 			<pubDate type="str">2013-10-22</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/more-thinking,-less-coding</link>
-			<guid type="str">more-thinking,-less-coding</guid>
 			<description type="str">We are nearing the halfway mark of our final project but to be honest we haven't finalized on the game idea. We went on an excursion to the arcade and spent roughly 8 bucks each, trying out the games the arcade had to offer. Here's a picture of Chun Mun and Viet Tien having fun playing Bishi Bashi:
 
 &lt;img src=&quot;img/arcade.jpg&quot; width=&quot;400&quot;&gt;
@@ -101,12 +100,12 @@ Here's a sneakpeek at what we have for the project so far:
 ![Splashscreen](img/mockup.jpg) 
 
 Looks pretty okay? I think so too. Let's see what we can come up with in the next 3 weeks. (:</description>
+			<guid type="str">more-thinking,-less-coding</guid>
 			<title type="str">More Thinking, Less Coding</title>
 			<pubDate type="str">2013-10-22</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/how-to-do-projects:</link>
-			<guid type="str">how-to-do-projects:</guid>
 			<description type="str">1. Work with the **smart**
 2. Work with the **creative**
 3. Work with the **hardworking**
@@ -114,12 +113,12 @@ Looks pretty okay? I think so too. Let's see what we can come up with in the nex
 5. If possible, **modify** your role to make up for an aspect your team is lacking in
 6. Pick a topic that everyone is **interested** in
 7. Have **fun** doing the work!</description>
+			<guid type="str">how-to-do-projects:</guid>
 			<title type="str">How To Do Projects:</title>
 			<pubDate type="str">2013-11-08</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/the-last-lectures</link>
-			<guid type="str">the-last-lectures</guid>
 			<description type="str">I love attending last lectures for some weird reason. It is usually during the last lectures when the profs share their life experiences and wisdom; stuff that cannot be obtained from lecture notes or the internet. This week, I had the honour of attending two last lectures, the modules CS3216 and CS1010S by Prof Colin and Prof Ben respectively. The semester has almost come to a close and it can be summarized with two modules: Yes, CS3216 and CS1010S. I literally neglected all other modules this semester and only did their required work when the deadlines approached. Not really a trait of a good student, but who gives? I know my limits and I do what I like.
 
 ### CS3216 ###
@@ -157,31 +156,31 @@ I agree with this alot. I first encountered this when I first took CS3217. Subse
 This is something I'm still struggling to grasp. This sem I worked **everyday** and only went home two/three times. The crazy workload this sem was a result of underestimation on my part. Taking CS3216 and tutoring for CS1010S isn't a smart move. These two modules alone are enough to make up a 20MC workload but on paper are actually worth only 9MCs in total. I'm actually glad if I have a weekend without any appointment or activities so that I can coop up in my room and do more work. But I'm beginning to realize the importance of **people** and broadening my horizons beyond my own major. Learning can be done through interaction with others too.
 
 Perhaps I shall join some designer community or take up a CCA next semester. (:</description>
+			<guid type="str">the-last-lectures</guid>
 			<title type="str">The Last Lectures</title>
 			<pubDate type="str">2013-11-13</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/group-projects</link>
-			<guid type="str">group-projects</guid>
 			<description type="str">The trouble with group projects:
 
 - Grouping with *mediocre* teammates makes you want to do everything by yourself. You probably end up having to do so anyways and die in the process.
 - Grouping with *godlike* teammates encourages you to decide on a scope beyond the project and you guys die meeting the crazy specifications you have designed for yourself.
 
 Group work is **hard**.</description>
+			<guid type="str">group-projects</guid>
 			<title type="str">Group Projects</title>
 			<pubDate type="str">2013-11-17</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/portfolio</link>
-			<guid type="str">portfolio</guid>
 			<description type="str">Finally I updated my site with a subset of my past works. I actually wanted to get this up before the semester but procrastination got the better of me. Bleah. Check out my *web* portfolio [here](#portfolio).</description>
+			<guid type="str">portfolio</guid>
 			<title type="str">Portfolio</title>
 			<pubDate type="str">2013-11-29</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/open-source</link>
-			<guid type="str">open-source</guid>
 			<description type="str">Open-source projects have always fascinated me. I personally find it tough to work effectively in small teams, working with a large community in a public, collaborative manner will makes things unimaginably tougher. However, with good management techniques, effective communication and efficient workflows, the open-source community have succeeded and produced excellent technologies such as Ubuntu, Android, Rails, Django, Bootstrap, AngularJS, just to name a few. These projects have had great impact on technology and are widely used by developers in the course of their work. Android, with Google's backing, has become the world most popular smartphone OS. I personally use many open-source JavaScript projects such as AngularJS and Node.js for my own development.
 
 I have been developing web applications for over a year now, and my portfolio of web projects can be found [here](http://yangshun.im/cs3216/#/portfolio). Having completed the two most rigorous software development courses in NUS, CS3216 and CS3217 and surviving them well, I have picked up good software engineering skills and improved my development competency. 
@@ -195,12 +194,12 @@ I like to learn and I believe I am a fast learner. 2 years ago, the only languag
 Without CS3216, CS3217 nor CS1010S in the coming semester, there won't be any module to inflict memorable pain in my life; I believe the Facebook Open Academy Program can be a decent source of challenge. 
 
 For a change, I hope to leave an impact by diving into the world of open source development and contributing code that will be used by developer communities around the world.</description>
+			<guid type="str">open-source</guid>
 			<title type="str">Open Source</title>
 			<pubDate type="str">2013-11-29</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/cs3216-post-mortem</link>
-			<guid type="str">cs3216-post-mortem</guid>
 			<description type="str">Just kidding. I didn't die in CS3216. Survived pretty well in fact, given that I spent almost half my time on CS1010S this semester, the other half went to CS3216. Would like to give a quick run-down of my experience in CS3216, something like a review. Oh yes by the way, the current [module review site](http://www.module-review.com) sucks, someone build a better one please.
 
 ### CS3216 in General ###
@@ -318,12 +317,88 @@ On STePS day, the crowd was amazing! Many were impressed by the concept and requ
 6 weeks, 4 people, 3 products, Best Project. We made it (:
 
 ![Team Una](img/steps-team-una.jpg)</description>
+			<guid type="str">cs3216-post-mortem</guid>
 			<title type="str">CS3216 Post-Mortem</title>
 			<pubDate type="str">2013-12-01</pubDate>
 		</item>
 		<item type="dict">
+			<link type="str">http://yangshun.im/cs3216/#/reflections-of-a-cs1010s-head-tutor</link>
+			<description type="str">From Aug 2013 to Dec 2013, I was selected by Asst Prof Ben Leong of NUS to serve as the Head Tutor for CS1010S Programming Methodology, an introductory programming course in NUS. It was a new NUS course that aims to impart fundamental concepts of problem solving by computing and programming using the Python language.
+
+There were a few phases of this project:
+1. Recruitment Phase - Recruitment of strong programmers into the teaching staff team
+2. Course Preparation Phase - Creating materials (lectures slides, tutorial questions) for the students and staff to use during the course
+3. Execution Phase - After the semester has started, conduct weekly tutorials for our assigned students
+4. Wrapping Up - Reflecting on what went well and how we can improve for future semesters of CS1010S teaching
+
+
+## Approach ##
+
+**Admin**
+
+There were lots of administrative issues to handle, because being a new course, much of the course materials had to be newly prepared. We used tons of Google services for our admin (Google groups for communication, Google spreadsheets for issue tracking and student data, Google sites for documentation). We did not use specialized project management tools like Asana or Jira because everybody was comfortable with Google services and it seems to be sufficient for our purpose.
+
+I value good documentation as it helps orientate people that are new to a team. Hence I wrote a wiki document for the course so that new tutors would have an easier time familiarising themselves with our working style. Also, during the course preparation phase, I would review the work of the other tutors to the best of my ability so that the quality of materials that we release to the students were of high standards. Being the source of information to tutors and students, I kept myself well-informed so that I could answer almost all questions thrown at me. I also ensured that everyone was up to date with the course's progress. 
+
+I did not know Python prior to CS1010S and hence I had to pick it up on my own before the course material preparation phase even started. Fortunately, it was easy to pick up a new programming language because I have been exposed to various languages. To save the time of the other tutors, I gathered resources, created tools and teaching aids and shared them with the other tutors. Even though it took up more of my personal time, but overall it was for a greater good: It saved the staff team more time due to the large size of the team and helped everyone get the job done more effectively.
+
+**People Management**
+
+&quot;People&quot; here, are divided into two categories: the staff team and the students. To be honest, it is my first time managing a professional team of people. My approach was to get to know most of the people (staff and students) on a personal level outside the classroom. The motivation behind this was to better understand each individual's personality so that delegation of work could be easier and mismatch of interests can be prevented as much as possible.
+
+As the team was huge, and there were many side-roles to cover, I/Cs were nominated and some tutors would be in-charge of certain materials/aspects of the course. Whenever other tutors needed help, I would step in and took over their roles or get someone else who to help.
+
+As the head tutor, I also set a good example by marking by students' assignments as early as possible an topping the tutor leaderboard (we had a leaderboard which showed the number of assignments we marked and the delay between a student submission and us marking it).
+
+In making decisions, often I would seek the opinions of the other tutors so that everyone has a part to play in the final decision being made. This would give a sense of ownership of the course to people and trigger their intrinsic motivation to work hard on it.
+
+**Teaching**
+
+I have done private tuition before but it was my first time standing in front of a class to conduct tutorials. I felt that I needed to customized my teaching according to the standard of the class. For the stronger classes, I did not always go through the code, instead, I encouraged the students to formulate alternative approaches to solve the problem.
+
+Caring for students was also essential to being a good teacher. Often, I chatted with them outside class and treated them as friends rather than students. This helped break the teacher-student barrier which helped in making the lessons more enjoyable.
+
+
+## Motivations ##
+
+I had a few main motivations behind undertaking the role as Head Tutor:
+- Learn to work with a team of talented individuals (elite bunch of tutors)
+- Learn how to run a course well. Many courses in NUS left students uninterested in the subject matter.
+- Leave a positive impact in the students' lives and possibly get them interested in a career in Computer Science. 
+- Teaching the students to learn how to learn. Train them in being independent learners and increase their potential.
+
+
+## What Was Done ##
+
+**Students**
+- 230 students were taught programming concepts that may be needed to solve problems in the coursework by a professor and a team of 17 tutors.
+- Gave students a memorable time in NUS.
+- Sparked interest in many students to take programming courses beyond CS1010S (even though they were only required to take one)
+
+**Tutors**
+- Lost plenty of sleep in the process
+- Conducted 10 tutorial sessions and marked many missions
+
+**Me**
+- Wore multiple hats (designing, admin, coordinating, chaparoning)
+- Leveled up and grew by a whole lot (no longer just a coding monkey)
+- Got to know many students and made meaningful relationships with them
+- Came up with new teaching initiatives that helped students be better programmers
+
+
+## How It Turned Out ##
+
+I was rather glad with the outcome of the course and would deem it as a success. It left a deep impression in many students' hearts as the toughest, most painful, most time-consuming yet enjoyable freshmen module.
+
+I'm also glad that my students didn't hate me. In my teacher performance report, I received an average rating of 4.56/5.00 in my overall effectiveness as a teacher. Positive remarks from my students included: hardworking, responsible, approachable, caring, friendly, efficient, patient and nice.
+
+Overall, I think it was a successful project with the combined hard work of everyone. (:</description>
+			<guid type="str">reflections-of-a-cs1010s-head-tutor</guid>
+			<title type="str">Reflections of a CS1010S Head Tutor</title>
+			<pubDate type="str">2014-02-28</pubDate>
+		</item>
+		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/what-i-want-to-build-for-cs3216</link>
-			<guid type="str">what-i-want-to-build-for-cs3216</guid>
 			<description type="str">&quot;What exactly do I want to build for CS3216?&quot;. This question has been bugging me for the entire summer and I still do not have an answer to this question. Initially, I wanted to build a multiplayer game that uses WebRTC because it has been really hot after Google demonstrated prototypes of their WebRTC games during Google I/O, such as [Chrome Maze](http://chrome.com/maze/), [Cube Slam](https://www.cubeslam.com/) and [Racer](http://www.chrome.com/racer). Most people will shy away from building games simply because it's tough to produce the assets for the game. However, with a background in design, and because I have experience in building an iPad game [Tenza Yakitori](http://www.youtube.com/watch?v=wI-4l_FhHsk) as the final project of CS3217, I felt that I could build a game for a project and it will still turn out decent. Also, I was getting bored of building CRUD (Create, Read, Update, Delete) apps; game logic was definitely more fun to code.
 
 However, launching Corspedia in the last month made me rethink my decision of building a game in CS3216. A few friends have came to tell me that it was super useful and were glad that I solved a pain point in their bidding process. I'm not entirely sure if I will get such feedback or even be able to reach out to that many users if I built a game instead. I like the feeling of having users use a product I have built. (:
@@ -331,34 +406,34 @@ However, launching Corspedia in the last month made me rethink my decision of bu
 Games aren't all that tough to build. But making it fun and incorporating fun elements into it, is extremely tough. Games are there to provide entertainment, not so much so solve a pain point (unless you consider stress as one). Once a user gets bored of the game, it loses its value entirely. Also, I don't have the confidence to build an addictive and fun game especially when I get bored of the own game that I built.
 
 Therefore, I'm looking at building something useful. It may not be fun, but will definitely improve the lives of its users. NUS Computing students have built better timetable builders, better IVLE experiences and improved many other NUS-related services. Hence, for the first assignment (and possibly the final project), my team and I shall make an attempt at improving a school-related service: A better forum.</description>
+			<guid type="str">what-i-want-to-build-for-cs3216</guid>
 			<title type="str">What I Want to Build for CS3216</title>
 			<pubDate type="str">2013-08-21</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/learning-how-to-learn</link>
-			<guid type="str">learning-how-to-learn</guid>
 			<description type="str">My team has decided to use [Sails.js](http://sailsjs.org/#!) for the first assignment. It is an MVC framework for node.js that is pretty much like rails. It's time to learn a new framework/library again! And sadly, because it's a new framework, there isn't much documentation and tutorials for me to refer to. I learn best through doing and experimenting. As the saying goes: *I see and I understand, I do and I remember*. Getting my hands dirty and trying things out for myself is an important phase of learning something new.
 
 Being involved in the rapidly evolving field of technology, one has to constantly upgrade oneself. Hence I think the most important skill is to learn how to learn anything, fast and well. I'm thankful that I teamed with a strong team for the first assignment. Soedar, Viet Tien and Chun Mun are extremely fast learners and talented programmers. We actually do alot of pair programming and meet up very often to work on our Facebook app together. I have learnt quite abit from them and hopefully they get to learn something from me too.
 
 Tutorials start this week and it shall be my first time tutoring a class of CS1010S freshies. Prof Ben is an inspiration to many of his students and I also strive to be an inspiration to my student and spark their interest in Computer Science. In an email thread among the CS1010S tutors, we were discussing about our teaching approaches and about the neediness of the students; they were emailing Prof Ben and asking for help in debugging. I find it amusing because I personally have not done that before and this behaviour is never seen in higher level modules. The goal of CS1010S is to rewire the students' brains to think computaionally. A higher level goal will be to teach the students how to learn on their own, to Google their question whenever they meet a problem instead of relying on someone for an answer. It is hard to achieve that, but extremely important.</description>
+			<guid type="str">learning-how-to-learn</guid>
 			<title type="str">Learning how to Learn</title>
 			<pubDate type="str">2013-08-26</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/growth-hacking</link>
-			<guid type="str">growth-hacking</guid>
 			<description type="str">The topic of growth hacking has always intrigued me. Coming from an engineering background, I was never exposed to the non-technical aspects of a product. Although my NOC stints allowed me to work with the marketing and business development team, I wasn't involved in the decision-making process and marketing strategies. 
 
 I was thoroughly impressed by Bjorn's presentation. Anyone could tell he was an experienced growth hacker from the techniques that he shared. I especially agree with him that 'Build and they will come' is a bloody damned myth. In the creation process of an app, it's also important to consider the various marketing channels and viral techniques that will be put into the app. An app without a solid plan of how it is going to market itself, is unlikely to be heard of by many after it is being built.
 
 For my CS3216 Facebook assignment, Osmose, I'm proud to say that we already have a pool of beta testers: our students from CS1010S and in future, the NUS population. However, I'm not very confident of growth hacking Osmose to reach out to the rest of NUS. **Corspedia** had it easy because we had help from **NUSMods**, built by Beng Hee also from this class of CS3216. **NUSMods** is truly one of the best NUS-based projects I have seen so far, its UI and UX work so well, it was a joy to use. Looks like we'll have to come up with good strategies before embarking on our final project, which aims to bring Osmose to a new level.</description>
+			<guid type="str">growth-hacking</guid>
 			<title type="str">Growth Hacking</title>
 			<pubDate type="str">2013-09-25</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/facebook-ipad-application-seminar:-maps</link>
-			<guid type="str">facebook-ipad-application-seminar:-maps</guid>
 			<description type="str">Ahh the Apple Maps app. What an uproar it has caused when it was first released. Like many iPhone users, I don't use the Apple Maps app but I use Google's Maps app instead, simply because it syncs with the location queries that I make in my MacBook's Chrome browser. Google's Maps app has amazing user experience compared to Apple's version. Makes me wonder if Apple even tested their app with real users before putting it in every iPhone that runs iOS 6 and above.
 
 ##### Huge Consequences #####
@@ -380,12 +455,12 @@ Crowdsourcing is the new buzzword now. It is the act of seeking contributions fr
 Few months back, I happened to switch back to using my iPhone 4S to navigate. I was driving along the roads of Mountain View, and I found the maps app extremely hard to use; the interface looked familiar, but the gestures were unintuitive, flow of the application didn't make much sense to me too. Then it dawned upon me: I was using Apple's new Map app. It was my first time using iOS 6 on my iPhone and I forgot that the default maps app in the device was no longer by Google. Wasting no time, I went to the App Store and downloaded Google's version of the maps app and continued on my journey.
 
 It is appalling that Apple, a guru of UI/UX, produced a Maps app of such quality; the initial version of Apple's Map app seems horrible, but it was improved tremendously in the past year, by finetuning based on user feedback and also acquisition of navigation related startups and technology. The iOS 7 redesign unveiled during WWDC this year also faced the same fate of being flamed and slammed. Perhaps Apple is adopting the [Lean Startup Methodology](http://theleanstartup.com/) and iteratively building products and services. But I'd expect more from Apple if they want to regain their market share of handheld devices. Apple certainly has got much more to improve on.</description>
+			<guid type="str">facebook-ipad-application-seminar:-maps</guid>
 			<title type="str">Facebook/iPad Application Seminar: Maps</title>
 			<pubDate type="str">2013-09-25</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/the-calm-before-the-storm</link>
-			<guid type="str">the-calm-before-the-storm</guid>
 			<description type="str">Last assignment for CS3216! The past 4 weeks have been hell for me. My senior, Jonathan Low, ex-CVWO president and guest speaker for the past few batches of CS3216 and CS3217, after hearing that I'll be doing CS1010S and CS3216 on top of the standard academic workload in this sem, gave me a *really encouraging* word of advice: 'You will die man.' 
 
 For the past 4 weeks I have been sleeping at 5-6 am every other day and waking up just in time before the tutorials which I have no clue about what the tutor is teaching simply because I haven't been spending time on them. Everyday was like check to-do list, do work, clear backlog, rinse, repeat.
@@ -397,12 +472,12 @@ I'm honestly quite worried for my CS3216 Assignment 3. Will be working with a bu
 Was thinking of ideas for assignment 3 and I'm pretty sure I won't want the app to be a platform this time. Almost all assignment 1 projects were platforms, will assignment 3 be similar? Given the short span of time available, I'm not confident of pulling off a mobile web platform well. Initially wanted to do a game but since native applications is no longer allowed, games are not too viable an option. Hence I'm thinking of creating something nimble but useful, something along the lines of a utility application.
 
 Weather app? To-do list app? Calendar app? Perhaps a gamified twist to them. (:</description>
+			<guid type="str">the-calm-before-the-storm</guid>
 			<title type="str">The Calm Before The Storm</title>
 			<pubDate type="str">2013-09-25</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/web-development-is-a-pita</link>
-			<guid type="str">web-development-is-a-pita</guid>
 			<description type="str">This is a rage post because of all the frustration I faced while doing Assignment 3 and mobile web in general. Actually, I quite enjoy web development because HTML and CSS is intuitive and extensible. But what I severely dislike about web development is the fragmentation of browsers, viewport sizes and devices! This is especially a PITA (pain in the arse) when it comes to mobile web development. There are like 3456723139738 different dimensions of mobile device screens. It's certainly not fun ensuring that your mobile site looks good on every available mobile device. Have decided just to build one that works for iPhone 4S/5/5S/5C. Apple FTW. One can go crazy if one tries to support every Android device.
 
 Enough with the angst. Over the past few months, through my attempts at solving the various common problems I faced while doing mobile web developing, I came to realize some recommended practices that should be adopted to make the painful process less painful.
@@ -420,21 +495,21 @@ This is a common pitfall for developers who test their mobile site on the comput
 My favorite asset will be these pretty icons from [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/) that are actually SVGs (scalable vector graphics). With this, no longer is there a need for icon spritesheets that aren't exactly flexible and retina-friendly. EVERYONE SHOULD USE THIS!
 
 Okay, back to my Assignment 3.</description>
+			<guid type="str">web-development-is-a-pita</guid>
 			<title type="str">Web Development is a PITA</title>
 			<pubDate type="str">2013-09-25</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/new-skin</link>
-			<guid type="str">new-skin</guid>
 			<description type="str">Decided not to let my typekit account go to waste hence I changed the font of the site to the famous **Proxima Nova** and tweaked the colors slightly so that it does not look totally similar to [Chun Mun's Blog](http://chunmun.github.io/CS3216). Benefits of building [your own blogging engine](https://github.com/yangshun/luna) is that you have the flexibility to customize it in however way you want it!
 
 Finally, a break from all the HTML and CSS coding now that all the assignments have been completed. I'm really excited at what my team is going to build for the final project. &quot;What is it?&quot;, you ask. I don't know the answer to it myself. Now that's where the fun starts (:</description>
+			<guid type="str">new-skin</guid>
 			<title type="str">New Skin!</title>
 			<pubDate type="str">2013-10-22</pubDate>
 		</item>
 		<item type="dict">
 			<link type="str">http://yangshun.im/cs3216/#/team-dynamics-issues</link>
-			<guid type="str">team-dynamics-issues</guid>
 			<description type="str">Team dynamics has always been a sticky issue to deal with. One of my key goals of joining CS3216 was to learn how to work with talented people from different disciplines. I enjoy working with my Assignment 1 group (Chun Mun, Viet Tien and Soedar) a lot. There's nobody playing the clear role of the leader because we are all leaders in our own areas of expertise. We make important decisions together and leave each other to work on the fine details. Because of our pretty diverse skillsets, when someone faces difficulty in their work, another will be able to step in to help resolve the issue. It is awesome. (:
 
 That said, I have had horrible experiences working in teams before too. In those cases, I usually ended up solo-ing a huge part of the project because the other members were not sure of the requirements, could not deliver the work in time, or were just plain irresponsible.
@@ -477,6 +552,7 @@ A very good example of a CS3216 project that isn't super technically challenging
 Now I appreciate why we were made to read Rework and Mythical Man-Month back in CS3217. In some cases, good project management skills can be more important than the technical aptitude of the developers.
 
 Will be starting on my final project this weekend. Apprehensive but excited at the possibilities. (:</description>
+			<guid type="str">team-dynamics-issues</guid>
 			<title type="str">Team Dynamics Issues</title>
 			<pubDate type="str">2013-10-22</pubDate>
 		</item>
