@@ -24,6 +24,9 @@ function LunaCtrl($scope, $rootScope, $http, $timeout, $location) {
 
   $http.get('content/posts.json').success(function(data) {
     $scope.posts = data;
+    $scope.posts.sort(function(a, b) {
+      return b.post_number - a.post_number;
+    })
     for (var i = 0; i < $scope.posts.length; i++) {
       $scope.posts[i].content = converter.makeHtml($scope.posts[i].content);
       var d = new Date($scope.posts[i].timestamp * 1000);
@@ -58,7 +61,7 @@ function LandingCtrl($scope, $routeParams, $timeout) {
     $scope.next_page = ($scope.current_page * CONFIG.NUM_POSTS_PER_PAGE) < $scope.posts.length ? $scope.current_page + 1 : undefined;
     var starting_index = Math.max($scope.current_page - 1, 0) * CONFIG.NUM_POSTS_PER_PAGE;
     $scope.current_page_posts = $scope.posts.slice(starting_index, starting_index + CONFIG.NUM_POSTS_PER_PAGE);
-    $scope.orderProp = 'timestamp';
+    $scope.orderProp = 'post_number';
     $timeout(function() {
       $('.title-container').addClass('animated fadeInRight');
       var delay = 500;
@@ -76,7 +79,7 @@ function LandingCtrl($scope, $routeParams, $timeout) {
 }
 
 function AllPostsCtrl($scope) {
-  $scope.orderProp = 'timestamp';
+  $scope.orderProp = 'post_number';
 
   angular.element(document.getElementById('disqus_thread')).html('');
 }
