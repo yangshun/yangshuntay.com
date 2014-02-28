@@ -4,10 +4,11 @@ Reflections of a CS1010S Head Tutor
 From Aug 2013 to Dec 2013, I was selected by Asst Prof Ben Leong of NUS to serve as the Head Tutor for CS1010S Programming Methodology, an introductory programming course in NUS. It was a new NUS course that aims to impart fundamental concepts of problem solving by computing and programming using the Python language.
 
 There were a few phases of this project:
-1. Recruitment Phase - Recruitment of strong programmers into the teaching staff team
-2. Course Preparation Phase - Creating materials (lectures slides, tutorial questions) for the students and staff to use during the course
-3. Execution Phase - After the semester has started, conduct weekly tutorials for our assigned students
-4. Wrapping Up - Reflecting on what went well and how we can improve for future semesters of CS1010S teaching
+
+1. **Recruitment Phase** - Recruitment of strong programmers into the teaching staff team
+2. **Course Preparation Phase** - Creating materials (lectures slides, tutorial questions) for the students and staff to use during the course
+3. **Execution Phase** - After the semester has started, conduct weekly tutorials for our assigned students
+4. **Wrapping Up** - Reflection on what went well and how we can improve for future semesters of teaching CS1010S
 
 
 ## Approach ##
@@ -22,13 +23,13 @@ I did not know Python prior to CS1010S and hence I had to pick it up on my own b
 
 **People Management**
 
-"People" here, are divided into two categories: the staff team and the students. To be honest, it is my first time managing a professional team of people. My approach was to get to know most of the people (staff and students) on a personal level outside the classroom. The motivation behind this was to better understand each individual's personality so that delegation of work could be easier and mismatch of interests can be prevented as much as possible.
+"People" here, are divided into two categories: the staff team and the students. To be honest, it is my first time managing a professional team of people. My approach was to get to know most of the people (staff and students) on a personal level outside the classroom. The motivation behind this was to better understand each individual's personality so that delegation of work could be more efficient and mismatch of interests could be prevented as much as possible.
 
-As the team was huge, and there were many side-roles to cover, I/Cs were nominated and some tutors would be in-charge of certain materials/aspects of the course. Whenever other tutors needed help, I would step in and took over their roles or get someone else who to help.
+As the team was huge, and there were many side-roles to cover, I/Cs were nominated and some tutors would be in-charge of certain materials/aspects of the course. Whenever other tutors needed help, I would step in and took over their roles or get someone else who is available to help.
 
-As the head tutor, I also set a good example by marking by students' assignments as early as possible an topping the tutor leaderboard (we had a leaderboard which showed the number of assignments we marked and the delay between a student submission and us marking it).
+As the Head Tutor, I also set a positive example by marking by students' assignments as early as possible and topping the tutor leaderboard (yes, we had a leaderboard which showed the number of assignments we marked and the delay between a student submission and us marking it).
 
-In making decisions, often I would seek the opinions of the other tutors so that everyone has a part to play in the final decision being made. This would give a sense of ownership of the course to people and trigger their intrinsic motivation to work hard on it.
+In making decisions, often I would seek the opinions of the other tutors so that everyone had a part to play in the final decision being made. This would give a sense of ownership of the course to people and trigger their intrinsic motivation to work hard on it.
 
 **Teaching**
 
@@ -40,7 +41,7 @@ Caring for students was also essential to being a good teacher. Often, I chatted
 ## Motivations ##
 
 I had a few main motivations behind undertaking the role as Head Tutor:
-- Learn to work with a team of talented individuals (elite bunch of tutors)
+- Learn to work with a team of talented individuals (elite bunch of tutors).
 - Learn how to run a course well. Many courses in NUS left students uninterested in the subject matter.
 - Leave a positive impact in the students' lives and possibly get them interested in a career in Computer Science. 
 - Teaching the students to learn how to learn. Train them in being independent learners and increase their potential.
