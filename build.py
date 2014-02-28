@@ -73,7 +73,6 @@ def build_posts():
             continue
         current_file_path = POSTS_DIR_PATH + file_path
         with open(current_file_path) as f:
-            print(f)
             post_title = f.readline()
             throw_away = f.readline()   # second line of post is markdown heading syntax
             file_content = f.read()

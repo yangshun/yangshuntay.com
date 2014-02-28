@@ -50,15 +50,18 @@ I had a few main motivations behind undertaking the role as Head Tutor:
 ## What Was Done ##
 
 **Students**
+
 - 230 students were taught programming concepts that may be needed to solve problems in the coursework by a professor and a team of 17 tutors.
 - Gave students a memorable time in NUS.
 - Sparked interest in many students to take programming courses beyond CS1010S (even though they were only required to take one)
 
 **Tutors**
+
 - Lost plenty of sleep in the process
 - Conducted 10 tutorial sessions and marked many missions
 
 **Me**
+
 - Wore multiple hats (designing, admin, coordinating, chaparoning)
 - Leveled up and grew by a whole lot (no longer just a coding monkey)
 - Got to know many students and made meaningful relationships with them
