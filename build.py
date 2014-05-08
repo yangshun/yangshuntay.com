@@ -4,7 +4,7 @@ import dicttoxml
 import datetime
 from xml.dom.minidom import parseString
 
-SITE_LINK = "http://yangshun.im/cs3216/#/"
+SITE_LINK = "http://yangshun.im/#/"
 
 # Not in use yet
 SITE_TITLE = 'Yang Shun\'s CS3216 Blog'
