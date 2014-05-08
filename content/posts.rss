@@ -5,8 +5,10 @@
 		<description>Hi I'm Yang Shun. This is my blog. I build cool stuff.</description>
 		<link>http://yangshun.im/cs3216/#/</link>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">What I hope to learn in CS3216</title>
 			<link type="str">http://yangshun.im/cs3216/#/what-i-hope-to-learn-in-cs3216</link>
+			<post_number type="int">1</post_number>
 			<description type="str">Having taken CS3217 before, I understand that CS3216 is unlike most CS modules, the learning curve is extremely steep and students are expected to turn from zero to hero in a span of few weeks. CS3217 caught my off guard; I literally spent every single day coding and learning Objective-C, severely losing sleep and hair. I know many CS3216 alumni and heard their experiences about the module and the hard times they have gone through. Why do people put themselves through so much suffering and hardship when there are easier alternatives around? It is because stretching myself to ours limits is the fastest way to level up. We all are equal in the sense that each person has the same limited resource: time. Hence we have to optimise our time, and spend it in a way that we enjoy and also gain the most out of. For me, I believe that coding is the right field for me where it is in the sweet intersection of something I enjoy doing, can make a living out of, and am good at.
 
 #### Wearing Multiple Hats ####
@@ -25,12 +27,12 @@ But this also means that I was behind many of my peers. I have to work doubly ha
 
 I will probably not get another chance to improve rapidly in web development in school if I don't take CS3216. So why not?</description>
 			<guid type="str">what-i-hope-to-learn-in-cs3216</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">1</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">Mobile Assignment Reflections</title>
 			<link type="str">http://yangshun.im/cs3216/#/mobile-assignment-reflections</link>
+			<post_number type="int">10</post_number>
 			<description type="str">This assignment made me worry alot because of the little time we spent coding and testing it. I still stand by my previous rants that mobile web development is a PITA, there are simply too many nitty gritty things to consider and pitfalls to avoid when developing for mobile.
 
 But surprisingly we did extremely well for this assignment! Far exceeding my expectations by just too much. Based on the feedback given from the teaching team, I'm glad that the decisions I made when designing (both aesthetic and product) the application turned out to be the right ones:
@@ -75,12 +77,12 @@ Focus on one thing, do it extremely well before moving on to other features.
 
 Overall, I'm *extremely* glad that things turned out alright and that the (coincidentally?) good UI/UX decisions made up for the lack of time in building an app that is robust against the dumbest users. I definitely learnt something valuable from this assignment and shall apply it to the final project (:</description>
 			<guid type="str">mobile-assignment-reflections</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">10</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">More Thinking, Less Coding</title>
 			<link type="str">http://yangshun.im/cs3216/#/more-thinking,-less-coding</link>
+			<post_number type="int">11</post_number>
 			<description type="str">We are nearing the halfway mark of our final project but to be honest we haven't finalized on the game idea. We went on an excursion to the arcade and spent roughly 8 bucks each, trying out the games the arcade had to offer. Here's a picture of Chun Mun and Viet Tien having fun playing Bishi Bashi:
 
 &lt;img src=&quot;img/arcade.jpg&quot; width=&quot;400&quot;&gt;
@@ -104,12 +106,12 @@ Here's a sneakpeek at what we have for the project so far:
 
 Looks pretty okay? I think so too. Let's see what we can come up with in the next 3 weeks. (:</description>
 			<guid type="str">more-thinking,-less-coding</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">11</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">How To Do Projects:</title>
 			<link type="str">http://yangshun.im/cs3216/#/how-to-do-projects:</link>
+			<post_number type="int">12</post_number>
 			<description type="str">1. Work with the **smart**
 2. Work with the **creative**
 3. Work with the **hardworking**
@@ -118,12 +120,12 @@ Looks pretty okay? I think so too. Let's see what we can come up with in the nex
 6. Pick a topic that everyone is **interested** in
 7. Have **fun** doing the work!</description>
 			<guid type="str">how-to-do-projects:</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">12</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">The Last Lectures</title>
 			<link type="str">http://yangshun.im/cs3216/#/the-last-lectures</link>
+			<post_number type="int">13</post_number>
 			<description type="str">I love attending last lectures for some weird reason. It is usually during the last lectures when the profs share their life experiences and wisdom; stuff that cannot be obtained from lecture notes or the internet. This week, I had the honour of attending two last lectures, the modules CS3216 and CS1010S by Prof Colin and Prof Ben respectively. The semester has almost come to a close and it can be summarized with two modules: Yes, CS3216 and CS1010S. I literally neglected all other modules this semester and only did their required work when the deadlines approached. Not really a trait of a good student, but who gives? I know my limits and I do what I like.
 
 ### CS3216 ###
@@ -162,12 +164,12 @@ This is something I'm still struggling to grasp. This sem I worked **everyday** 
 
 Perhaps I shall join some designer community or take up a CCA next semester. (:</description>
 			<guid type="str">the-last-lectures</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">13</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">Group Projects</title>
 			<link type="str">http://yangshun.im/cs3216/#/group-projects</link>
+			<post_number type="int">14</post_number>
 			<description type="str">The trouble with group projects:
 
 - Grouping with *mediocre* teammates makes you want to do everything by yourself. You probably end up having to do so anyways and die in the process.
@@ -175,20 +177,20 @@ Perhaps I shall join some designer community or take up a CCA next semester. (:<
 
 Group work is **hard**.</description>
 			<guid type="str">group-projects</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">14</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">Portfolio</title>
 			<link type="str">http://yangshun.im/cs3216/#/portfolio</link>
+			<post_number type="int">15</post_number>
 			<description type="str">Finally I updated my site with a subset of my past works. I actually wanted to get this up before the semester but procrastination got the better of me. Bleah. Check out my *web* portfolio [here](#portfolio).</description>
 			<guid type="str">portfolio</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">15</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">Open Source</title>
 			<link type="str">http://yangshun.im/cs3216/#/open-source</link>
+			<post_number type="int">16</post_number>
 			<description type="str">Open-source projects have always fascinated me. I personally find it tough to work effectively in small teams, working with a large community in a public, collaborative manner will makes things unimaginably tougher. However, with good management techniques, effective communication and efficient workflows, the open-source community have succeeded and produced excellent technologies such as Ubuntu, Android, Rails, Django, Bootstrap, AngularJS, just to name a few. These projects have had great impact on technology and are widely used by developers in the course of their work. Android, with Google's backing, has become the world most popular smartphone OS. I personally use many open-source JavaScript projects such as AngularJS and Node.js for my own development.
 
 I have been developing web applications for over a year now, and my portfolio of web projects can be found [here](http://yangshun.im/cs3216/#/portfolio). Having completed the two most rigorous software development courses in NUS, CS3216 and CS3217 and surviving them well, I have picked up good software engineering skills and improved my development competency. 
@@ -203,12 +205,12 @@ Without CS3216, CS3217 nor CS1010S in the coming semester, there won't be any mo
 
 For a change, I hope to leave an impact by diving into the world of open source development and contributing code that will be used by developer communities around the world.</description>
 			<guid type="str">open-source</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">16</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">CS3216 Post-Mortem</title>
 			<link type="str">http://yangshun.im/cs3216/#/cs3216-post-mortem</link>
+			<post_number type="int">17</post_number>
 			<description type="str">Just kidding. I didn't die in CS3216. Survived pretty well in fact, given that I spent almost half my time on CS1010S this semester, the other half went to CS3216. Would like to give a quick run-down of my experience in CS3216, something like a review. Oh yes by the way, the current [module review site](http://www.module-review.com) sucks, someone build a better one please.
 
 ### CS3216 in General ###
@@ -327,12 +329,12 @@ On STePS day, the crowd was amazing! Many were impressed by the concept and requ
 
 ![Team Una](img/steps-team-una.jpg)</description>
 			<guid type="str">cs3216-post-mortem</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">17</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">Reflections of a CS1010S Head Tutor</title>
 			<link type="str">http://yangshun.im/cs3216/#/reflections-of-a-cs1010s-head-tutor</link>
+			<post_number type="int">18</post_number>
 			<description type="str">From Aug 2013 to Dec 2013, I was selected by Asst Prof Ben Leong of NUS to serve as the Head Tutor for CS1010S Programming Methodology, an introductory programming course in NUS. It was a new NUS course that aims to impart fundamental concepts of problem solving by computing and programming using the Python language.
 
 There were a few phases of this project:
@@ -408,12 +410,44 @@ I'm also glad that my students didn't hate me. In my teacher performance report,
 
 Overall, I think it was a successful project with the combined hard work of everyone. (:</description>
 			<guid type="str">reflections-of-a-cs1010s-head-tutor</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">18</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
+			<title type="str">Facebook Open Academy Reflections</title>
+			<link type="str">http://yangshun.im/cs3216/#/facebook-open-academy-reflections</link>
+			<post_number type="int">19</post_number>
+			<description type="str">Together with Soedar, Scott (Kaizhi), Minqi, Joel, Camillus, we took part in [Facebook Open Academy](https://www.facebook.com/notes/facebook-engineering/facebook-open-academy-bringing-open-source-to-cs-curricula/10151806121378920) under the module CP3101A Open Source Project. In my opinion, CP3101A was definitely one of the most memorable modules this semester. The cool stuff we did:
+
+- Went on an all expenses paid trip to Facebook HQ in Menlo Park and participated in a hackathon there.
+- Worked with students from MIT, CMU and other prestigious universities on open source projects.
+- Hacked on an open source project ([Galaxy](https://github.com/cvan/galaxy/) in my case) for 9 weeks.
+- Leveled up in web development. 
+
+The 4 MCs I'm getting from CP3101A will go towards my UEM count, which doesn't count towards my graduation because my UEM MCs are already overflowing from Mech Eng and NOC modules. However, no regrets there, because it was this open source stint was still a very valuable experience, one that is extremely relevant to all software engineers in their career.
+
+Here is the combined reflections from us, the 2nd batch of NUS students who participated in Facebook Open Academy, with input mainly from Soedar, Joel, Prof Ben and me:
+
+**Open Source Reflections**
+
+&lt;em&gt;Participating in Facebook Open Academy allowed us to explore open source development in a guided environment under experienced mentors. From the program, we gained deeper insights into working in remote teams, improved our Git-fu, and gained first-hand experience on how to apply them on a real-world project. 
+
+Submitting pull requests is like riding a roller coaster - there is a sense of thrill when pull requests are approved and merged into the repository, yet a sense of disappointment when we receive negative feedback and have to make major changes. As the code that we have written is open to public scrutiny, it is extremely fulfilling when our code is accepted and deemed to have met the standards of the community. In this sense, working on an Open Source project definitely beats working on school projects, where the main emphasis is often to simply make the code work, and there is little emphasis on the quality of the code. 
+
+We became familiar with common open source workflows, making frequent use of Git features such as branching, rebasing, cherry picking, reset, etc, and saw a significant improvement in our Git-fu. Some of us had teammates who were unfamiliar with Git and we were frequently helping them clean up their pull requests and teaching them the proper Git workflow for the project. We saw that as a personal achievement because at the start of the program, we were only familiar with the common Git commands, but at the end of it, we are able to understand and execute complicated Git workflows. We have also come to appreciate Github as a well-designed platform that aids in the development of open source projects.
+
+A main challenge that we faced was having to work with teammates who were in different locations and time zones. We were used to working with teammates who are physically present (such as during school projects or on an internship), and never had the chance to work in remote teams. In our projects, we found that the communication overhead often reduced the momentum of our projects considerably. This is especially evident for the code reviews of pull requests: it would often take days before a pull request was thoroughly reviewed and merged.
+          
+We felt that we could probably have been more effective if we were more aware on how our actions would have affected our teammates. Upon reflection, there were times where our actions might have made some of the work done by our teammates obsolete, usually by implementing features that supersede what they have done or causing their work to be irrelevant. We should have been more aware of this, and probably clarified our intentions with each other, as well as worked more closely to resolve issues.           
+We have also been able to apply some of the ideas that we have learnt into our school projects. We found ourselves adapting the open source workflow into our school projects, and imparting the knowledge that we had gained to other schoolmates who did not have the opportunity to participate in the program. It was especially rewarding when others begin to appreciate the need for code review, and come to understand the open source workflow as well.
+
+To conclude, we have often relied on many Open Source projects in our work. It is only natural that we should give back and contribute to the growth of open source projects. The Facebook Open Academy program has provided us with the opportunity to take the first step in contributing to Open Source, under the guidance and supervision of capable project mentors. We would definitely want to continue developing for our projects or joining other interesting projects, and play a more active role in helping the Open Source community grow.&lt;/em&gt;</description>
+			<guid type="str">facebook-open-academy-reflections</guid>
+		</item>
+		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">What I Want to Build for CS3216</title>
 			<link type="str">http://yangshun.im/cs3216/#/what-i-want-to-build-for-cs3216</link>
+			<post_number type="int">2</post_number>
 			<description type="str">&quot;What exactly do I want to build for CS3216?&quot;. This question has been bugging me for the entire summer and I still do not have an answer to this question. Initially, I wanted to build a multiplayer game that uses WebRTC because it has been really hot after Google demonstrated prototypes of their WebRTC games during Google I/O, such as [Chrome Maze](http://chrome.com/maze/), [Cube Slam](https://www.cubeslam.com/) and [Racer](http://www.chrome.com/racer). Most people will shy away from building games simply because it's tough to produce the assets for the game. However, with a background in design, and because I have experience in building an iPad game [Tenza Yakitori](http://www.youtube.com/watch?v=wI-4l_FhHsk) as the final project of CS3217, I felt that I could build a game for a project and it will still turn out decent. Also, I was getting bored of building CRUD (Create, Read, Update, Delete) apps; game logic was definitely more fun to code.
 
 However, launching Corspedia in the last month made me rethink my decision of building a game in CS3216. A few friends have came to tell me that it was super useful and were glad that I solved a pain point in their bidding process. I'm not entirely sure if I will get such feedback or even be able to reach out to that many users if I built a game instead. I like the feeling of having users use a product I have built. (:
@@ -422,36 +456,36 @@ Games aren't all that tough to build. But making it fun and incorporating fun el
 
 Therefore, I'm looking at building something useful. It may not be fun, but will definitely improve the lives of its users. NUS Computing students have built better timetable builders, better IVLE experiences and improved many other NUS-related services. Hence, for the first assignment (and possibly the final project), my team and I shall make an attempt at improving a school-related service: A better forum.</description>
 			<guid type="str">what-i-want-to-build-for-cs3216</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">2</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">Learning how to Learn</title>
 			<link type="str">http://yangshun.im/cs3216/#/learning-how-to-learn</link>
+			<post_number type="int">3</post_number>
 			<description type="str">My team has decided to use [Sails.js](http://sailsjs.org/#!) for the first assignment. It is an MVC framework for node.js that is pretty much like rails. It's time to learn a new framework/library again! And sadly, because it's a new framework, there isn't much documentation and tutorials for me to refer to. I learn best through doing and experimenting. As the saying goes: *I see and I understand, I do and I remember*. Getting my hands dirty and trying things out for myself is an important phase of learning something new.
 
 Being involved in the rapidly evolving field of technology, one has to constantly upgrade oneself. Hence I think the most important skill is to learn how to learn anything, fast and well. I'm thankful that I teamed with a strong team for the first assignment. Soedar, Viet Tien and Chun Mun are extremely fast learners and talented programmers. We actually do alot of pair programming and meet up very often to work on our Facebook app together. I have learnt quite abit from them and hopefully they get to learn something from me too.
 
 Tutorials start this week and it shall be my first time tutoring a class of CS1010S freshies. Prof Ben is an inspiration to many of his students and I also strive to be an inspiration to my student and spark their interest in Computer Science. In an email thread among the CS1010S tutors, we were discussing about our teaching approaches and about the neediness of the students; they were emailing Prof Ben and asking for help in debugging. I find it amusing because I personally have not done that before and this behaviour is never seen in higher level modules. The goal of CS1010S is to rewire the students' brains to think computaionally. A higher level goal will be to teach the students how to learn on their own, to Google their question whenever they meet a problem instead of relying on someone for an answer. It is hard to achieve that, but extremely important.</description>
 			<guid type="str">learning-how-to-learn</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">3</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">Growth Hacking</title>
 			<link type="str">http://yangshun.im/cs3216/#/growth-hacking</link>
+			<post_number type="int">4</post_number>
 			<description type="str">The topic of growth hacking has always intrigued me. Coming from an engineering background, I was never exposed to the non-technical aspects of a product. Although my NOC stints allowed me to work with the marketing and business development team, I wasn't involved in the decision-making process and marketing strategies. 
 
 I was thoroughly impressed by Bjorn's presentation. Anyone could tell he was an experienced growth hacker from the techniques that he shared. I especially agree with him that 'Build and they will come' is a bloody damned myth. In the creation process of an app, it's also important to consider the various marketing channels and viral techniques that will be put into the app. An app without a solid plan of how it is going to market itself, is unlikely to be heard of by many after it is being built.
 
 For my CS3216 Facebook assignment, Osmose, I'm proud to say that we already have a pool of beta testers: our students from CS1010S and in future, the NUS population. However, I'm not very confident of growth hacking Osmose to reach out to the rest of NUS. **Corspedia** had it easy because we had help from **NUSMods**, built by Beng Hee also from this class of CS3216. **NUSMods** is truly one of the best NUS-based projects I have seen so far, its UI and UX work so well, it was a joy to use. Looks like we'll have to come up with good strategies before embarking on our final project, which aims to bring Osmose to a new level.</description>
 			<guid type="str">growth-hacking</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">4</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">Facebook/iPad Application Seminar: Maps</title>
 			<link type="str">http://yangshun.im/cs3216/#/facebook-ipad-application-seminar:-maps</link>
+			<post_number type="int">5</post_number>
 			<description type="str">Ahh the Apple Maps app. What an uproar it has caused when it was first released. Like many iPhone users, I don't use the Apple Maps app but I use Google's Maps app instead, simply because it syncs with the location queries that I make in my MacBook's Chrome browser. Google's Maps app has amazing user experience compared to Apple's version. Makes me wonder if Apple even tested their app with real users before putting it in every iPhone that runs iOS 6 and above.
 
 ##### Huge Consequences #####
@@ -474,12 +508,12 @@ Few months back, I happened to switch back to using my iPhone 4S to navigate. I 
 
 It is appalling that Apple, a guru of UI/UX, produced a Maps app of such quality; the initial version of Apple's Map app seems horrible, but it was improved tremendously in the past year, by finetuning based on user feedback and also acquisition of navigation related startups and technology. The iOS 7 redesign unveiled during WWDC this year also faced the same fate of being flamed and slammed. Perhaps Apple is adopting the [Lean Startup Methodology](http://theleanstartup.com/) and iteratively building products and services. But I'd expect more from Apple if they want to regain their market share of handheld devices. Apple certainly has got much more to improve on.</description>
 			<guid type="str">facebook-ipad-application-seminar:-maps</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">5</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">The Calm Before The Storm</title>
 			<link type="str">http://yangshun.im/cs3216/#/the-calm-before-the-storm</link>
+			<post_number type="int">6</post_number>
 			<description type="str">Last assignment for CS3216! The past 4 weeks have been hell for me. My senior, Jonathan Low, ex-CVWO president and guest speaker for the past few batches of CS3216 and CS3217, after hearing that I'll be doing CS1010S and CS3216 on top of the standard academic workload in this sem, gave me a *really encouraging* word of advice: 'You will die man.' 
 
 For the past 4 weeks I have been sleeping at 5-6 am every other day and waking up just in time before the tutorials which I have no clue about what the tutor is teaching simply because I haven't been spending time on them. Everyday was like check to-do list, do work, clear backlog, rinse, repeat.
@@ -492,12 +526,12 @@ Was thinking of ideas for assignment 3 and I'm pretty sure I won't want the app 
 
 Weather app? To-do list app? Calendar app? Perhaps a gamified twist to them. (:</description>
 			<guid type="str">the-calm-before-the-storm</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">6</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">Web Development is a PITA</title>
 			<link type="str">http://yangshun.im/cs3216/#/web-development-is-a-pita</link>
+			<post_number type="int">7</post_number>
 			<description type="str">This is a rage post because of all the frustration I faced while doing Assignment 3 and mobile web in general. Actually, I quite enjoy web development because HTML and CSS is intuitive and extensible. But what I severely dislike about web development is the fragmentation of browsers, viewport sizes and devices! This is especially a PITA (pain in the arse) when it comes to mobile web development. There are like 3456723139738 different dimensions of mobile device screens. It's certainly not fun ensuring that your mobile site looks good on every available mobile device. Have decided just to build one that works for iPhone 4S/5/5S/5C. Apple FTW. One can go crazy if one tries to support every Android device.
 
 Enough with the angst. Over the past few months, through my attempts at solving the various common problems I faced while doing mobile web developing, I came to realize some recommended practices that should be adopted to make the painful process less painful.
@@ -516,22 +550,22 @@ My favorite asset will be these pretty icons from [Font Awesome](http://fortawes
 
 Okay, back to my Assignment 3.</description>
 			<guid type="str">web-development-is-a-pita</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">7</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">New Skin!</title>
 			<link type="str">http://yangshun.im/cs3216/#/new-skin</link>
+			<post_number type="int">8</post_number>
 			<description type="str">Decided not to let my typekit account go to waste hence I changed the font of the site to the famous **Proxima Nova** and tweaked the colors slightly so that it does not look totally similar to [Chun Mun's Blog](http://chunmun.github.io/CS3216). Benefits of building [your own blogging engine](https://github.com/yangshun/luna) is that you have the flexibility to customize it in however way you want it!
 
 Finally, a break from all the HTML and CSS coding now that all the assignments have been completed. I'm really excited at what my team is going to build for the final project. &quot;What is it?&quot;, you ask. I don't know the answer to it myself. Now that's where the fun starts (:</description>
 			<guid type="str">new-skin</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">8</post_number>
 		</item>
 		<item type="dict">
+			<pubDate type="str">2014-05-08</pubDate>
 			<title type="str">Team Dynamics Issues</title>
 			<link type="str">http://yangshun.im/cs3216/#/team-dynamics-issues</link>
+			<post_number type="int">9</post_number>
 			<description type="str">Team dynamics has always been a sticky issue to deal with. One of my key goals of joining CS3216 was to learn how to work with talented people from different disciplines. I enjoy working with my Assignment 1 group (Chun Mun, Viet Tien and Soedar) a lot. There's nobody playing the clear role of the leader because we are all leaders in our own areas of expertise. We make important decisions together and leave each other to work on the fine details. Because of our pretty diverse skillsets, when someone faces difficulty in their work, another will be able to step in to help resolve the issue. It is awesome. (:
 
 That said, I have had horrible experiences working in teams before too. In those cases, I usually ended up solo-ing a huge part of the project because the other members were not sure of the requirements, could not deliver the work in time, or were just plain irresponsible.
@@ -575,8 +609,6 @@ Now I appreciate why we were made to read Rework and Mythical Man-Month back in 
 
 Will be starting on my final project this weekend. Apprehensive but excited at the possibilities. (:</description>
 			<guid type="str">team-dynamics-issues</guid>
-			<pubDate type="str">2014-02-28</pubDate>
-			<post_number type="int">9</post_number>
 		</item>
 	</channel>
 </rss>
