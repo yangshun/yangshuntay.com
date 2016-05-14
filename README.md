@@ -1,4 +1,4 @@
-luna
+Yang Shun Blog
 ====
 
-Static site blogging engine
+Hello world.
