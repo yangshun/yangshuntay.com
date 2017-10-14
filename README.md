@@ -1,4 +1,4 @@
-Yang Shun Blog
+Yangshun Blog
 ====
 
 Hello world.

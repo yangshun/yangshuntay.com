@@ -7,8 +7,8 @@ from xml.dom.minidom import parseString
 SITE_LINK = "http://yangshun.im/#/"
 
 # Not in use yet
-SITE_TITLE = 'Yang Shun\'s CS3216 Blog'
-SITE_DESCRIPTION = 'Hi I\'m Yang Shun. This is my blog. I build cool stuff.'
+SITE_TITLE = 'Yangshun\'s CS3216 Blog'
+SITE_DESCRIPTION = 'Hi I\'m Yangshun. This is my blog. I build cool stuff.'
 
 POSTS_DIR_PATH = "./posts/"
 POSTS_JSON_FILE_PATH = "./content/posts.json"

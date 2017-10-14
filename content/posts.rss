@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <rss type="dict">
 	<channel type="list">
-		<title>Yang Shun's CS3216 Blog</title>
-		<description>Hi I'm Yang Shun. This is my blog. I build cool stuff.</description>
+		<title>Yangshun's CS3216 Blog</title>
+		<description>Hi I'm Yangshun. This is my blog. I build cool stuff.</description>
 		<link>http://yangshun.im/#/</link>
 		<item type="dict">
 			<link type="str">http://yangshun.im/#/what-i-hope-to-learn-in-cs3216</link>
@@ -19,7 +19,7 @@ I'm not new to web development. It's weird but I enjoy typing HTML and markdown.
 
 #### Leveling Up (Fast) ####
 
-Technically speaking, I'm a year 4 in SoC but the truth is that I have only completed 5 CS modules so far. That is because I started university majoring in Mechnical Engineering but I grew to love programming and found myself spending more time on coding than my mechanical engineering modules. I didn't really understood what I was studying in ME, and I was familiarizing myself with question patterns rather than understanding the concepts in order to clear the exams. In the end I took a gamble and applied to switch course after Year 2 Sem 1. My results were decent enough and I had a recommendation from Dr Ang Chuan Heng whom I worked under while serving as a Teaching Assistant for CS1020E. In the end, I could switch course and even keep my NUS Faculty scholarship. It was too good to be true. I haven't enjoyed school so much in my life before. 
+Technically speaking, I'm a year 4 in SoC but the truth is that I have only completed 5 CS modules so far. That is because I started university majoring in Mechnical Engineering but I grew to love programming and found myself spending more time on coding than my mechanical engineering modules. I didn't really understood what I was studying in ME, and I was familiarizing myself with question patterns rather than understanding the concepts in order to clear the exams. In the end I took a gamble and applied to switch course after Year 2 Sem 1. My results were decent enough and I had a recommendation from Dr Ang Chuan Heng whom I worked under while serving as a Teaching Assistant for CS1020E. In the end, I could switch course and even keep my NUS Faculty scholarship. It was too good to be true. I haven't enjoyed school so much in my life before.
 
 But this also means that I was behind many of my peers. I have to work doubly hard in order to make up for the lost time. As warm up for CS3216, I coded this static site blogging engine using AngularJS, called [**Luna**](https://github.com/yangshun/luna). I'm a front end guy, I dislike using command line interfaces and dealing with databases, hence I was fascinated by static site templating engines. I was inspired by [**Jekyll**](http://jekyllrb.com/) and [**Empress**](https://github.com/hodgesmr/Empress), which are static site engines that generate HTML pages from markdown files. **Luna** is more flexible to use compared to Blogger and Wordpress (mainly because I built it) as I only have to write the blog content in markdown and run a python script to generate the content in JSON. I also happen to like to customise my own sites and I quite enjoy using this so far! (:
 
@@ -49,7 +49,7 @@ For our app, Qivi, which is a mobile version of a classroom clicker, if every us
 
 **AngularJS**
 
-[**AngularJS**](http://angularjs.org/) was perfect for this app because the app has to be backed by a RESTful service. The trouble with using RESTful APIs comes when you have to handle the updating of the view after the data has been retrieved. Those without frameworks will either append raw HTML or use jQuery to manipulate the DOM. I hate mixing my HTML and JS together because it becomes an unmaintainable mess very soon. 
+[**AngularJS**](http://angularjs.org/) was perfect for this app because the app has to be backed by a RESTful service. The trouble with using RESTful APIs comes when you have to handle the updating of the view after the data has been retrieved. Those without frameworks will either append raw HTML or use jQuery to manipulate the DOM. I hate mixing my HTML and JS together because it becomes an unmaintainable mess very soon.
 
 Also, AngularJS is pretty good for making Single-Page Applications, which is extremely suitable for a mobile web app that requires caching of files. Routing is done on the client side, and the number of page loads/refreshes is reduced.
 
@@ -57,9 +57,9 @@ Admittedly, I used some hackish methods to get around some issues of using UIKit
 
 **Building a Help/FAQ Page**
 
-This is another tip that I picked up from the **EasilyDo** mobile app. If your app has a certain level of complexity, it's not realistic to expect users to learn the app on their own. This is made even harder if the interface is confusing and does not stick to the convention of mobile apps. 
+This is another tip that I picked up from the **EasilyDo** mobile app. If your app has a certain level of complexity, it's not realistic to expect users to learn the app on their own. This is made even harder if the interface is confusing and does not stick to the convention of mobile apps.
 
-As Su Yuen said, 
+As Su Yuen said,
 
 &gt;&quot;Most average laymen users however would give up within about 5-10 seconds if they open your app/website and can't figure out what is going on. It is especially confusing if the data you have populated in the website/app upon landing on your site is data like 'Test 123'. &quot;
 
@@ -67,7 +67,7 @@ Thankfully I created a sample event titled **&quot;Testing Event for Qivi&quot;*
 
 **Keep Things Simple**
 
-Given the lack of time, my team had to cut features and ultimately we reduced our feature set to the core functionality of real-time response to polls. In the pitch, I repeatedly stressed the key value proposition of Qivi and guided users in experiencing it through the &quot;Help&quot; page. 
+Given the lack of time, my team had to cut features and ultimately we reduced our feature set to the core functionality of real-time response to polls. In the pitch, I repeatedly stressed the key value proposition of Qivi and guided users in experiencing it through the &quot;Help&quot; page.
 
 Focus on one thing, do it extremely well before moving on to other features.
 
@@ -98,9 +98,9 @@ The games that came to my mind that fell into this category were multiplayer Fir
 
 The next decision was to decide on the theme of the game. As I am the sole designer and front end styler (I'm not the only front end engineer here because Soedar, Viet Tien and Chun Mun all write better Javascript than me), we have to pick a theme that was nice, easy and fast to design. Sounds like the Project Management triangle where you pick two from 'Fast', 'Good' and 'Cheap'? Not so much here because in design that is possible. *Good Artists Copy, Great Artists Steal*. But the best artists steal, modify, combine things, and make it their own! That's how the iPhone was made anyways.
 
-Here's a sneakpeek at what we have for the project so far: 
+Here's a sneakpeek at what we have for the project so far:
 
-![Splashscreen](img/mockup.jpg) 
+![Splashscreen](img/mockup.jpg)
 
 Looks pretty okay? I think so too. Let's see what we can come up with in the next 3 weeks. (:</description>
 			<post_number type="int">11</post_number>
@@ -130,11 +130,11 @@ Looks pretty okay? I think so too. Let's see what we can come up with in the nex
 
 **Talking to Users**
 
-This is perhaps one of the most rigorous courses in NUS. We built four (?) products within a semester. There was barely any time for breaks. Although I don't think I leveled up as a developer by much, I think I improved a fair bit in product and aesthetic design. We were forced by Prof Colin to keep talking to our users and that's what we did. Whenever I met my friends in/outside school, I would get them to try my product and observed how they interacted with it. Initially, the UX of the product was pretty bad, and I ended up having to teach my friends how to use and play the product. 
+This is perhaps one of the most rigorous courses in NUS. We built four (?) products within a semester. There was barely any time for breaks. Although I don't think I leveled up as a developer by much, I think I improved a fair bit in product and aesthetic design. We were forced by Prof Colin to keep talking to our users and that's what we did. Whenever I met my friends in/outside school, I would get them to try my product and observed how they interacted with it. Initially, the UX of the product was pretty bad, and I ended up having to teach my friends how to use and play the product.
 
 But I can't be around to teach every user how to use the product.
 
-Thus we had to get feedback and refine the UX. Thanks to valuable advice from Prof Colin, Su Yuen, and our mentors from LambdaMu, Abhishek and Ivan, we finally got a clear direction and knew what to do with our product. I actually learned ethnography before, in my Design Thinking classes when I was still in Engineering. At that time, we weren't really building a product, just ideating and fantasizing. The curriculum in Engineering was built as such, and that's a problem that I dislike about Engineering. But I didn't really talk to people then, partly because I found it hard to sell an idea without a prototype. 
+Thus we had to get feedback and refine the UX. Thanks to valuable advice from Prof Colin, Su Yuen, and our mentors from LambdaMu, Abhishek and Ivan, we finally got a clear direction and knew what to do with our product. I actually learned ethnography before, in my Design Thinking classes when I was still in Engineering. At that time, we weren't really building a product, just ideating and fantasizing. The curriculum in Engineering was built as such, and that's a problem that I dislike about Engineering. But I didn't really talk to people then, partly because I found it hard to sell an idea without a prototype.
 
 CS3216 taught me the importance of user testing and validation. Although the friends that I showed the product to found it difficult to use initially, once they were taught and started playing, all I could see were smiles on their faces while they were engrossed in the game.
 
@@ -191,7 +191,7 @@ Group work is **hard**.</description>
 			<guid type="str">open-source</guid>
 			<description type="str">Open-source projects have always fascinated me. I personally find it tough to work effectively in small teams, working with a large community in a public, collaborative manner will makes things unimaginably tougher. However, with good management techniques, effective communication and efficient workflows, the open-source community have succeeded and produced excellent technologies such as Ubuntu, Android, Rails, Django, Bootstrap, AngularJS, just to name a few. These projects have had great impact on technology and are widely used by developers in the course of their work. Android, with Google's backing, has become the world most popular smartphone OS. I personally use many open-source JavaScript projects such as AngularJS and Node.js for my own development.
 
-I have been developing web applications for over a year now, and my portfolio of web projects can be found [here](http://yangshun.im/cs3216/#/portfolio). Having completed the two most rigorous software development courses in NUS, CS3216 and CS3217 and surviving them well, I have picked up good software engineering skills and improved my development competency. 
+I have been developing web applications for over a year now, and my portfolio of web projects can be found [here](http://yangshun.im/cs3216/#/portfolio). Having completed the two most rigorous software development courses in NUS, CS3216 and CS3217 and surviving them well, I have picked up good software engineering skills and improved my development competency.
 
 However, almost all my software engineering projects were constrained within a school setting. I was only required to work in small teams and to meet predefined assignment milestones for the grades. These school projects were often discontinued after the course ended and gone to waste and it's quite a pity. School projects are rarely reflective of real-world software development, where there are many moving parts, a much larger code base, huge development teams, and release cycles.
 
@@ -199,7 +199,7 @@ I hope to be part of the Open Academy Program because of the various unique oppo
 
 I like to learn and I believe I am a fast learner. 2 years ago, the only language I knew was C++ and all I could do was to compile simple programs with g++. Almost 2 years later, I have developed and launched a few mobile and web applications, and gained a strong competency in front end web development. My ability and desire to learn and improve is my strength and I hope I can put them to good use in the Open Academy Program.
 
-Without CS3216, CS3217 nor CS1010S in the coming semester, there won't be any module to inflict memorable pain in my life; I believe the Facebook Open Academy Program can be a decent source of challenge. 
+Without CS3216, CS3217 nor CS1010S in the coming semester, there won't be any module to inflict memorable pain in my life; I believe the Facebook Open Academy Program can be a decent source of challenge.
 
 For a change, I hope to leave an impact by diving into the world of open source development and contributing code that will be used by developer communities around the world.</description>
 			<post_number type="int">16</post_number>
@@ -222,7 +222,7 @@ CS3216 is a huge test of versatility and my versatility was stretched near its l
 - Assignment 3 (Mobile Web Assignment): **Qivi** - Front End Developer, UI Designer, Marketing guy
 - Final Project: **[Una](http://una-org.github.io)** and **[Nutty Ninjas](http://www.nuttyninjas.com)** - Front End Developer, UI Designer, Creative guy, Marketing guy, Product guy and... Props maker
 
-The final project really drained me out. I was wearing multiple hats and it was tough to juggle them. Shall go into further detail later. 
+The final project really drained me out. I was wearing multiple hats and it was tough to juggle them. Shall go into further detail later.
 
 Comparing with CS3217, it's hard to say whether CS3216 was easier or tougher. CS3216 and CS3217 were tough in their own ways, but one thing is for sure: It gets people addicted to these crazy software development modules and leaves them asking for more.
 
@@ -241,7 +241,7 @@ After working on Corspedia, and seeing a thousand hits a day during the CORS bid
 
 My teammates for this assignment were Soedar, Viet Tien and Chun Mun, they are seriously among the best software engineers that I know in school. I proposed the idea of a StackOverflow x Disqus for NUS modules and the rest were agreeable with it. We knew each other's strengths and hence roles were assigned pretty quickly.
 
-The name Osmose was chosen because I wanted to try naming a product after a proper English word/name. E.g. Path, Line, Amazon. Osmose also meant: *The process of gradual or unconscious assimilation of ideas and knowledge.* The theme colour of blue was chosen, because blue is the colour of water (osmosis). 
+The name Osmose was chosen because I wanted to try naming a product after a proper English word/name. E.g. Path, Line, Amazon. Osmose also meant: *The process of gradual or unconscious assimilation of ideas and knowledge.* The theme colour of blue was chosen, because blue is the colour of water (osmosis).
 
 Using [sails.js](http://sailsjs.org/), we got the back-end up in a snap, along with real-time sync features. Sad to say, I was the limiting factor in this assignment, because I spent the first a week and a half settling admin matters for CS1010S, and started on the front end work quite late. As we coded, we realized that there was no real need for sails.js, the 'magic' that sails did for its users wasn't really relevant in our case and we still had to write the complicated stuff ourselves.
 
@@ -266,7 +266,7 @@ This assignment made me feel like a CNM student, with the amount of writing we h
 
 I believe most students in class disliked assignment 3. This includes me as well. I blogged about how much I disliked mobile web development in one of the previous posts. Although I hate to agree, but mobile is the future. This assignment had to be there. I proposed the idea of transforming mobile devices into clickers. A plausible replacement for current clickers, which are extremely troublesome to use. The app was named 'Qivi' - The acronym for Question Instantly, Vote Instantly.
 
-My teammates for this assignment were Zhixing, Qing Cheng and Navie. Since they were back end coders, I was left to do the front end by myself. Project management for this assignment was quite bad.. We only really started during recess week and everyday felt like a hackathon. Being the sole front end developer, I was also worried that I couldn't complete it in time. 
+My teammates for this assignment were Zhixing, Qing Cheng and Navie. Since they were back end coders, I was left to do the front end by myself. Project management for this assignment was quite bad.. We only really started during recess week and everyday felt like a hackathon. Being the sole front end developer, I was also worried that I couldn't complete it in time.
 
 Ultimately, we cut features and removed the option of answering open-ended questions. The non-use of server-side frameworks caused the API to be inconsistent and more bug-prone. Sigh. But we managed to finish in the end, hitting as many milestones as possible. The end-product was still buggy, but *done is better than perfect* (lame excuse).
 
@@ -291,9 +291,9 @@ What game should we build that was reasonable, given our timeframe, skills that 
 
 #### Development ####
 
-We weren't exactly sure whether the idea of cross-display games would work out because of latency issues. Chun Mun was quick in prototyping simple demos to test the latency and they were surprisingly low. Soedar built a tank game using EaselJS to test the frame speed of the game while Viet Tien added a virtual joystick to test controller interactions. 
+We weren't exactly sure whether the idea of cross-display games would work out because of latency issues. Chun Mun was quick in prototyping simple demos to test the latency and they were surprisingly low. Soedar built a tank game using EaselJS to test the frame speed of the game while Viet Tien added a virtual joystick to test controller interactions.
 
-We were satisfied with the results of our prototyping and were confident that the game would work fine. Together with my brother, I built the assets and developed the HTML for the non-game screens while Soedar, Chun Mun and Viet Tien worked on the game. 
+We were satisfied with the results of our prototyping and were confident that the game would work fine. Together with my brother, I built the assets and developed the HTML for the non-game screens while Soedar, Chun Mun and Viet Tien worked on the game.
 
 #### Refinement ####
 
@@ -349,7 +349,7 @@ There were a few phases of this project:
 
 There were lots of administrative issues to handle, because being a new course, much of the course materials had to be newly prepared. We used tons of Google services for our admin (Google groups for communication, Google spreadsheets for issue tracking and student data, Google sites for documentation). We did not use specialized project management tools like Asana or Jira because everybody was comfortable with Google services and it seems to be sufficient for our purpose.
 
-I value good documentation as it helps orientate people that are new to a team. Hence I wrote a wiki document for the course so that new tutors would have an easier time familiarising themselves with our working style. Also, during the course preparation phase, I would review the work of the other tutors to the best of my ability so that the quality of materials that we release to the students were of high standards. Being the source of information to tutors and students, I kept myself well-informed so that I could answer almost all questions thrown at me. I also ensured that everyone was up to date with the course's progress. 
+I value good documentation as it helps orientate people that are new to a team. Hence I wrote a wiki document for the course so that new tutors would have an easier time familiarising themselves with our working style. Also, during the course preparation phase, I would review the work of the other tutors to the best of my ability so that the quality of materials that we release to the students were of high standards. Being the source of information to tutors and students, I kept myself well-informed so that I could answer almost all questions thrown at me. I also ensured that everyone was up to date with the course's progress.
 
 I did not know Python prior to CS1010S and hence I had to pick it up on my own before the course material preparation phase even started. Fortunately, it was easy to pick up a new programming language because I have been exposed to various languages. To save the time of the other tutors, I gathered resources, created tools and teaching aids and shared them with the other tutors. Even though it took up more of my personal time, but overall it was for a greater good: It saved the staff team more time due to the large size of the team and helped everyone get the job done more effectively.
 
@@ -375,7 +375,7 @@ Caring for students was also essential to being a good teacher. Often, I chatted
 I had a few main motivations behind undertaking the role as Head Tutor:
 - Learn to work with a team of talented individuals (elite bunch of tutors).
 - Learn how to run a course well. Many courses in NUS left students uninterested in the subject matter.
-- Leave a positive impact in the students' lives and possibly get them interested in a career in Computer Science. 
+- Leave a positive impact in the students' lives and possibly get them interested in a career in Computer Science.
 - Teaching the students to learn how to learn. Train them in being independent learners and increase their potential.
 
 
@@ -419,7 +419,7 @@ Overall, I think it was a successful project with the combined hard work of ever
 - Went on an all expenses paid trip to Facebook HQ in Menlo Park and participated in a hackathon there.
 - Worked with students from MIT, CMU and other prestigious universities on open source projects.
 - Hacked on an open source project ([Galaxy](https://github.com/cvan/galaxy/) in my case) for 9 weeks.
-- Leveled up in web development. 
+- Leveled up in web development.
 
 The 4 MCs I'm getting from CP3101A will go towards my UEM credits, which doesn't count towards my graduation because my UEM MCs are already overflowing from Mech Eng and NOC modules. However, no regrets there, because it was this open source stint was still a very valuable experience, one that is extremely relevant to all software engineers in their career.
 
@@ -427,15 +427,15 @@ Here are the combined reflections from us, the 2nd batch of NUS students who par
 
 **Open Source Reflections**
 
-&lt;em&gt;Participating in Facebook Open Academy allowed us to explore open source development in a guided environment under experienced mentors. From the program, we gained deeper insights into working in remote teams, improved our Git-fu, and gained first-hand experience on how to apply them on a real-world project. 
+&lt;em&gt;Participating in Facebook Open Academy allowed us to explore open source development in a guided environment under experienced mentors. From the program, we gained deeper insights into working in remote teams, improved our Git-fu, and gained first-hand experience on how to apply them on a real-world project.
 
-Submitting pull requests is like riding a roller coaster - there is a sense of thrill when pull requests are approved and merged into the repository, yet a sense of disappointment when we receive negative feedback and have to make major changes. As the code that we have written is open to public scrutiny, it is extremely fulfilling when our code is accepted and deemed to have met the standards of the community. In this sense, working on an Open Source project definitely beats working on school projects, where the main emphasis is often to simply make the code work, and there is little emphasis on the quality of the code. 
+Submitting pull requests is like riding a roller coaster - there is a sense of thrill when pull requests are approved and merged into the repository, yet a sense of disappointment when we receive negative feedback and have to make major changes. As the code that we have written is open to public scrutiny, it is extremely fulfilling when our code is accepted and deemed to have met the standards of the community. In this sense, working on an Open Source project definitely beats working on school projects, where the main emphasis is often to simply make the code work, and there is little emphasis on the quality of the code.
 
 We became familiar with common open source workflows, making frequent use of Git features such as branching, rebasing, cherry picking, reset, etc, and saw a significant improvement in our Git-fu. Some of us had teammates who were unfamiliar with Git and we were frequently helping them clean up their pull requests and teaching them the proper Git workflow for the project. We saw that as a personal achievement because at the start of the program, we were only familiar with the common Git commands, but at the end of it, we are able to understand and execute complicated Git workflows. We have also come to appreciate Github as a well-designed platform that aids in the development of open source projects.
 
 A main challenge that we faced was having to work with teammates who were in different locations and time zones. We were used to working with teammates who are physically present (such as during school projects or on an internship), and never had the chance to work in remote teams. In our projects, we found that the communication overhead often reduced the momentum of our projects considerably. This is especially evident for the code reviews of pull requests: it would often take days before a pull request was thoroughly reviewed and merged.
-          
-We felt that we could probably have been more effective if we were more aware on how our actions would have affected our teammates. Upon reflection, there were times where our actions might have made some of the work done by our teammates obsolete, usually by implementing features that supersede what they have done or causing their work to be irrelevant. We should have been more aware of this, and probably clarified our intentions with each other, as well as worked more closely to resolve issues.           
+
+We felt that we could probably have been more effective if we were more aware on how our actions would have affected our teammates. Upon reflection, there were times where our actions might have made some of the work done by our teammates obsolete, usually by implementing features that supersede what they have done or causing their work to be irrelevant. We should have been more aware of this, and probably clarified our intentions with each other, as well as worked more closely to resolve issues.
 We have also been able to apply some of the ideas that we have learnt into our school projects. We found ourselves adapting the open source workflow into our school projects, and imparting the knowledge that we had gained to other schoolmates who did not have the opportunity to participate in the program. It was especially rewarding when others begin to appreciate the need for code review, and come to understand the open source workflow as well.
 
 To conclude, we have often relied on many Open Source projects in our work. It is only natural that we should give back and contribute to the growth of open source projects. The Facebook Open Academy program has provided us with the opportunity to take the first step in contributing to Open Source, under the guidance and supervision of capable project mentors. We would definitely want to continue developing for our projects or joining other interesting projects, and play a more active role in helping the Open Source community grow.&lt;/em&gt;</description>
@@ -472,7 +472,7 @@ Tutorials start this week and it shall be my first time tutoring a class of CS10
 		<item type="dict">
 			<link type="str">http://yangshun.im/#/growth-hacking</link>
 			<guid type="str">growth-hacking</guid>
-			<description type="str">The topic of growth hacking has always intrigued me. Coming from an engineering background, I was never exposed to the non-technical aspects of a product. Although my NOC stints allowed me to work with the marketing and business development team, I wasn't involved in the decision-making process and marketing strategies. 
+			<description type="str">The topic of growth hacking has always intrigued me. Coming from an engineering background, I was never exposed to the non-technical aspects of a product. Although my NOC stints allowed me to work with the marketing and business development team, I wasn't involved in the decision-making process and marketing strategies.
 
 I was thoroughly impressed by Bjorn's presentation. Anyone could tell he was an experienced growth hacker from the techniques that he shared. I especially agree with him that 'Build and they will come' is a bloody damned myth. In the creation process of an app, it's also important to consider the various marketing channels and viral techniques that will be put into the app. An app without a solid plan of how it is going to market itself, is unlikely to be heard of by many after it is being built.
 
@@ -512,7 +512,7 @@ It is appalling that Apple, a guru of UI/UX, produced a Maps app of such quality
 		<item type="dict">
 			<link type="str">http://yangshun.im/#/the-calm-before-the-storm</link>
 			<guid type="str">the-calm-before-the-storm</guid>
-			<description type="str">Last assignment for CS3216! The past 4 weeks have been hell for me. My senior, Jonathan Low, ex-CVWO president and guest speaker for the past few batches of CS3216 and CS3217, after hearing that I'll be doing CS1010S and CS3216 on top of the standard academic workload in this sem, gave me a *really encouraging* word of advice: 'You will die man.' 
+			<description type="str">Last assignment for CS3216! The past 4 weeks have been hell for me. My senior, Jonathan Low, ex-CVWO president and guest speaker for the past few batches of CS3216 and CS3217, after hearing that I'll be doing CS1010S and CS3216 on top of the standard academic workload in this sem, gave me a *really encouraging* word of advice: 'You will die man.'
 
 For the past 4 weeks I have been sleeping at 5-6 am every other day and waking up just in time before the tutorials which I have no clue about what the tutor is teaching simply because I haven't been spending time on them. Everyday was like check to-do list, do work, clear backlog, rinse, repeat.
 
@@ -575,7 +575,7 @@ It was really unfortunate that Uncle Jim's team ended up with only one coder. Bu
 
 If someone were nice enough to help out in somebody else's group out of goodwill and at the expense of their own free time, I think I would have absolute trust in him/her to make the best decisions for the group. Also, given the circumstances of the team, this fourth voice seems to be the most technologically knowledgeable person around in the team and he would be the most suitable to make the decisions. I'm sure he would make the best decisions for the team (since he is also indirectly involved in the process) and make life easier and better for everybody. The fourth voice is also likely to choose a platform that he is strong in. A developer should be familiar with their tools because it can speed up the development process greatly especially when time is tight.
 
-However, I think it's only right for everyone in the team to be well-informed regarding the matter, hence I would also do my fair share of research and consult the other gurus in class to get their opinions. **Most ideas aren't new.** Almost every 'new' idea is a rehash or combination of existing ideas. Take a look at what and how others are building/have built similar products and learn from their experiences. 
+However, I think it's only right for everyone in the team to be well-informed regarding the matter, hence I would also do my fair share of research and consult the other gurus in class to get their opinions. **Most ideas aren't new.** Almost every 'new' idea is a rehash or combination of existing ideas. Take a look at what and how others are building/have built similar products and learn from their experiences.
 
 
 ### With the deadline just 2 weeks away, how would you, as project manager, resolved this problem if it were to occur within the team? ###
@@ -587,18 +587,18 @@ If I were the project manager, I would definitely be cutting features of the pro
 
 ### What are some of the issues that we presented that could have happened to any team? List down 3, and talk about how you would have resolved these issues.
 
-**1. Conflicts**  
+**1. Conflicts**
 This happens in **every** team. It is only *normal* to disagree, it only goes to show that the members are opinionated and are concerned with the project. However, the team should not spend too long arguing it out. Internal voting can be done as soon as possible to arrive at a general consensus so that the team can progress. Also, everyone should try to convince each other and be convinced by the decision made so that there are no hard feelings and the harmony of the group can be preserved.
 
 We are all human. Hence sometimes we let our emotions get the better of us and we vent our frustrations at our team members. As a team, we're all in this together. People bond through shared suffering and this is just another instance of the painful process. Try to tolerate with each other and trash things out as early as possible, before misunderstandings escalate into serious conflicts.
 
-**2. Unrealistic Estimations**  
+**2. Unrealistic Estimations**
 In the book [Rework](http://37signals.com/rework) by Jason Fried, Founder of 37 Signals, he mentions that most teams have unrealistic project timelines and that most peoples' estimation sucks. We tend to be overly optimistic about our own (and possibly team members') abilities and propose a very ideal timeline for the project. This does not work out most of the time due to the unforeseen circumstances. I would suggest a milestone-based approach where the team tries to attain that milestone together and helping out any member that falls behind. A team is only as fast as their slowest member.
 
-**3. Mismatch of Skillsets**  
+**3. Mismatch of Skillsets**
 Since the team members are set in stone (kinda), the team should change what can be changed: their project focus. If there is only one coder present, then the project should probably be something less technically challenging and have a heavier emphasis on the UI/UX and content.
 
-A very good example of a CS3216 project that isn't super technically challenging to build, but manages to impress people would be [Letters to Amanda](http://www.letterstoamanda.com). They have a clear value proposition and handles it extremely well. 
+A very good example of a CS3216 project that isn't super technically challenging to build, but manages to impress people would be [Letters to Amanda](http://www.letterstoamanda.com). They have a clear value proposition and handles it extremely well.
 
 
 ### Final Words ###

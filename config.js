@@ -1,7 +1,7 @@
 var CONFIG = {};
 
-CONFIG.BLOG_TITLE = 'Yang Shun Blogs';
-CONFIG.NAV_TITLE = 'Yang Shun';
+CONFIG.BLOG_TITLE = 'Yangshun Blogs';
+CONFIG.NAV_TITLE = 'Yangshun';
 
 CONFIG.SHOW_SIDEBAR = true;
 CONFIG.NUM_POSTS_IN_SIDEBAR = 5;
