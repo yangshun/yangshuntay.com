@@ -1,4 +1,0 @@
-Yangshun Blog
-====
-
-Hello world.
