@@ -45,6 +45,7 @@ module.exports = {
       links: [
         { to: 'blog', label: 'Blog', position: 'left' },
         { to: 'resume', label: 'Resume', position: 'left' },
+        { to: 'bucket-list', label: 'Bucket List', position: 'left' },
         {
           href: 'https://github.com/yangshun',
           label: 'GitHub',

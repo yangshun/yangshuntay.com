@@ -1,14 +1,13 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
-function BucketList() {
+function Resume() {
   return (
     <Layout>
       <div className="container padding-vert--lg">
         <div className="row">
           <div className="col col--8 col--offset-2 markdown">
             <h1 className="center page-title">Resume</h1>
-            <hr />
             <h2>Internet Profiles</h2>
             <p>
               <a
@@ -419,4 +418,4 @@ function BucketList() {
   );
 }
 
-export default BucketList;
+export default Resume;
