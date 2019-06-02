@@ -44,6 +44,7 @@ module.exports = {
       title: 'Yangshun',
       links: [
         { to: 'blog', label: 'Blog', position: 'left' },
+        { to: 'resume', label: 'Resume', position: 'left' },
         {
           href: 'https://github.com/yangshun',
           label: 'GitHub',
