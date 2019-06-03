@@ -18,6 +18,7 @@ function BucketList() {
                 Invent a programming language and write its compiler (toy one)
               </li>
               <li>Write a module bundler</li>
+              <li>Become a Google Dev Expert</li>
               <li>Buy a nice house</li>
             </ul>
             <h3>In Progress</h3>
