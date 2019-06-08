@@ -14,6 +14,8 @@ function BucketList() {
               <li>Publish a book</li>
               <li>Create an online course</li>
               <li>Write a state management framework</li>
+              <li>Write a Markdown parser from scratch</li>
+              <li>Write a package manager from scratch</li>
               <li>
                 Invent a programming language and write its compiler (toy one)
               </li>
@@ -23,13 +25,14 @@ function BucketList() {
             </ul>
             <h3>In Progress</h3>
             <ul>
-              <li>Write a CSS framework</li>
-              <li>Write a static site generator</li>
+              <li>Write a CSS framework from scratch</li>
+              <li>Write a static site generator from scratch</li>
             </ul>
             <h3>Done</h3>
             <ul>
-              <li>Work at Facebook (2017, Nov)</li>
               <li>Present at F8 (2019, Apr)</li>
+              <li>Work at Facebook (2017, Nov)</li>
+              <li>Write a testing framework from scratch (2017, Aug)</li>
             </ul>
           </div>
         </div>
