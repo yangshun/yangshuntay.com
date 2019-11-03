@@ -6,8 +6,6 @@ authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
 authorTwitter: yangshunz
 ---
 
-_Opinions are my own and do not represent the views of my employer._
-
 I was attending an event at NUS Hackers' Friday Hacks recently where I met an undergrad freshmen who asked me a question regarding Front End as a career.
 
 <!--truncate-->
@@ -55,3 +53,5 @@ Adding new skills to my arsenal in a related but different domain helps me to st
 ---
 
 In summary, although Front End development is considered quite specialized, there's enough demand and complexity for it to stay relevant in the years to come. What would threaten the web would be an entire shift of the way users interact with apps, perhaps to a non-visual paradigm like a brain-controlled interface. However, paradigm shifts don't happen overnight and there will be sufficient time to react (pun intended) in the case that ever happens. Being strong in your Software Engineering fundamentals and knowing how to learn new skills fast will help you in switching domains (and also careers).
+
+_Opinions are my own and do not represent the views of my employer._
