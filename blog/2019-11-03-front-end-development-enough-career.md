@@ -6,7 +6,7 @@ authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
 authorTwitter: yangshunz
 ---
 
-I was attending an event at NUS Hackers' Friday Hacks recently where I met an undergrad freshmen who asked me a question regarding Front End as a career.
+I attended NUS Hackers' Friday Hacks recently where I met an undergrad freshmen who asked me a question regarding Front End as a career.
 
 <!--truncate-->
 
