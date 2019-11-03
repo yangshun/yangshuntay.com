@@ -76,6 +76,9 @@ module.exports = {
         {},
       ],
     },
+    gtag: {
+      trackingID: 'UA-44622716-1',
+    },
   },
   presets: ['@docusaurus/preset-classic'],
 };
