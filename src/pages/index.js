@@ -36,6 +36,10 @@ function Home() {
             }}
           />
           <h1 className="hero__title">{siteConfig.title}</h1>
+          <p className={styles.tagline}>
+            I built the static site generator and CSS framework powering this
+            website!
+          </p>
           <div className={styles.internetProfiles}>
             {intersperse(
               Object.keys(internetProfiles).map(key => {
