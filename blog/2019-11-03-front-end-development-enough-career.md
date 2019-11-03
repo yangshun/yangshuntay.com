@@ -2,11 +2,13 @@
 title: Are Front End Development Skills Enough for a Career?
 author: Yangshun Tay
 authorURL: https://github.com/yangshun
-authorImageURL: https://pbs.twimg.com/profile_images/1124179481441103872/3vEEoMDe_400x400.jpg
+authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
 authorTwitter: yangshunz
 ---
 
-I was attending an event at [NUS Hackers' Friday Hacks](https://www.nushackers.org/fridayhacks/) recently where I met an undergrad freshmen who asked me a question regarding Front End as a career.
+_Opinions are my own and do not represent the views of my employer._
+
+I was attending an event at NUS Hackers' Friday Hacks recently where I met an undergrad freshmen who asked me a question regarding Front End as a career.
 
 <!--truncate-->
 
