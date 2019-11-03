@@ -3,7 +3,7 @@ title: Open Source
 author: Yangshun Tay
 authorURL: https://github.com/yangshun
 authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-authorTwitter: yangshun
+authorTwitter: yangshunz
 ---
 
 Open-source projects have always fascinated me. I personally find it tough to work effectively in small teams, working with a large community in a public, collaborative manner will makes things unimaginably tougher.<!--truncate--> However, with good management techniques, effective communication and efficient workflows, the open-source community have succeeded and produced excellent technologies such as Ubuntu, Android, Rails, Django, Bootstrap, AngularJS, just to name a few. These projects have had great impact on technology and are widely used by developers in the course of their work. Android, with Google's backing, has become the world most popular smartphone OS. I personally use many open-source JavaScript projects such as AngularJS and Node.js for my own development.

@@ -3,7 +3,7 @@ title: Reflections of a CS1010S Head Tutor
 author: Yangshun Tay
 authorURL: https://github.com/yangshun
 authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-authorTwitter: yangshun
+authorTwitter: yangshunz
 ---
 
 From Aug 2013 to Dec 2013, I was selected by Asst Prof Ben Leong of NUS to serve as the Head Tutor for CS1010S Programming Methodology, an introductory programming course in NUS. It was a new NUS course that aims to impart fundamental concepts of problem solving by computing and programming using the Python language.<!--truncate-->

@@ -3,7 +3,7 @@ title: The Calm Before the Storm
 author: Yangshun Tay
 authorURL: https://github.com/yangshun
 authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-authorTwitter: yangshun
+authorTwitter: yangshunz
 ---
 
 Last assignment for CS3216! The past 4 weeks have been hell for me. My senior, Jonathan Low, ex-CVWO president and guest speaker for the past few batches of CS3216 and CS3217, after hearing that I'll be doing CS1010S and CS3216 on top of the standard academic workload in this sem, gave me a _really encouraging_ word of advice: 'You will die man.'<!--truncate-->

@@ -3,7 +3,7 @@ title: Facebook Open Academy Reflections
 author: Yangshun Tay
 authorURL: https://github.com/yangshun
 authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-authorTwitter: yangshun
+authorTwitter: yangshunzz
 ---
 
 Together with Soedar, Scott (Kaizhi), Minqi, Joel, Camillus, we took part in [Facebook Open Academy](https://www.facebook.com/notes/facebook-engineering/facebook-open-academy-bringing-open-source-to-cs-curricula/10151806121378920) under the module CP3101A Open Source Project. In my opinion, CP3101A was definitely one of the most memorable modules this semester.<!--truncate--> The cool stuff we did:

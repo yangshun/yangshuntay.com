@@ -3,7 +3,7 @@ title: Group Projects
 author: Yangshun Tay
 authorURL: https://github.com/yangshun
 authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-authorTwitter: yangshun
+authorTwitter: yangshunz
 ---
 
 The trouble with group projects:
