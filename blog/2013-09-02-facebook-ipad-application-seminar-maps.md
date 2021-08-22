@@ -1,9 +1,8 @@
 ---
 title: Facebook/iPad Application Seminar - Maps
 author: Yangshun Tay
-authorURL: https://github.com/yangshun
-authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-authorTwitter: yangshunz
+author_url: https://github.com/yangshun
+author_image_url: https://github.com/yangshun.png
 ---
 
 Ahh the Apple Maps app. What an uproar it has caused when it was first released. Like many iPhone users, I don't use the Apple Maps app but I use Google's Maps app instead, simply because it syncs with the location queries that I make in my MacBook's Chrome browser. Google's Maps app has amazing user experience compared to Apple's version. Makes me wonder if Apple even tested their app with real users before putting it in every iPhone that runs iOS 6 and above.<!--truncate-->

@@ -1,9 +1,8 @@
 ---
 title: What I Want to Build in CS3216
 author: Yangshun Tay
-authorURL: https://github.com/yangshun
-authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-authorTwitter: yangshunz
+author_url: https://github.com/yangshun
+author_image_url: https://github.com/yangshun.png
 ---
 
 "What exactly do I want to build in CS3216?". This question has been bugging me for the entire summer and I still do not have an answer to this question. Initially, I wanted to build a multiplayer game that uses WebRTC because it has been really hot after Google demonstrated prototypes of their WebRTC games during Google I/O, such as [Chrome Maze](http://chrome.com/maze/), [Cube Slam](https://www.cubeslam.com/) and [Racer](http://www.chrome.com/racer). <!--truncate-->Most people will shy away from building games simply because it's tough to produce the assets for the game. However, with a background in design, and because I have experience in building an iPad game [Tenza Yakitori](http://www.youtube.com/watch?v=wI-4l_FhHsk) as the final project of CS3217, I felt that I could build a game for a project and it will still turn out decent. Also, I was getting bored of building CRUD (Create, Read, Update, Delete) apps; game logic was definitely more fun to code.

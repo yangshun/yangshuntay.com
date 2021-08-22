@@ -1,9 +1,8 @@
 ---
 title: How to do Projects
 author: Yangshun Tay
-authorURL: https://github.com/yangshun
-authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-authorTwitter: yangshunz
+author_url: https://github.com/yangshun
+author_image_url: https://github.com/yangshun.png
 ---
 
 1. Work with the **smart**

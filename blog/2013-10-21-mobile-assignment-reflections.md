@@ -1,9 +1,8 @@
 ---
 title: Mobile Assignment Reflections
 author: Yangshun Tay
-authorURL: https://github.com/yangshun
-authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-authorTwitter: yangshunz
+author_url: https://github.com/yangshun
+author_image_url: https://github.com/yangshun.png
 ---
 
 This assignment made me worry alot because of the little time we spent coding and testing it. I still stand by my previous rants that mobile web development is a PITA, there are simply too many nitty gritty things to consider and pitfalls to avoid when developing for mobile.<!--truncate-->

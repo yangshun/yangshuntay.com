@@ -7,58 +7,58 @@
 
 const internetProfiles = {
   github: {
-    label: 'GitHub',
-    href: 'https://github.com/yangshun',
+    label: "GitHub",
+    href: "https://github.com/yangshun",
   },
   stackoverflow: {
-    label: 'StackOverflow',
-    href: 'https://stackoverflow.com/u/1751946',
+    label: "StackOverflow",
+    href: "https://stackoverflow.com/u/1751946",
   },
   linkedin: {
-    label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/yangshun',
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/yangshun",
   },
   medium: {
-    label: 'Medium',
-    href: 'https://medium.com/@yangshun',
+    label: "Medium",
+    href: "https://medium.com/@yangshun",
   },
   twitter: {
-    label: 'Twitter',
-    href: 'https://twitter.com/yangshunz',
+    label: "Twitter",
+    href: "https://twitter.com/yangshunz",
   },
   facebook: {
-    label: 'Facebook',
-    href: 'https://facebook.com/yangshun',
+    label: "Facebook",
+    href: "https://facebook.com/yangshun",
   },
 };
 
 module.exports = {
-  title: 'Yangshun Tay',
-  tagline: 'Front End Engineer',
-  url: 'http://yangshun.im',
-  baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  title: "Yangshun Tay",
+  tagline: "Front End Engineer",
+  url: "http://yangshun.im",
+  baseUrl: "/",
+  favicon: "img/favicon.ico",
   themeConfig: {
     internetProfiles,
     navbar: {
-      title: 'Yangshun',
-      links: [
-        { to: 'blog', label: 'Blog', position: 'left' },
-        { to: 'resume', label: 'Resume', position: 'left' },
-        { to: 'bucket-list', label: 'Bucket List', position: 'left' },
+      title: "Yangshun",
+      items: [
+        { to: "blog", label: "Blog", position: "left" },
+        { to: "resume", label: "Resume", position: "left" },
+        { to: "bucket-list", label: "Bucket List", position: "left" },
         {
-          href: 'https://github.com/yangshun',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/yangshun",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {},
         {
-          title: 'Professional',
+          title: "Professional",
           items: [
             internetProfiles.github,
             internetProfiles.stackoverflow,
@@ -66,7 +66,7 @@ module.exports = {
           ],
         },
         {
-          title: 'Social',
+          title: "Social",
           items: [
             internetProfiles.medium,
             internetProfiles.twitter,
@@ -77,8 +77,18 @@ module.exports = {
       ],
     },
     gtag: {
-      trackingID: 'UA-44622716-1',
+      trackingID: "UA-44622716-1",
     },
   },
-  presets: ['@docusaurus/preset-classic'],
+  presets: [
+    [
+      "@docusaurus/preset-classic",
+      {
+        docs: false,
+        theme: {
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+      },
+    ],
+  ],
 };

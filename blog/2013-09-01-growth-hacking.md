@@ -1,9 +1,8 @@
 ---
 title: Growth Hacking
 author: Yangshun Tay
-authorURL: https://github.com/yangshun
-authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-authorTwitter: yangshunz
+author_url: https://github.com/yangshun
+author_image_url: https://github.com/yangshun.png
 ---
 
 The topic of growth hacking has always intrigued me. Coming from an engineering background, I was never exposed to the non-technical aspects of a product. Although my NOC stints allowed me to work with the marketing and business development team, I wasn't involved in the decision-making process and marketing strategies.<!--truncate-->

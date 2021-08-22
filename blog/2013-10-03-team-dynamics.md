@@ -1,9 +1,8 @@
 ---
 title: Team Dynamics
 author: Yangshun Tay
-authorURL: https://github.com/yangshun
-authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-authorTwitter: yangshunz
+author_url: https://github.com/yangshun
+author_image_url: https://github.com/yangshun.png
 ---
 
 Team dynamics has always been a sticky issue to deal with. One of my key goals of joining CS3216 was to learn how to work with talented people from different disciplines.<!--truncate--> I enjoy working with my Assignment 1 group (Chun Mun, Viet Tien and Soedar) a lot. There's nobody playing the clear role of the leader because we are all leaders in our own areas of expertise. We make important decisions together and leave each other to work on the fine details. Because of our pretty diverse skillsets, when someone faces difficulty in their work, another will be able to step in to help resolve the issue. It is awesome. (:

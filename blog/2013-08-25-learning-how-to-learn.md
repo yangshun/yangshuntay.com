@@ -1,9 +1,8 @@
 ---
 title: Learning How to Learn
 author: Yangshun Tay
-authorURL: https://github.com/yangshun
-authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-authorTwitter: yangshunz
+author_url: https://github.com/yangshun
+author_image_url: https://github.com/yangshun.png
 ---
 
 My team has decided to use [Sails.js](http://sailsjs.org/#!) for the first assignment. It is an MVC framework for Node.js that is pretty much like rails. It's time to learn a new framework/library again! And sadly, because it's a new framework, there isn't much documentation and tutorials for me to refer to. I learn best through doing and experimenting. As the saying goes: _I see and I understand, I do and I remember_. Getting my hands dirty and trying things out for myself is an important phase of learning something new.<!--truncate-->

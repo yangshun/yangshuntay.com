@@ -1,9 +1,8 @@
 ---
 title: What I hope to learn in CS3216
 author: Yangshun Tay
-authorURL: https://github.com/yangshun
-authorImageURL: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-authorTwitter: yangshunz
+author_url: https://github.com/yangshun
+author_image_url: https://github.com/yangshun.png
 ---
 
 Having taken CS3217 before, I understand that CS3216 is unlike most CS modules, the learning curve is extremely steep and students are expected to turn from zero to hero in a span of few weeks. CS3217 caught my off guard; I literally spent every single day coding and learning Objective-C, severely losing sleep and hair.
