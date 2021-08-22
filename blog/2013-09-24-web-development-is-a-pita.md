@@ -3,6 +3,7 @@ title: Web Development is a PITA
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png
+tags: [cs3216]
 ---
 
 This is a rage post because of all the frustration I faced while doing Assignment 3 and mobile web in general.<!--truncate--> Actually, I quite enjoy web development because HTML and CSS is intuitive and extensible. But what I severely dislike about web development is the fragmentation of browsers, viewport sizes and devices! This is especially a PITA (pain in the arse) when it comes to mobile web development. There are like 3456723139738 different dimensions of mobile device screens. It's certainly not fun ensuring that your mobile site looks good on every available mobile device. Have decided just to build one that works for iPhone 4S/5/5S/5C. Apple FTW. One can go crazy if one tries to support every Android device.

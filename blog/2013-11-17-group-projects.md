@@ -3,6 +3,7 @@ title: Group Projects
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png
+tags: [cs3216]
 ---
 
 The trouble with group projects:

@@ -3,6 +3,7 @@ title: More Thinking, Less Coding
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png
+tags: [cs3216]
 ---
 
 We are nearing the halfway mark of our final project but to be honest we haven't finalized on the game idea. We went on an excursion to the arcade and spent roughly 8 bucks each, trying out the games the arcade had to offer.<!--truncate-->

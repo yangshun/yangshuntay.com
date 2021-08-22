@@ -3,6 +3,7 @@ title: The Last Lectures
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png
+tags: [cs3216]
 ---
 
 I love attending last lectures for some weird reason. It is usually during the last lectures when the profs share their life experiences and wisdom; stuff that cannot be obtained from lecture notes or the internet. <!--truncate-->This week, I had the honour of attending two last lectures, the modules CS3216 and CS1010S by Prof Colin and Prof Ben respectively. The semester has almost come to a close and it can be summarized with two modules: Yes, CS3216 and CS1010S. I literally neglected all other modules this semester and only did their required work when the deadlines approached. Not really a trait of a good student, but who gives? I know my limits and I do what I like.
