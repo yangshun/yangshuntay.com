@@ -1,5 +1,6 @@
 ---
 title: Open Source
+slug: open-source
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png

@@ -1,5 +1,6 @@
 ---
 title: The Calm Before the Storm
+slug: the-calm-before-the-storm
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png

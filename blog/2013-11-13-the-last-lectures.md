@@ -1,5 +1,6 @@
 ---
 title: The Last Lectures
+slug: the-last-lectures
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png

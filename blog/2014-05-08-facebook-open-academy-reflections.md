@@ -1,5 +1,6 @@
 ---
 title: Facebook Open Academy Reflections
+slug: facebook-open-academy-reflections
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png

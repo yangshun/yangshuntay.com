@@ -1,5 +1,6 @@
 ---
 title: How to do Projects
+slug: how-to-do-projects
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png

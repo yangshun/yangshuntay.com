@@ -1,5 +1,6 @@
 ---
 title: Group Projects
+slug: group-projects
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png

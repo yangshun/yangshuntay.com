@@ -1,5 +1,6 @@
 ---
 title: What I Want to Build in CS3216
+slug: what-i-want-to-build-in-cs3216
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png

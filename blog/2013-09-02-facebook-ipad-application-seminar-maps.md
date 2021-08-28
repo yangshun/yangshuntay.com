@@ -1,5 +1,6 @@
 ---
 title: Facebook/iPad Application Seminar - Maps
+slug: facebook-ipad-application-seminar-maps
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png

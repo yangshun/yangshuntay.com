@@ -1,5 +1,6 @@
 ---
 title: Mobile Assignment Reflections
+slug: mobile-assignment-reflections
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png

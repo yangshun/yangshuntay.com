@@ -1,5 +1,6 @@
 ---
 title: Growth Hacking
+slug: growth-hacking
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png

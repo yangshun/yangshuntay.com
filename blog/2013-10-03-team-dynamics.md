@@ -1,5 +1,6 @@
 ---
 title: Team Dynamics
+slug: team-dynamics
 author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png
