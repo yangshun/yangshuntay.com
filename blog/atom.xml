@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yangshun.im/blog</id>
+    <title>Yangshun Tay Blog</title>
+    <updated>2021-08-28T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://yangshun.im/blog"/>
+    <subtitle>Yangshun Tay Blog</subtitle>
+    <icon>https://yangshun.im/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Front End Career Questions]]></title>
+        <id>front-end-career-questions</id>
+        <link href="https://yangshun.im/blog/front-end-career-questions"/>
+        <updated>2021-08-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recently a junior front end engineer at a startup in Singapore reached out to me to ask me how front end development as a career.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Facebook Career Q&A]]></title>
+        <id>facebook-career-questions-and-answers</id>
+        <link href="https://yangshun.im/blog/facebook-career-questions-and-answers"/>
+        <updated>2021-08-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A number of students from the Project Intern group have been asking me questions related to Facebook internships, working at Facebook, and my personal journey. I decided to write down my answers in the form of a blog post so they can be shared more broadly and I can point people to this blog post in future whenever I get asked similar questions.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Importance of Communicating Effectively as Engineers]]></title>
+        <id>importance-of-communicating-effectively-as-engineers</id>
+        <link href="https://yangshun.im/blog/importance-of-communicating-effectively-as-engineers"/>
+        <updated>2021-04-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[_tl;dr: communicating effectively broadly and frequently helps you grow as an engineer and we have many tools built to do that!_]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are Front End Development Skills Enough for a Career?]]></title>
+        <id>are-front-end-development-skills-enough-for-a-career</id>
+        <link href="https://yangshun.im/blog/are-front-end-development-skills-enough-for-a-career"/>
+        <updated>2019-11-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I attended NUS Hackers' Friday Hacks recently where I met an undergrad freshmen who asked me a question regarding Front End as a career.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Facebook Open Academy Reflections]]></title>
+        <id>facebook-open-academy-reflections</id>
+        <link href="https://yangshun.im/blog/facebook-open-academy-reflections"/>
+        <updated>2014-05-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Together with Soedar, Scott (Kaizhi) Meng, Minqi Chen, Joel Low, Camillus Cai, we took part in Facebook Open Academy under the module CP3101A Open Source Project. In my opinion, CP3101A was definitely one of the most memorable modules this semester.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reflections of a CS1010S Head Tutor]]></title>
+        <id>reflections-of-a-cs1010s-head-tutor</id>
+        <link href="https://yangshun.im/blog/reflections-of-a-cs1010s-head-tutor"/>
+        <updated>2014-02-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From Aug 2013 to Dec 2013, I was selected by Asst Prof Ben Leong of NUS to serve as the Head Tutor for CS1010S Programming Methodology, an introductory programming course in NUS. It was a new NUS course that aims to impart fundamental concepts of problem solving by computing and programming using the Python language.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CS3216 Post Mortem]]></title>
+        <id>cs3216-post-mortem</id>
+        <link href="https://yangshun.im/blog/cs3216-post-mortem"/>
+        <updated>2013-12-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I survived CS3216 and it wasn't an easy feat in my opinion, given that I spent almost half my time on CS1010S this semester, the other half went to CS3216. Would like to give a quick run-down of my experience in CS3216, something like a review. Oh yes by the way, the current module review site sucks, someone build a better one please.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open Source]]></title>
+        <id>open-source</id>
+        <link href="https://yangshun.im/blog/open-source"/>
+        <updated>2013-11-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Open source projects have always fascinated me. I personally find it tough to work effectively in small teams, working with a large community in a public, collaborative manner will makes things unimaginably tougher. However, with good management techniques, effective communication and efficient workflows, the open source community have succeeded and produced excellent technologies such as Ubuntu, Android, Rails, Django, Bootstrap, AngularJS, just to name a few. These projects have had great impact on technology and are widely used by developers in the course of their work. Android, with Google's backing, has become the world most popular smartphone OS. I personally use many open source JavaScript projects such as AngularJS and Node.js for my own development.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Group Projects]]></title>
+        <id>group-projects</id>
+        <link href="https://yangshun.im/blog/group-projects"/>
+        <updated>2013-11-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The trouble with group projects:]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Last Lectures]]></title>
+        <id>the-last-lectures</id>
+        <link href="https://yangshun.im/blog/the-last-lectures"/>
+        <updated>2013-11-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I love attending last lectures for some weird reason. It is usually during the last lectures when the profs share their life experiences and wisdom; stuff that cannot be obtained from lecture notes or the internet. This week, I had the honor of attending two last lectures, the modules CS3216 and CS1010S by Dr Colin Tan and Prof Ben Leong respectively. The semester has almost come to a close and it can be summarized with two modules - Yes, you guessed it, CS3216 and CS1010S. I literally neglected all other modules this semester and only did the bare minimum required for the looming deadlines. Not really a trait of a good student, but who gives? I know my limits and I do what I like.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to do Projects]]></title>
+        <id>how-to-do-projects</id>
+        <link href="https://yangshun.im/blog/how-to-do-projects"/>
+        <updated>2013-11-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1. Work with the smart]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mobile Assignment Reflections]]></title>
+        <id>mobile-assignment-reflections</id>
+        <link href="https://yangshun.im/blog/mobile-assignment-reflections"/>
+        <updated>2013-10-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This assignment made me worry a lot because of the little time we spent coding and testing it. I still stand by my previous rants that mobile web development is a PITA, there are simply too many nitty gritty things to consider and pitfalls to avoid when developing for mobile.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More Thinking, Less Coding]]></title>
+        <id>more-thinking-less-coding</id>
+        <link href="https://yangshun.im/blog/more-thinking-less-coding"/>
+        <updated>2013-10-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are nearing the halfway mark of our final project but to be honest we haven't finalized on the game idea. We went on an excursion to the arcade and spent roughly 8 bucks each, trying out the games the arcade had to offer.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Team Dynamics]]></title>
+        <id>team-dynamics</id>
+        <link href="https://yangshun.im/blog/team-dynamics"/>
+        <updated>2013-10-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Team dynamics has always been a sticky issue to deal with. One of my key goals of joining CS3216 was to learn how to work with talented people from different disciplines. I enjoy working with my Assignment 1 group (Chun Mun, Viet Tien and Soedarsono) a lot. There's nobody playing the clear role of the leader because we are all leaders in our own areas of expertise. We make important decisions together and leave each other to work on the fine details. Because of our pretty diverse skillsets, when someone faces difficulty in their work, another will be able to step in to help resolve the issue. It is awesome. (:]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web Development is a PITA]]></title>
+        <id>web-development-is-a-pita</id>
+        <link href="https://yangshun.im/blog/web-development-is-a-pita"/>
+        <updated>2013-09-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a rage post because of all the frustration I faced while doing Assignment 3 and mobile web in general.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Calm Before the Storm]]></title>
+        <id>the-calm-before-the-storm</id>
+        <link href="https://yangshun.im/blog/the-calm-before-the-storm"/>
+        <updated>2013-09-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Last assignment for CS3216! The past 4 weeks have been hell for me. My senior, Jonathan Low, ex-CVWO president and guest speaker for the past few batches of CS3216 and CS3217, after hearing that I'll be head tutoring CS1010S and CS3216 on top of the standard academic workload in this sem, gave me a really encouraging word of advice: "You will die man."]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Facebook/iPad Application Seminar - Maps]]></title>
+        <id>facebook-ipad-application-seminar-maps</id>
+        <link href="https://yangshun.im/blog/facebook-ipad-application-seminar-maps"/>
+        <updated>2013-09-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ahh the Apple Maps app. What an uproar it caused when it was first released. Like many iPhone users, I don't use the Apple Maps app; I use the Google Maps app instead, simply because it syncs with the location queries that I make in my MacBook's Chrome browser. The Google Maps app has amazing user experience compared to Apple's version. Makes me wonder if Apple even tested their app with real users before putting it in every iPhone that runs iOS 6 and above.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Growth Hacking]]></title>
+        <id>growth-hacking</id>
+        <link href="https://yangshun.im/blog/growth-hacking"/>
+        <updated>2013-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The topic of growth hacking has always intrigued me. Coming from an engineering background, I was never exposed to the non-technical aspects of a product. Although my NOC stints allowed me to work with the marketing and business development team, I wasn't involved in the decision-making process and marketing strategies.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learning How to Learn]]></title>
+        <id>learning-how-to-learn</id>
+        <link href="https://yangshun.im/blog/learning-how-to-learn"/>
+        <updated>2013-08-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My team has decided to use Sails.js for the first assignment. It is an MVC framework for Node.js that is pretty much like rails. It's time to learn a new framework/library again! And sadly, because it's a new framework, there isn't much documentation and tutorials for me to refer to. I learn best through doing and experimenting. As the saying goes: I see and I understand, I do and I remember. Getting my hands dirty and trying things out for myself is an important phase of learning something new.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What I Want to Build in CS3216]]></title>
+        <id>what-i-want-to-build-in-cs3216</id>
+        <link href="https://yangshun.im/blog/what-i-want-to-build-in-cs3216"/>
+        <updated>2013-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA["What exactly do I want to build in CS3216?". This question has been bugging me for the entire summer and I still do not have an answer to this question. Initially, I wanted to build a multiplayer game that uses WebRTC because it has been really hot after Google demonstrated prototypes of their WebRTC games during Google I/O, such as Chrome Maze, Cube Slam and Racer. Most people will shy away from building games simply because it's tough to produce the assets for the game. However, with a background in design, and because I have experience in building an iPad game Tenza Yakitori as the final project of CS3217, I felt that I could build a game for a project and it will still turn out decent. Also, I was getting bored of building CRUD (Create, Read, Update, Delete) apps; game logic was definitely more fun to code.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What I hope to learn in CS3216]]></title>
+        <id>what-i-hope-to-learn-in-cs3216</id>
+        <link href="https://yangshun.im/blog/what-i-hope-to-learn-in-cs3216"/>
+        <updated>2013-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Having taken CS3217 before, I understand that CS3216 is unlike most CS modules, the learning curve is extremely steep and students are expected to turn from zero to hero in a span of few weeks. CS3217 caught me off guard; I literally spent every single day coding and learning Objective-C, severely losing sleep, hair and my sanity.]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+</feed>
