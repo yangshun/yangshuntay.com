@@ -21,8 +21,8 @@ function intersperse(items, separator) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
-  const { internetProfiles } = siteConfig.themeConfig;
+  const {siteConfig = {}} = context;
+  const {internetProfiles} = siteConfig.themeConfig;
   return (
     <Layout title={`${siteConfig.title} | Personal Homepage`}>
       <header className={classnames('hero', styles.header)}>
@@ -42,7 +42,7 @@ function Home() {
           </p>
           <div className={styles.internetProfiles}>
             {intersperse(
-              Object.keys(internetProfiles).map(key => {
+              Object.keys(internetProfiles).map((key) => {
                 const item = internetProfiles[key];
                 return (
                   <a href={item.href} rel="noreferrer noopener" target="_blank">
