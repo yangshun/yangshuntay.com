@@ -24,7 +24,7 @@ function Home() {
   const {siteConfig = {}} = context;
   const {internetProfiles} = siteConfig.themeConfig;
   return (
-    <Layout title={`${siteConfig.title} | Personal Homepage`}>
+    <Layout title="Front End Engineer">
       <header className={classnames('hero', styles.header)}>
         <div className="container">
           <img
