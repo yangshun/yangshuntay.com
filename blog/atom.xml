@@ -6,7 +6,6 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yangshun.im/blog"/>
     <subtitle>Yangshun Tay Blog</subtitle>
-    <icon>https://yangshun.im/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Front End Career Questions]]></title>
         <id>front-end-career-questions</id>
