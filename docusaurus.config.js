@@ -37,7 +37,7 @@ module.exports = {
   tagline: 'Front End Engineer',
   url: 'https://yangshun.im',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  trailingSlash: true,
   organizationName: 'yangshun',
   projectName: 'yangshun.im',
   themeConfig: {
