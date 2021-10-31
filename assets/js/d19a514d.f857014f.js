@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyangshun_im=self.webpackChunkyangshun_im||[]).push([[724],{9372:a=>{a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/meta","name":"meta","count":1,"permalink":"/blog/tags/meta"}')}}]);
