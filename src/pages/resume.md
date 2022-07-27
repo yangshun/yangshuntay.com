@@ -14,7 +14,7 @@ hide_table_of_contents: true
 
 ## Professional Experience
 
-### Front End Engineer, Facebook
+### Front End Engineer, Meta (prev. Facebook)
 
 _Oct 2019 - Present | Singapore_
 
@@ -22,7 +22,7 @@ Engineering lead in the Commerce Engineering Stores team, scaled Facebook’s e-
 
 _Nov 2017 - Sep 2019 | Menlo Park, CA_
 
-Worked on Worked on an internal JavaScript state management framework that supports Ads Manager in Ads Front-End Infra and Docusaurus.
+Worked on an internal JavaScript state management framework that supports Ads Manager in Ads Front-End Infra and Docusaurus.
 
 ### Front End Engineer, Grab
 

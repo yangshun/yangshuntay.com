@@ -35,11 +35,11 @@ const internetProfiles = {
 module.exports = {
   title: 'Yangshun Tay',
   tagline: 'Front End Engineer',
-  url: 'https://yangshun.im',
+  url: 'https://yangshuntay.com',
   baseUrl: '/',
   trailingSlash: true,
   organizationName: 'yangshun',
-  projectName: 'yangshun.im',
+  projectName: 'yangshuntay.com',
   themeConfig: {
     internetProfiles,
     navbar: {
@@ -78,9 +78,6 @@ module.exports = {
         {},
       ],
     },
-    gtag: {
-      trackingID: 'UA-44622716-1',
-    },
   },
   presets: [
     [
@@ -90,6 +87,16 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+      },
+    ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        id: 'universal-analytics',
+        trackingID: 'UA-44622716-1',
+        anonymizeIP: true,
       },
     ],
   ],
