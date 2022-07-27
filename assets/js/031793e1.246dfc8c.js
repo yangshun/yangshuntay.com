@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkyangshun_im=self.webpackChunkyangshun_im||[]).push([[1633],{2511:a=>{a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/facebook","name":"facebook","count":3,"permalink":"/blog/tags/facebook"}')}}]);

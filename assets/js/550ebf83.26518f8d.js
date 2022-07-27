@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyangshuntay_com=self.webpackChunkyangshuntay_com||[]).push([[6015],{4372:a=>{a.exports=JSON.parse('{"permalink":"/blog/tags/cs-3216","page":1,"postsPerPage":10,"totalPages":2,"totalCount":14,"nextPage":"/blog/tags/cs-3216/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

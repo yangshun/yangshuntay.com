@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyangshuntay_com=self.webpackChunkyangshuntay_com||[]).push([[8447],{3:s=>{s.exports=JSON.parse('{"label":"cs1010s","permalink":"/blog/tags/cs-1010-s","allTagsPath":"/blog/tags","count":1}')}}]);

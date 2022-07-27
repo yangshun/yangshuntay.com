@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkyangshun_im=self.webpackChunkyangshun_im||[]).push([[3922],{1826:a=>{a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/career","name":"career","count":4,"permalink":"/blog/tags/career"}')}}]);
