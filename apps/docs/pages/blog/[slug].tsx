@@ -1,40 +1,49 @@
-import {loadBlogPostBySlug, loadBlogPosts} from 'contentsaurus';
+import {
+  ContentsaurusBlogPost,
+  loadBlogPost,
+  loadBlogPosts,
+} from '@contentsaurus/blog';
 import Link from 'next/link';
+import {GetStaticProps, InferGetStaticPropsType} from 'next/types';
 
-type Params = {
-  params: {
-    slug: string;
-  };
-};
+type Params = Readonly<{
+  slug: string;
+}>;
 
-export async function getStaticProps({params}: Params) {
+export const getStaticProps: GetStaticProps<{
+  post: ContentsaurusBlogPost;
+}> = async ({params}) => {
   const [post, posts] = await Promise.all([
-    loadBlogPostBySlug('blog', params.slug),
-    loadBlogPosts('blog'),
+    loadBlogPost((params as Params).slug),
+    loadBlogPosts(),
   ]);
 
   return {props: {posts, post}};
-}
+};
 
 export async function getStaticPaths() {
-  const posts = loadBlogPosts('blog');
+  const posts = loadBlogPosts();
 
   return {
     paths: (await posts).map((post) => ({
       params: {
-        slug: post.slug,
+        slug: post.frontmatter.slug,
       },
     })),
     fallback: false, // can also be true or 'blocking'
   };
 }
 
-export default function Post({post, posts}) {
+export default function Post({
+  post,
+  posts,
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <div>
-      <Link href="/blog">Back</Link>
-      <h1>{post.title}</h1>
-      <p>{post.author}</p>
+      <Link href="/">Back</Link>
+      <h1>{post.frontmatter.title}</h1>
+      <p>{post.frontmatter.author}</p>
+      <hr />
       <p>{post.content}</p>
     </div>
   );

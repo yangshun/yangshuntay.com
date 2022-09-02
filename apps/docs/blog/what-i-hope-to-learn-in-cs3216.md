@@ -9,8 +9,6 @@ tags: [cs3216]
 
 Having taken CS3217 before, I understand that CS3216 is unlike most CS modules, the learning curve is extremely steep and students are expected to turn from zero to hero in a span of few weeks. CS3217 caught me off guard; I literally spent every single day coding and learning Objective-C, severely losing sleep, hair and my sanity.
 
-<!--truncate-->
-
 I know many CS3216 alumni and heard their experiences about the module and the hard times they have gone through. Why do people put themselves through so much suffering and hardship when there are easier alternatives around? It is because stretching myself to our limits is the fastest way to level up. We all are equal in the sense that everybody has an equal amount of a limited resource - time. Hence we have to optimize our time and spend it in a way that we enjoy and also gain the most out of. For me, I believe that coding is the right field for me where it is the sweet intersection of something I enjoy doing, can make a living out of, and am good at.
 
 #### Wearing Multiple Hats

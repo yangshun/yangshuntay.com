@@ -15,8 +15,6 @@ hide_table_of_contents: true
 
 A number of the folks I referred have completed their interviews and are in the midst of deciding which company's offer to accept for their internship/full-time roles. Hence I figured it might be a good time to write about my experience at Meta (previously Facebook) so far as it could be helpful in helping some of them make their first important career decision!
 
-<!--truncate-->
-
 ## Products
 
 Meta is a huge company and has teams working on all sorts of products. For big tech companies, common products include ads networks, chat, enterprise offerings, video watching, payments, hardware products, industry-leading AI tools, internal tools, etc. the other big tech companies Microsoft, Amazon, Apple and ByteDance have products in some of these areas as well. For many big companies, they are large enough that they build their our own infra and internal tools for most technologies they use because most existing technologies on the market can't meet their scale. Hence, not only will you get the chance to work on consumer products, you might also get to work on some of the lower level infrastructure work that is used by your fellow software engineers - our internal database systems, our internal Docker, our open source projects like React, React Native, GraphQL, PyTorch, Docusaurus, etc.
