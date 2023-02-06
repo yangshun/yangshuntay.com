@@ -7,6 +7,7 @@ author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png
 tags: [front end, career]
 hide_table_of_contents: true
+date: 2021-08-28
 ---
 
 Recently a junior front end engineer at a startup in Singapore reached out to me to ask me how front end development as a career.

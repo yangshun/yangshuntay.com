@@ -5,6 +5,7 @@ author: Yangshun Tay
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png
 tags: [career, front end]
+date: 2019-11-03
 ---
 
 I attended NUS Hackers' Friday Hacks recently where I met an undergrad freshmen who asked me a question regarding Front End as a career.

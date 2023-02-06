@@ -5,6 +5,7 @@ const config = {
     [
       '@contentsaurus/blog',
       {
+        path: './src/blog',
         remarkPlugins: [remarkGfm],
       },
     ],

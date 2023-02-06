@@ -6,9 +6,8 @@ author_title: Engineering Lead at Facebook
 author_url: https://github.com/yangshun
 author_image_url: https://github.com/yangshun.png
 tags: [career, communication]
+date: 2021-04-12
 ---
-
-import BadCommunicationURL from '@site/static/img/bad-communication.jpg';
 
 **_tl;dr: communicating effectively broadly and frequently helps you grow as an engineer and we have many tools built to do that!_**
 
@@ -19,7 +18,7 @@ I love to code. Personally, I would love to shut off all communication channels 
 <div class="text--center">
 
 <figure>
-    <img alt="You cannot have bad communication if you never communicate" src={BadCommunicationURL} />
+    <img alt="You cannot have bad communication if you never communicate" src="/img/bad-communication.jpg" />
     <figcaption>Just like you can't cause any bugs if you don't write any code.</figcaption>
 </figure>
 
