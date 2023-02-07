@@ -8,6 +8,8 @@ import Link from 'next/link';
 import {GetStaticProps, InferGetStaticPropsType} from 'next/types';
 
 import {useMemo} from 'react';
+import Timestamp from '~/components/Timestamp';
+import Head from 'next/head';
 
 type Params = Readonly<{
   slug: string;
@@ -48,23 +50,22 @@ export default function Post({
       <div className="flex flex-col space-y-4">
         <div>
           <Link
-            className="text-orange-600 hover:underline hover:text-orange-700"
+            className="text-sm text-orange-600 hover:underline hover:text-orange-700"
             href="/">
             Back to all posts
           </Link>
         </div>
         <article>
-          <h1 className="font-semibold text-xl md:text-3xl">
+          <Head>
+            <title>{post.frontmatter.title} | Yangshun Tay</title>
+          </Head>
+          <h1 className="font-bold text-xl md:text-3xl">
             {post.frontmatter.title}
           </h1>
           <p className="text-slate-500 mt-4 text-sm flex gap-x-2">
-            {post.frontmatter.author && <span>{post.frontmatter.author}</span>}
             {post.frontmatter.date && (
               <>
-                |
-                <span>
-                  {new Date(post.frontmatter.date).toLocaleDateString('en-US')}
-                </span>
+                <Timestamp unixTimestamp={post.frontmatter.date} />
               </>
             )}
           </p>
