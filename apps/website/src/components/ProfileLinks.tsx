@@ -27,18 +27,22 @@ const internetProfiles = {
   },
 };
 
-function intersperse(items: Array<ReactElement>, separator: ReactElement) {
+function intersperse(items: ReadonlyArray<ReactElement>) {
   if (items.length < 1) {
     return items;
   }
 
   const arr = [items[0]];
   for (let i = 1; i < items.length; i++) {
-    arr.push(separator);
+    arr.push(<PipeSeparator key={i} />);
     arr.push(items[i]);
   }
 
   return arr;
+}
+
+function PipeSeparator() {
+  return <span>|</span>;
 }
 
 export default function ProfileLinks() {
@@ -55,7 +59,6 @@ export default function ProfileLinks() {
             {label}
           </a>
         )),
-        <span>|</span>,
       )}
     </div>
   );
