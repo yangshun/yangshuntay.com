@@ -1,13 +1,17 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-import {loadBlogPosts} from '@contentsaurus/blog';
 import {InferGetStaticPropsType} from 'next/types';
 import ProfileLinks from '~/components/ProfileLinks';
 import Timestamp from '~/components/Timestamp';
+import {compareDesc} from 'date-fns';
+import {allPosts} from 'contentlayer/generated';
 
 export async function getStaticProps() {
-  const posts = await loadBlogPosts();
+  const posts = allPosts.sort((a, b) =>
+    compareDesc(new Date(a.date), new Date(b.date)),
+  );
+
   return {props: {posts}};
 }
 
@@ -24,22 +28,13 @@ export default function BlogIndexPage({
       <hr className="my-4" />
       <ul className="flex flex-col gap-y-6">
         {posts.map((post) => (
-          <li key={post.frontmatter.slug}>
-            <Link
-              href={{
-                pathname: '/blog/[slug]',
-                query: {
-                  slug: post.frontmatter.slug,
-                },
-              }}
-              className="hover:underline">
-              <h2 className="font-medium text-base md:text-xl">
-                {post.frontmatter.title}
-              </h2>
+          <li key={post.url}>
+            <Link href={post.url} className="hover:underline">
+              <h2 className="font-medium text-base md:text-xl">{post.title}</h2>
             </Link>
-            {post.frontmatter.date && (
+            {post.date && (
               <p className="text-slate-500 mt-1 text-sm">
-                <Timestamp unixTimestamp={post.frontmatter.date} />
+                <Timestamp date={post.date} />
               </p>
             )}
           </li>

@@ -9,23 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@contentsaurus/blog": "*",
+    "@mdx-js/mdx": "^2.2.1",
+    "contentlayer": "^0.3.1",
+    "date-fns": "^2.29.3",
     "mdx-bundler": "^9.2.1",
-    "next": "13.3.0",
+    "next": "13.2.0",
+    "next-contentlayer": "^0.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "tailwindcss": "^3.2.4",
     "ui": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "@mdx-js/mdx": "^2.2.1",
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
     "eslint": "7.32.0",
     "eslint-config-custom": "*",
     "postcss": "^8.4.21",
     "remark-gfm": "^3.0.1",
-    "tailwindcss": "^3.2.4",
     "tsconfig": "*",
     "typescript": "^4.5.3"
   }

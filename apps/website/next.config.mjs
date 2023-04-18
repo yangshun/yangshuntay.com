@@ -1,14 +1,8 @@
+import {withContentlayer} from 'next-contentlayer';
+
 const config = {
-  transpilePackages: ['ui', '@contentsaurus/blog'],
+  transpilePackages: ['ui'],
   reactStrictMode: true,
-  webpack: (config, options) => {
-    // TODO: Shift into @contentsaurus/next.
-    config.module.rules.push({
-      test: /contentsaurus\.config/,
-      use: [options.defaultLoaders.babel],
-    });
-    return config;
-  },
 };
 
-export default config;
+export default withContentlayer(config);

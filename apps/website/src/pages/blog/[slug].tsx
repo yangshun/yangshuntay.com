@@ -1,8 +1,3 @@
-import {
-  ContentsaurusBlogPost,
-  loadBlogPostBySlug,
-  loadBlogPosts,
-} from '@contentsaurus/blog';
 import {getMDXComponent} from 'mdx-bundler/client';
 import Link from 'next/link';
 import {GetStaticProps, InferGetStaticPropsType} from 'next/types';
@@ -10,39 +5,35 @@ import {GetStaticProps, InferGetStaticPropsType} from 'next/types';
 import {useMemo} from 'react';
 import Timestamp from '~/components/Timestamp';
 import Head from 'next/head';
+import {Post, allPosts} from 'contentlayer/generated';
 
 type Params = Readonly<{
   slug: string;
 }>;
 
 export const getStaticProps: GetStaticProps<{
-  post: ContentsaurusBlogPost;
+  post: Post;
+  posts: ReadonlyArray<Post>;
 }> = async ({params}) => {
-  const [post, posts] = await Promise.all([
-    loadBlogPostBySlug((params as Params).slug),
-    loadBlogPosts(),
-  ]);
+  const posts = allPosts;
+  const post = allPosts.find((post) => post.slug === params?.slug)!;
 
   return {props: {posts, post}};
 };
 
 export async function getStaticPaths() {
-  const posts = loadBlogPosts();
+  const posts = allPosts;
 
   return {
-    paths: (await posts).map((post) => ({
-      params: {
-        slug: post.frontmatter.slug,
-      },
-    })),
+    paths: posts.map((post) => post.url),
     fallback: false, // can also be true or 'blocking'
   };
 }
 
-export default function Post({
+export default function PostPage({
   post,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const code = post.content;
+  const code = post.body.code;
   const Contents = useMemo(() => getMDXComponent(code), [code]);
 
   return (
@@ -57,15 +48,13 @@ export default function Post({
         </div>
         <article>
           <Head>
-            <title>{post.frontmatter.title} | Yangshun Tay</title>
+            <title>{post.title} | Yangshun Tay</title>
           </Head>
-          <h1 className="font-bold text-xl md:text-3xl">
-            {post.frontmatter.title}
-          </h1>
+          <h1 className="font-bold text-xl md:text-3xl">{post.title}</h1>
           <p className="text-slate-500 mt-4 text-sm flex gap-x-2">
-            {post.frontmatter.date && (
+            {post.date && (
               <>
-                <Timestamp unixTimestamp={post.frontmatter.date} />
+                <Timestamp date={post.date} />
               </>
             )}
           </p>
