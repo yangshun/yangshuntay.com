@@ -6,10 +6,9 @@ import {useMemo} from 'react';
 import Timestamp from '~/components/Timestamp';
 import Head from 'next/head';
 import {Post, allPosts} from 'contentlayer/generated';
-
-type Params = Readonly<{
-  slug: string;
-}>;
+import clsx from 'clsx';
+import Header from '~/components/Header';
+import Container from '~/components/Container';
 
 export const getStaticProps: GetStaticProps<{
   post: Post;
@@ -37,33 +36,40 @@ export default function PostPage({
   const Contents = useMemo(() => getMDXComponent(code), [code]);
 
   return (
-    <div className="max-w-prose mx-auto py-16 px-4">
-      <div className="flex flex-col space-y-4">
-        <div>
+    <div className="max-w-prose mx-auto flex flex-col gap-y-4">
+      <Header
+        rightContents={
           <Link
-            className="text-sm text-orange-600 hover:underline hover:text-orange-700"
-            href="/">
+            className="text-sm text-zinc-500 hover:underline hover:text-zinc-600 transition-colors"
+            href="/blog">
             Back to all posts
           </Link>
+        }
+      />
+      <article>
+        <Head>
+          <title>{post.title} | Yangshun Tay</title>
+        </Head>
+        <h1 className="font-semibold tracking-tight text-3xl">{post.title}</h1>
+        <p className="text-zinc-500 mt-4 flex gap-x-2 text-sm">
+          {post.date && (
+            <>
+              <Timestamp date={post.date} />
+            </>
+          )}
+        </p>
+        <hr className="my-4" />
+        <div
+          className={clsx(
+            'prose prose-zinc',
+            'prose-h1:font-semibold prose-h1:tracking-tight',
+            'prose-h2:font-semibold prose-h2:tracking-tight',
+            'prose-h3:font-semibold prose-h3:tracking-tight',
+            'prose-h4:font-semibold prose-h4:tracking-tight',
+          )}>
+          <Contents />
         </div>
-        <article>
-          <Head>
-            <title>{post.title} | Yangshun Tay</title>
-          </Head>
-          <h1 className="font-bold text-xl md:text-3xl">{post.title}</h1>
-          <p className="text-slate-500 mt-4 text-sm flex gap-x-2">
-            {post.date && (
-              <>
-                <Timestamp date={post.date} />
-              </>
-            )}
-          </p>
-          <hr className="my-4" />
-          <div className="prose prose-slate">
-            <Contents />
-          </div>
-        </article>
-      </div>
+      </article>
     </div>
   );
 }

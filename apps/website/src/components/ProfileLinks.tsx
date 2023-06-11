@@ -1,65 +1,53 @@
-import {ReactElement} from 'react';
+import {
+  BsGithub,
+  BsLinkedin,
+  BsTwitter,
+  BsMedium,
+  BsStackOverflow,
+} from 'react-icons/bs';
 
 const internetProfiles = {
   github: {
     label: 'GitHub',
+    icon: BsGithub,
     href: 'https://github.com/yangshun',
-  },
-  stackoverflow: {
-    label: 'StackOverflow',
-    href: 'https://stackoverflow.com/u/1751946',
   },
   linkedin: {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/yangshun',
-  },
-  medium: {
-    label: 'Medium',
-    href: 'https://medium.com/@yangshun',
+    icon: BsLinkedin,
+    href: 'https://linkedin.com/in/yangshun',
   },
   twitter: {
     label: 'Twitter',
+    icon: BsTwitter,
     href: 'https://twitter.com/yangshunz',
   },
-  facebook: {
-    label: 'Facebook',
-    href: 'https://facebook.com/yangshun',
+  stackoverflow: {
+    label: 'StackOverflow',
+    icon: BsStackOverflow,
+    href: 'https://stackoverflow.com/u/1751946',
+  },
+  medium: {
+    label: 'Medium',
+    icon: BsMedium,
+    href: 'https://medium.com/@yangshun',
   },
 };
 
-function intersperse(items: ReadonlyArray<ReactElement>) {
-  if (items.length < 1) {
-    return items;
-  }
-
-  const arr = [items[0]];
-  for (let i = 1; i < items.length; i++) {
-    arr.push(<PipeSeparator key={i} />);
-    arr.push(items[i]);
-  }
-
-  return arr;
-}
-
-function PipeSeparator() {
-  return <span>|</span>;
-}
-
 export default function ProfileLinks() {
   return (
-    <div className="text-sm flex flex-wrap gap-x-2">
-      {intersperse(
-        Object.values(internetProfiles).map(({label, href}) => (
-          <a
-            className="text-orange-600 hover:text-orange-700 hover:underline"
-            href={href}
-            key={href}
-            rel="noreferrer noopener"
-            target="_blank">
-            {label}
-          </a>
-        )),
-      )}
+    <div className="text-sm flex flex-wrap gap-x-4">
+      {Object.values(internetProfiles).map(({label, icon: Icon, href}) => (
+        <a
+          aria-label={label}
+          className="text-zinc-400 hover:text-zinc-500 transition-colors"
+          href={href}
+          key={href}
+          rel="noreferrer noopener"
+          target="_blank">
+          <Icon className="h-5 w-5 " />
+        </a>
+      ))}
     </div>
   );
 }

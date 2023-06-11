@@ -6,7 +6,7 @@ export default function Timestamp({date: dateProp}: Props) {
   const date = new Date(dateProp);
   const intlFormat = new Intl.DateTimeFormat('en-US', {
     year: 'numeric',
-    month: 'long',
+    month: 'short',
     day: 'numeric',
   });
 
