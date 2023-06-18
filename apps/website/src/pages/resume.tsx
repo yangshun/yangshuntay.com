@@ -30,7 +30,7 @@ export default function HomePage({}: InferGetStaticPropsType<
       <Header rightContents={<NavLinks />} />
       <h1 className="sr-only">Yangshun Tay Resume</h1>
       <div className="flex flex-col gap-y-12">
-        <section className="grid gap-y-6">
+        <section className="grid gap-y-4">
           <h2 className="sr-only tracking-tight font-bold text-xl">About</h2>
           <p className="text-zinc-600 col-span-3">
             Front End Engineer proficient in the full front end stack.
@@ -38,7 +38,7 @@ export default function HomePage({}: InferGetStaticPropsType<
             and build tooling.
           </p>
         </section>
-        <section className="grid gap-y-6">
+        <section className="grid gap-y-4">
           <h2 className="tracking-tight font-bold text-xl">Experience</h2>
           <LunchboxGrid>
             <LunchboxItemJobPosition
@@ -89,74 +89,126 @@ export default function HomePage({}: InferGetStaticPropsType<
             />
           </LunchboxGrid>
         </section>
-        <section className="grid gap-y-6">
+        <section className="grid gap-y-4">
           <h2 className="tracking-tight font-bold text-xl">Projects</h2>
-          <LunchboxGrid>
-            <LunchboxItemLinkGitHubProject
-              className="group"
-              rows={2}
-              cols={4}
-              username="yangshun"
-              title="Tech Interview Handbook"
-              repoName="tech-interview-handbook"
-              description="All-in-one tech interview resource"
-              image={
-                <img
-                  alt="Tech Interview Handbook"
-                  className="object-contain group-hover:scale-105 transition"
-                  src="https://www.techinterviewhandbook.org/img/logo.svg"
-                />
-              }
-            />
-            <LunchboxItemLinkGitHubProject
-              className="group"
-              rows={4}
-              cols={4}
-              username="facebook"
-              repoName="docusaurus"
-              title="Docusaurus"
-              description="Easy to maintain open source documentation websites"
-              image={
-                <img
-                  alt="Docusaurus"
-                  className="object-contain -rotate-3 group-hover:rotate-6 transition"
-                  src="https://d33wubrfki0l68.cloudfront.net/ea8e37a6a30e9c260a8936d95c579af4a2dd3df7/6ee7e/img/docusaurus_keytar.svg"
-                />
-              }
-            />
-            <LunchboxItemLinkGitHubProject
-              className="group"
-              rows={2}
-              cols={4}
-              username="yangshun"
-              repoName="front-end-interview-handbook"
-              title="Front End Interview Handbook"
-              description="All-round front end interview preparation"
-              image={
-                <img
-                  alt="Front End Interview Handbook"
-                  className="object-contain group-hover:-translate-y-2 transition"
-                  src="https://www.frontendinterviewhandbook.com/img/logo.svg"
-                />
-              }
-            />
-            <LunchboxItemLinkGitHubProject
-              rows={1}
-              cols={4}
-              username="yangshun"
-              repoName="delete-github-forks"
-              description="Bulk delete your GitHub forks"
-            />
-            <LunchboxItemLinkGitHubProject
-              rows={1}
-              cols={4}
-              username="yangshun"
-              repoName="tree-node-cli"
-              description="List directory contents in Node.js"
-            />
-          </LunchboxGrid>
+          <div>
+            <ul className="list-disc pl-4">
+              {[
+                {
+                  year: 2023,
+                  title: 'keyboards.css',
+                  href: 'https://github.com/yangshun/keyboards.css',
+                  description: (
+                    <>
+                      Front end library-themed keyboards built using Tailwind
+                      CSS
+                    </>
+                  ),
+                },
+                {
+                  year: 2018,
+                  title: 'Docusaurus',
+                  href: 'https://docusaurus.io',
+                  description: (
+                    <>
+                      Lead maintainer for one of Meta&apos;s most popular open
+                      source project
+                    </>
+                  ),
+                },
+                {
+                  year: 2018,
+                  title: 'Docusaurus',
+                  href: 'https://docusaurus.io',
+                  description: (
+                    <>
+                      Lead maintainer for one of Meta&apos;s most popular open
+                      source project
+                    </>
+                  ),
+                },
+                {
+                  year: 2018,
+                  title: 'tree-node-cli',
+                  href: 'https://github.com/yangshun/tree-node-cli',
+                  description: (
+                    <>
+                      Node.js library to list the contents of directories in a
+                      tree-like format
+                    </>
+                  ),
+                },
+                {
+                  year: 2017,
+                  title: 'delete-github-forks',
+                  href: 'https://github.com/yangshun/delete-github-forks',
+                  description: (
+                    <>CLI to bulk delete GitHub forks in two simple steps</>
+                  ),
+                },
+                {
+                  year: 2017,
+                  title: 'Front End Interview Handbook',
+                  href: 'https://frontendinterviewhandbook.com',
+                  description: (
+                    <>Same as Tech Interview Handbook, but for front end</>
+                  ),
+                },
+                {
+                  year: 2017,
+                  title: 'Tech Interview Handbook',
+                  href: 'https://techinterviewhandbook.org',
+                  description: (
+                    <>
+                      Interview study notes turned into a website used by
+                      millions of developers over the world
+                    </>
+                  ),
+                },
+                {
+                  year: 2015,
+                  title: 'NUSWhispers',
+                  href: 'https://facebook.com/nuswhispers',
+                  description: (
+                    <>Started Singapore&apos;s top shitposting platform</>
+                  ),
+                },
+                {
+                  year: 2014,
+                  title: 'NUSMods',
+                  href: 'https://github.com/nusmodifications/nusmods',
+                  description: (
+                    <>
+                      Led development of the unofficial NUS timetable builder
+                      until it became official
+                    </>
+                  ),
+                },
+                {
+                  year: 2013,
+                  title: '#ifihadglass',
+                  href: 'https://yangshun.github.io/ifihadglass/',
+                  description: (
+                    <>Entry for the Google Glass Explorers program</>
+                  ),
+                },
+              ].map(({year, title, href, description}) => (
+                <li key={href}>
+                  <span className="text-zinc-400">{year}</span> —{' '}
+                  <Link
+                    className="text-zinc-500 hover:underline hover:text-zinc-600 font-medium"
+                    href={href}
+                    target="_blank"
+                    rel="noreferrer">
+                    {title}
+                  </Link>
+                  : <span className="text-zinc-500">{description}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </section>
-        <section className="grid gap-y-6">
+        <section className="grid gap-y-4">
           <h2 className="tracking-tight font-bold text-xl">
             External Mentions
           </h2>
@@ -196,6 +248,241 @@ export default function HomePage({}: InferGetStaticPropsType<
                     rel="noreferrer">
                     {title}
                   </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+        <section className="grid gap-y-4">
+          <h2 className="tracking-tight font-bold text-xl">Awards</h2>
+          <div>
+            <ul className="list-disc pl-4">
+              {[
+                {
+                  year: 2016,
+                  title: (
+                    <>
+                      Grabathon 4.0, 2nd Place for Most Technologically
+                      Challenging, 2nd Place for Most Popular, 3rd Place for
+                      Most Hyper-Local Product
+                    </>
+                  ),
+                },
+                {
+                  year: 2016,
+                  title: (
+                    <>
+                      Facebook x GIT SG Hack for a Cause 2016, Best All-Round
+                      Product
+                    </>
+                  ),
+                },
+                {
+                  year: 2016,
+                  title: <>Grabathon 3.0, 1st Place for Build Challenge</>,
+                },
+                {
+                  year: 2015,
+                  title: (
+                    <>
+                      Grabathon (Grab Internal Hackathon) 2.0, Overall Champion
+                    </>
+                  ),
+                },
+                {
+                  year: 2015,
+                  title: (
+                    <>
+                      NUSS Medal for Outstanding Achievement (Best Graduate
+                      Throughout Course of Study with Outstanding All-round
+                      Achievements){' '}
+                    </>
+                  ),
+                },
+                {
+                  year: 2015,
+                  title: <>NUS School of Computing, Valedictorian Finalist</>,
+                },
+                {
+                  year: 2015,
+                  title: (
+                    <>
+                      NUS School of Computing (6th STePS), 3rd Prize for CS4344
+                      Networked and Mobile Gaming
+                    </>
+                  ),
+                },
+                {
+                  year: 2015,
+                  title: (
+                    <>
+                      NUS School of Computing (6th STePS), Best Project Award
+                      among Selected Final Year Projects
+                    </>
+                  ),
+                },
+                {
+                  year: 2015,
+                  title: (
+                    <>
+                      NUS School of Computing, Certificate of Distinction in
+                      Interactive Media
+                    </>
+                  ),
+                },
+                {
+                  year: 2015,
+                  title: (
+                    <>
+                      Hack&Roll 2015, Second Prize & People&apos;s Choice Award
+                    </>
+                  ),
+                },
+                {
+                  year: 2014,
+                  title: <>PA Tech Connects Competition 2014, 3rd Runner Up</>,
+                },
+                {
+                  year: 2014,
+                  title: <>Hackatron Asia Singapore 2014, Champion</>,
+                },
+                {
+                  year: 2014,
+                  title: (
+                    <>
+                      NUS School of Computing (5th STePS), 2nd Prize for CS3240
+                      Interaction Design
+                    </>
+                  ),
+                },
+                {
+                  year: 2014,
+                  title: (
+                    <>
+                      Smart Port Hackathon 2014, Third Prize and Best Use of
+                      Data
+                    </>
+                  ),
+                },
+                {
+                  year: 2014,
+                  title: <>Startup Asia Hackathon, HERE Maps API Prize</>,
+                },
+                {
+                  year: 2014,
+                  title: (
+                    <>
+                      NUS School of Computing (4th STePS), Best Project Award
+                      for CP3101A Global Open Source Project
+                    </>
+                  ),
+                },
+                {
+                  year: 2014,
+                  title: (
+                    <>
+                      NUS School of Computing (4th STePS), Best Project Award
+                      for CS3218 Multimodal Processing in Mobile Platforms
+                    </>
+                  ),
+                },
+                {
+                  year: 2014,
+                  title: <>Facebook Singapore Hackathon, Third Place</>,
+                },
+                {
+                  year: 2013,
+                  title: (
+                    <>
+                      NUS School of Computing (3rd STePS), Best Project Award
+                      for CS3216 Software Development on Evolving Platforms
+                    </>
+                  ),
+                },
+                {year: 2013, title: <>Apple WWDC 2013 Student Scholarship</>},
+                {
+                  year: 2013,
+                  title: (
+                    <>
+                      NUS Faculty of Engineering Design-Centric Programming
+                      T-shirt Design Competition, Winner
+                    </>
+                  ),
+                },
+                {
+                  year: 2013,
+                  title: (
+                    <>Photo Hack Day 4, Crowd Favorite and Aviary API Prize</>
+                  ),
+                },
+                {
+                  year: 2013,
+                  title: (
+                    <>Foursquare Hackathon 2013, Jury Prize and Game Prize</>
+                  ),
+                },
+                {
+                  year: 2012,
+                  title: <>IUMS 2017 Logo Design Competition, Runner-up</>,
+                },
+                {year: 2012, title: <>AngelHack 2012, Gimbal API Award</>},
+                {year: 2012, title: <>Health 2.0 Hackathon, 3rd Runner Up</>},
+                {
+                  year: 2012,
+                  title: <>PayPal Hackathon, People&apos;s Choice Award</>,
+                },
+                {
+                  year: 2012,
+                  title: (
+                    <>
+                      NUS CS3217 Software Engineering on Modern Application
+                      Platforms, AY2011/12 Sem 2, Letter of Commendation for
+                      excellent performance in the course
+                    </>
+                  ),
+                },
+                {
+                  year: 2012,
+                  title: <>NUSSU Student Life Tee Design Competition, Winner</>,
+                },
+                {
+                  year: 2012,
+                  title: <>NUSSU Welfare Diary Design Competition, Winner</>,
+                },
+                {
+                  year: 2012,
+                  title: (
+                    <>
+                      NUS Faculty of Engineering Design-Centric Curriculum
+                      T-shirt Design Competition, Winner
+                    </>
+                  ),
+                },
+                {
+                  year: 2011,
+                  title: <>NUS Faculty of Engineering, Dean&apos;s List</>,
+                },
+                {
+                  year: 2011,
+                  title: (
+                    <>
+                      NUS EG2604 Innovation Program AY2010/11 Sem 2, Merit Award
+                      and Best Poster Design Award
+                    </>
+                  ),
+                },
+                {
+                  year: 2011,
+                  title: <>NUS-HTC Apprentice Challenge, Finalist</>,
+                },
+                {
+                  year: 2010,
+                  title: <>NUS Kent Ridge Undergradate Scholarship</>,
+                },
+              ].map(({year, title}) => (
+                <li>
+                  <span className="text-zinc-400">{year}</span> —{' '}
+                  <span className="text-zinc-600">{title}</span>
                 </li>
               ))}
             </ul>
