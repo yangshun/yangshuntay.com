@@ -254,10 +254,58 @@ export default function HomePage({}: InferGetStaticPropsType<
           </div>
         </section>
         <section className="grid gap-y-4">
+          <h2 className="tracking-tight font-bold text-xl">Talks</h2>
+          <div>
+            <ul className="list-disc pl-4">
+              {[
+                {
+                  year: 2019,
+                  title: (
+                    <>
+                      F8 2019 -- Using Docusaurus to create Open Source Websites
+                    </>
+                  ),
+                  href: 'https://www.youtube.com/watch?v=QcGJsf6mgZE',
+                },
+                {
+                  year: 2019,
+                  title: (
+                    <>
+                      Facebook Developer Circles Singapore Build Day 2019 --
+                      HTML5 Gaming
+                    </>
+                  ),
+                  href: 'https://www.facebook.com/khangtoh/videos/oa.936011683431143/10156518641565835/?type=3&theater&ifg=1',
+                },
+                {
+                  year: 2018,
+                  title: <>All Things Open 2018</>,
+                  href: 'https://www.slideshare.net/AllThingsOpen/painless-open-source-documentation-with-docusaurus',
+                },
+              ].map(({year, title, href}) => (
+                <li>
+                  <span className="text-zinc-400">{year}</span> —{' '}
+                  <Link
+                    className="text-zinc-500 hover:underline hover:text-zinc-600"
+                    href={href}
+                    target="_blank"
+                    rel="noreferrer">
+                    {title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+        <section className="grid gap-y-4">
           <h2 className="tracking-tight font-bold text-xl">Awards</h2>
           <div>
             <ul className="list-disc pl-4">
               {[
+                {
+                  year: 2022,
+                  title: <>Outstanding Young Computing Alumni Award 2021</>,
+                },
                 {
                   year: 2016,
                   title: (
