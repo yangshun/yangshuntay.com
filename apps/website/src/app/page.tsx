@@ -1,5 +1,5 @@
 import {compareDesc} from 'date-fns';
-import {allPosts} from 'contentlayer/generated';
+import {allPosts} from 'content-collections';
 import Header from '~/components/Header';
 
 import LunchboxGrid from '~/lunchbox/core/LunchboxGrid';

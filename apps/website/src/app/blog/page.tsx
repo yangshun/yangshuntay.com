@@ -4,7 +4,7 @@ import type {Metadata} from 'next';
 import ProfileLinks from '~/components/ProfileLinks';
 import Timestamp from '~/components/Timestamp';
 import {compareDesc} from 'date-fns';
-import {allPosts} from 'contentlayer/generated';
+import {allPosts} from 'content-collections';
 import Header from '~/components/Header';
 import NavLinks from '~/components/NavLinks';
 

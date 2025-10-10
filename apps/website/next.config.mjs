@@ -1,7 +1,7 @@
-import {withContentlayer} from 'next-contentlayer2';
+import {withContentCollections} from '@content-collections/next';
 
 const config = {
   reactStrictMode: true,
 };
 
-export default withContentlayer(config);
+export default withContentCollections(config);

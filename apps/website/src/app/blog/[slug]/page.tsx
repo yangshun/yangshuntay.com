@@ -1,10 +1,10 @@
-import {getMDXComponent} from 'next-contentlayer2/hooks';
+import {MDXContent} from '@content-collections/mdx/react';
 import Link from 'next/link';
 import type {Metadata} from 'next';
 import {notFound} from 'next/navigation';
 
 import Timestamp from '~/components/Timestamp';
-import {Post, allPosts} from 'contentlayer/generated';
+import {allPosts} from 'content-collections';
 import clsx from 'clsx';
 import Header from '~/components/Header';
 
@@ -42,9 +42,6 @@ export default async function PostPage({params}: Props) {
     notFound();
   }
 
-  const code = post.body.code;
-  const Contents = getMDXComponent(code);
-
   return (
     <div className="max-w-prose mx-auto flex flex-col gap-y-4">
       <Header
@@ -74,7 +71,7 @@ export default async function PostPage({params}: Props) {
             'prose-h3:font-semibold prose-h3:tracking-tight',
             'prose-h4:font-semibold prose-h4:tracking-tight',
           )}>
-          <Contents />
+          <MDXContent code={post.body} />
         </div>
       </article>
     </div>
