@@ -1,6 +1,4 @@
-import Head from 'next/head';
-
-import {InferGetStaticPropsType} from 'next/types';
+import type {Metadata} from 'next';
 import Header from '~/components/Header';
 
 import LunchboxGrid from '~/lunchbox/core/LunchboxGrid';
@@ -13,18 +11,14 @@ import LunchboxItemJobPosition from '~/lunchbox/layouts/LunchboxItemJobPosition'
 import NavLinks from '~/components/NavLinks';
 import Link from 'next/link';
 
-export async function getStaticProps() {
-  return {props: {}};
-}
+export const metadata: Metadata = {
+  title: 'Resume | Yangshun Tay',
+  description: 'Resume of Yangshun Tay',
+};
 
-export default function HomePage({}: InferGetStaticPropsType<
-  typeof getStaticProps
->) {
+export default function ResumePage() {
   return (
     <div>
-      <Head>
-        <title>Yangshun Tay Homepage</title>
-      </Head>
       <Header rightContents={<NavLinks />} />
       <h1 className="sr-only">Yangshun Tay Resume</h1>
       <div className="flex flex-col gap-y-12">
@@ -308,7 +302,7 @@ export default function HomePage({}: InferGetStaticPropsType<
                   href: 'https://www.slideshare.net/AllThingsOpen/painless-open-source-documentation-with-docusaurus',
                 },
               ].map(({year, title, href}) => (
-                <li>
+                <li key={href}>
                   <span className="text-zinc-700 font-medium">{year}</span> —{' '}
                   <Link
                     className="text-zinc-500 hover:underline hover:text-zinc-600"
@@ -552,8 +546,8 @@ export default function HomePage({}: InferGetStaticPropsType<
                   year: 2010,
                   title: <>NUS Kent Ridge Undergradate Scholarship</>,
                 },
-              ].map(({year, title}) => (
-                <li>
+              ].map(({year, title}, index) => (
+                <li key={index}>
                   <span className="text-zinc-700 font-medium">{year}</span> —{' '}
                   <span className="text-zinc-600">{title}</span>
                 </li>

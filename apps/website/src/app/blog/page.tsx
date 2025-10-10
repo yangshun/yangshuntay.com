@@ -1,31 +1,25 @@
-import Head from 'next/head';
 import Link from 'next/link';
+import type {Metadata} from 'next';
 
-import {InferGetStaticPropsType} from 'next/types';
 import ProfileLinks from '~/components/ProfileLinks';
 import Timestamp from '~/components/Timestamp';
 import {compareDesc} from 'date-fns';
 import {allPosts} from 'contentlayer/generated';
 import Header from '~/components/Header';
-import Container from '~/components/Container';
 import NavLinks from '~/components/NavLinks';
 
-export async function getStaticProps() {
+export const metadata: Metadata = {
+  title: 'Blog | Yangshun Tay',
+  description: 'Blog posts by Yangshun Tay',
+};
+
+export default function BlogIndexPage() {
   const posts = allPosts.sort((a, b) =>
     compareDesc(new Date(a.date), new Date(b.date)),
   );
 
-  return {props: {posts}};
-}
-
-export default function BlogIndexPage({
-  posts,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <>
-      <Head>
-        <title>Yangshun Tay Homepage</title>
-      </Head>
       <Header rightContents={<NavLinks />} />
       <ul className="flex flex-col gap-y-4">
         {posts.map((post) => (

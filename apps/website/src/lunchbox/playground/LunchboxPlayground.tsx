@@ -1,7 +1,8 @@
 import LunchboxGrid from '../core/LunchboxGrid';
+import {ComponentType} from 'react';
 
 type Props = Readonly<{
-  cell: Function;
+  cell: ComponentType<any>;
   cellProps: Record<string, unknown>;
 }>;
 

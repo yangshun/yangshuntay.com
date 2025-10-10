@@ -1,6 +1,4 @@
-import Head from 'next/head';
-
-import {InferGetStaticPropsType} from 'next/types';
+import type {Metadata} from 'next';
 import Header from '~/components/Header';
 
 import LunchboxGrid from '~/lunchbox/core/LunchboxGrid';
@@ -8,18 +6,14 @@ import LunchboxGrid from '~/lunchbox/core/LunchboxGrid';
 import LunchboxItemLinkGitHubProject from '~/lunchbox/prebuilt/LunchboxItemLinkGitHubProject';
 import NavLinks from '~/components/NavLinks';
 
-export async function getStaticProps() {
-  return {props: {}};
-}
+export const metadata: Metadata = {
+  title: 'Projects | Yangshun Tay',
+  description: 'Projects by Yangshun Tay',
+};
 
-export default function HomePage({}: InferGetStaticPropsType<
-  typeof getStaticProps
->) {
+export default function ProjectsPage() {
   return (
     <div>
-      <Head>
-        <title>Yangshun Tay Homepage</title>
-      </Head>
       <Header rightContents={<NavLinks />} />
       <h1 className="sr-only">Yangshun&apos;s Projects</h1>
       <div className="flex flex-col gap-y-12">

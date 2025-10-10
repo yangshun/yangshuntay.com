@@ -1,39 +1,49 @@
-import {getMDXComponent} from 'mdx-bundler/client';
+import {getMDXComponent} from 'next-contentlayer2/hooks';
 import Link from 'next/link';
-import {GetStaticProps, InferGetStaticPropsType} from 'next/types';
+import type {Metadata} from 'next';
+import {notFound} from 'next/navigation';
 
-import {useMemo} from 'react';
 import Timestamp from '~/components/Timestamp';
-import Head from 'next/head';
 import {Post, allPosts} from 'contentlayer/generated';
 import clsx from 'clsx';
 import Header from '~/components/Header';
-import Container from '~/components/Container';
 
-export const getStaticProps: GetStaticProps<{
-  post: Post;
-  posts: ReadonlyArray<Post>;
-}> = async ({params}) => {
-  const posts = allPosts;
-  const post = allPosts.find((post) => post.slug === params?.slug)!;
-
-  return {props: {posts, post}};
+type Props = {
+  params: Promise<{slug: string}>;
 };
 
-export async function getStaticPaths() {
-  const posts = allPosts;
+export async function generateStaticParams() {
+  return allPosts.map((post) => ({
+    slug: post.slug,
+  }));
+}
+
+export async function generateMetadata({params}: Props): Promise<Metadata> {
+  const {slug} = await params;
+  const post = allPosts.find((post) => post.slug === slug);
+
+  if (!post) {
+    return {
+      title: 'Post Not Found',
+    };
+  }
 
   return {
-    paths: posts.map((post) => post.url),
-    fallback: false, // can also be true or 'blocking'
+    title: `${post.title} | Yangshun Tay`,
+    description: post.title,
   };
 }
 
-export default function PostPage({
-  post,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default async function PostPage({params}: Props) {
+  const {slug} = await params;
+  const post = allPosts.find((post) => post.slug === slug);
+
+  if (!post) {
+    notFound();
+  }
+
   const code = post.body.code;
-  const Contents = useMemo(() => getMDXComponent(code), [code]);
+  const Contents = getMDXComponent(code);
 
   return (
     <div className="max-w-prose mx-auto flex flex-col gap-y-4">
@@ -47,9 +57,6 @@ export default function PostPage({
         }
       />
       <article>
-        <Head>
-          <title>{post.title} | Yangshun Tay</title>
-        </Head>
         <h1 className="font-semibold tracking-tight text-3xl">{post.title}</h1>
         <p className="text-zinc-500 mt-4 flex gap-x-2 text-sm">
           {post.date && (

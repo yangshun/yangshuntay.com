@@ -1,7 +1,6 @@
-import {withContentlayer} from 'next-contentlayer';
+import {withContentlayer} from 'next-contentlayer2';
 
 const config = {
-  transpilePackages: ['ui'],
   reactStrictMode: true,
 };
 

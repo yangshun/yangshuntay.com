@@ -1,6 +1,3 @@
-import Head from 'next/head';
-
-import {InferGetStaticPropsType} from 'next/types';
 import {compareDesc} from 'date-fns';
 import {allPosts} from 'contentlayer/generated';
 import Header from '~/components/Header';
@@ -17,25 +14,15 @@ import LunchboxItemLinkFacebook from '~/lunchbox/prebuilt/LunchboxItemLinkFacebo
 import LunchboxItemLinkInstagram from '~/lunchbox/prebuilt/LunchboxItemLinkInstagram';
 import LunchboxItemJobPosition from '~/lunchbox/layouts/LunchboxItemJobPosition';
 import LunchboxItemLinkGitHubProject from '~/lunchbox/prebuilt/LunchboxItemLinkGitHubProject';
-import Container from '~/components/Container';
 import NavLinks from '~/components/NavLinks';
 
-export async function getStaticProps() {
+export default function HomePage() {
   const posts = allPosts.sort((a, b) =>
     compareDesc(new Date(a.date), new Date(b.date)),
   );
 
-  return {props: {posts}};
-}
-
-export default function HomePage({
-  posts,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <div>
-      <Head>
-        <title>Yangshun Tay Homepage</title>
-      </Head>
       <Header rightContents={<NavLinks />} />
       <div className="flex flex-col gap-y-12">
         <section className="grid gap-y-4">
