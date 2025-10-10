@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import {IconType} from 'react-icons';
 
 type IconBorderRadius = 'default' | 'lg' | 'full';
 
@@ -11,7 +12,7 @@ const borderRadiusClass: Record<IconBorderRadius, string> = {
 type Props = Readonly<{
   borderRadius?: IconBorderRadius;
   className?: string;
-  icon: (props: React.SVGAttributes<SVGElement>) => JSX.Element;
+  icon: IconType;
 }>;
 
 export default function LunchboxIcon({
@@ -26,6 +27,7 @@ export default function LunchboxIcon({
         borderRadiusClass[borderRadius],
         className,
       )}>
+      {/* @ts-ignore: TODO remove after upgrading TS */}
       <Icon className="w-5 h-5" />
     </span>
   );

@@ -1,7 +1,7 @@
 import {
   BsGithub,
   BsLinkedin,
-  BsTwitter,
+  BsTwitterX,
   BsMedium,
   BsStackOverflow,
 } from 'react-icons/bs';
@@ -18,9 +18,9 @@ const internetProfiles = {
     href: 'https://linkedin.com/in/yangshun',
   },
   twitter: {
-    label: 'Twitter',
-    icon: BsTwitter,
-    href: 'https://twitter.com/yangshunz',
+    label: 'X',
+    icon: BsTwitterX,
+    href: 'https://x.com/yangshunz',
   },
   stackoverflow: {
     label: 'StackOverflow',
@@ -32,7 +32,7 @@ const internetProfiles = {
     icon: BsMedium,
     href: 'https://medium.com/@yangshun',
   },
-};
+} as const;
 
 export default function ProfileLinks() {
   return (
@@ -45,7 +45,8 @@ export default function ProfileLinks() {
           key={href}
           rel="noreferrer noopener"
           target="_blank">
-          <Icon className="h-5 w-5 " />
+          {/* @ts-ignore: TODO remove after upgrading TS */}
+          <Icon className="h-5 w-5" />
         </a>
       ))}
     </div>

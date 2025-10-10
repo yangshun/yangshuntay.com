@@ -1,4 +1,4 @@
-import {BsTwitter} from 'react-icons/bs';
+import {BsTwitterX} from 'react-icons/bs';
 import {Props as SelfProps} from '../layouts/LunchboxItemLink';
 import {Props as CellProps} from '../core/LunchboxItem';
 
@@ -15,11 +15,11 @@ type Props = Pick<SelfProps, 'className' | 'image'> &
   }>;
 
 const icon = (
-  <LunchboxIcon className="bg-[#1DA1F2] text-white" icon={BsTwitter} />
+  <LunchboxIcon className="bg-[#1DA1F2] text-white" icon={BsTwitterX} />
 );
 
-export default function LunchboxItemLinkTwitter({
-  title = 'Twitter',
+export default function LunchboxItemLinkX({
+  title = 'X',
   username,
   subtitle: subtitleProp,
   ...props
@@ -27,7 +27,7 @@ export default function LunchboxItemLinkTwitter({
   const subtitle = subtitleProp ?? `@${username}`;
   const action = (
     <a
-      href={`https://twitter.com/${username}`}
+      href={`https://x.com/${username}`}
       target="_blank"
       rel="noreferrer"
       className={clsx(
