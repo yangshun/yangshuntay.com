@@ -8,7 +8,7 @@ export default function LunchboxPlaygroundJobPosition() {
     <LunchboxPlayground
       cell={LunchboxItemJobPosition}
       cellProps={{
-        icon: <LunchboxIcon className="text-black shadow" icon={BsApple} />,
+        icon: <LunchboxIcon className="text-black shadow-xs" icon={BsApple} />,
         company: 'Apple',
         jobTitle: 'Software Engineer',
         start: 2020,

@@ -27,8 +27,7 @@ export default function LunchboxIcon({
         borderRadiusClass[borderRadius],
         className,
       )}>
-      {/* @ts-ignore: TODO remove after upgrading TS */}
-      <Icon className="w-5 h-5" />
+      <Icon className="size-5" />
     </span>
   );
 }

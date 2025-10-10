@@ -37,7 +37,7 @@ export default function LunchboxItemLinkGitHubProject({
         'transition',
         'text-[#24292f]',
         'border border-[#1f2328]/15',
-        'shadow-sm',
+        'shadow-xs',
         'bg-[#f6f8fa] hover:bg-[#f3f4f6]',
       )}>
       Star

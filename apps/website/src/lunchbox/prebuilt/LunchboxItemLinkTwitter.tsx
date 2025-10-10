@@ -35,7 +35,7 @@ export default function LunchboxItemLinkX({
         'transition',
         'text-xs text-center font-semibold',
         'text-white',
-        'shadow-sm',
+        'shadow-xs',
         'bg-[#0f1419] hover:bg-[#272c30]',
       )}>
       Follow

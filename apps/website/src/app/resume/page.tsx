@@ -34,7 +34,10 @@ export default function ResumePage() {
           <LunchboxGrid>
             <LunchboxItemJobPosition
               icon={
-                <LunchboxIcon className="text-[#0668E1] shadow" icon={BsMeta} />
+                <LunchboxIcon
+                  className="text-[#0668E1] shadow-xs"
+                  icon={BsMeta}
+                />
               }
               company="Meta"
               description={
@@ -54,7 +57,7 @@ export default function ResumePage() {
             <LunchboxItemJobPosition
               icon={
                 <LunchboxIcon
-                  className="text-[#0a9830] shadow"
+                  className="text-[#0a9830] shadow-xs"
                   icon={GrabIcon}
                 />
               }

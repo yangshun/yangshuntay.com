@@ -12,13 +12,14 @@
     "@content-collections/core": "^0.11.1",
     "@content-collections/mdx": "^0.1.5",
     "@content-collections/next": "^0.2.6",
+    "@tailwindcss/postcss": "^4.1.14",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
     "next": "^15.5.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
-    "tailwindcss": "^3.4.15",
+    "tailwindcss": "^4.1.14",
     "zod": "^4.1.12"
   },
   "devDependencies": {
@@ -28,7 +29,6 @@
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
     "@yangshun/tsconfig": "workspace:*",
-    "autoprefixer": "^10.4.20",
     "eslint": "^9.15.0",
     "eslint-config-custom": "workspace:*",
     "postcss": "^8.4.49",

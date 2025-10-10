@@ -45,8 +45,7 @@ export default function ProfileLinks() {
           key={href}
           rel="noreferrer noopener"
           target="_blank">
-          {/* @ts-ignore: TODO remove after upgrading TS */}
-          <Icon className="h-5 w-5" />
+          <Icon className="size-5" />
         </a>
       ))}
     </div>
