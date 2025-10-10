@@ -9,8 +9,8 @@ export default function LunchboxGrid({children}: Props) {
   return (
     <div
       className={clsx(
-        'grid grid-cols-4 sm:grid-cols-8 auto-rows-fr',
-        'gap-6 sm:gap-8 md:gap-10',
+        'grid grid-cols-4 md:grid-cols-8 auto-rows-fr',
+        'gap-6',
         styles.grid,
       )}>
       {/* Hack to let the grid know how tall each row should be */}

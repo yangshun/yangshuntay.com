@@ -16,11 +16,11 @@ export type Props = CellProps & SelfProps;
 
 function LunchboxItemLink1x4({action, icon, subtitle, title}: SelfProps) {
   return (
-    <div className="w-full flex h-full p-3 items-center justify-between gap-4">
+    <div className="w-full flex h-full p-4 items-center justify-between gap-4">
       <div className={clsx('flex items-center gap-3')}>
         {icon}
         <div>
-          <p className="text-sm">{title}</p>
+          <p className="text-sm font-medium">{title}</p>
           <p className="text-xs text-zinc-500 truncate">{subtitle}</p>
         </div>
       </div>
@@ -31,11 +31,11 @@ function LunchboxItemLink1x4({action, icon, subtitle, title}: SelfProps) {
 
 function LunchboxItemLink2x2({action, icon, subtitle, title}: SelfProps) {
   return (
-    <div className="w-full flex flex-col h-full p-6 gap-4 justify-between">
+    <div className="w-full flex flex-col h-full p-4 md:p-6 gap-4 justify-between">
       <div className={clsx('grid gap-2')}>
         {icon}
         <div>
-          <p className="text-sm">{title}</p>
+          <p className="text-sm font-medium">{title}</p>
           <p className="text-xs text-zinc-500 truncate">{subtitle}</p>
         </div>
       </div>
@@ -57,7 +57,7 @@ function LunchboxItemLink4x2({
         <div className={clsx('grid gap-2')}>
           {icon}
           <div className="flex flex-col">
-            <p className="text-sm">{title}</p>
+            <p className="text-sm font-medium">{title}</p>
             <p className="text-xs text-zinc-500 truncate">{subtitle}</p>
           </div>
         </div>
@@ -81,7 +81,7 @@ function LunchboxItemLink2x4({
         <div className={clsx('grid gap-2')}>
           {icon}
           <div className="flex flex-col">
-            <p className="text-sm">{title}</p>
+            <p className="text-sm font-medium">{title}</p>
             <p className="text-xs text-zinc-500 truncate">{subtitle}</p>
           </div>
         </div>
@@ -105,7 +105,7 @@ function LunchboxItemLink4x4({
         <div className={clsx('grid gap-2')}>
           {icon}
           <div className="flex flex-col">
-            <p className="text-sm">{title}</p>
+            <p className="text-sm font-medium">{title}</p>
             <p className="text-xs text-zinc-500 truncate">{subtitle}</p>
           </div>
         </div>
