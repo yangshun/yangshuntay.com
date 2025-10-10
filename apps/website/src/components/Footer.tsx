@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="pt-12 grid gap-y-6">
       <hr />
       <div className="flex gap-x-12 justify-between">
-        <span className="text-sm text-zinc-400">
+        <span className="text-sm text-zinc-600">
           {new Date().getFullYear()} © Yangshun Tay
         </span>
         <ProfileLinks />

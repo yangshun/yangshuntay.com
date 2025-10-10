@@ -33,10 +33,12 @@ export default function BlogIndexPage({
             className="flex gap-x-4 justify-between md:items-center"
             key={post.url}>
             <Link href={post.url} className="hover:underline">
-              <h2 className="tracking-tight font-semibold">{post.title}</h2>
+              <h2 className="text-zinc-900 tracking-tight font-medium">
+                {post.title}
+              </h2>
             </Link>
             {post.date && (
-              <p className="text-zinc-400 text-xs whitespace-nowrap">
+              <p className="text-zinc-700 text-sm whitespace-nowrap">
                 <Timestamp date={post.date} />
               </p>
             )}

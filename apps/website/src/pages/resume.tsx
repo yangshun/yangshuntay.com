@@ -10,8 +10,6 @@ import GrabIcon from '~/icons/GrabIcon';
 import LunchboxIcon from '~/lunchbox/core/LunchboxIcon';
 
 import LunchboxItemJobPosition from '~/lunchbox/layouts/LunchboxItemJobPosition';
-import LunchboxItemLinkGitHubProject from '~/lunchbox/prebuilt/LunchboxItemLinkGitHubProject';
-import Container from '~/components/Container';
 import NavLinks from '~/components/NavLinks';
 import Link from 'next/link';
 
@@ -31,15 +29,14 @@ export default function HomePage({}: InferGetStaticPropsType<
       <h1 className="sr-only">Yangshun Tay Resume</h1>
       <div className="flex flex-col gap-y-12">
         <section className="grid gap-y-4">
-          <h2 className="sr-only tracking-tight font-bold text-xl">About</h2>
-          <p className="text-zinc-600 col-span-3">
-            Front End Engineer proficient in the full front end stack.
-            Interested in building products, design systems, user experience,
-            and build tooling.
+          <h2 className="sr-only tracking-tight font-medium text-xl">About</h2>
+          <p className="text-zinc-600 max-w-md text-pretty">
+            Full Front End Stack Engineer, experienced in building products,
+            design systems, user experience, and developer tooling.
           </p>
         </section>
         <section className="grid gap-y-4">
-          <h2 className="tracking-tight font-bold text-xl">Experience</h2>
+          <h2 className="tracking-tight font-medium text-xl">Experience</h2>
           <LunchboxGrid>
             <LunchboxItemJobPosition
               icon={
@@ -90,10 +87,51 @@ export default function HomePage({}: InferGetStaticPropsType<
           </LunchboxGrid>
         </section>
         <section className="grid gap-y-4">
-          <h2 className="tracking-tight font-bold text-xl">Projects</h2>
+          <h2 className="tracking-tight font-medium text-xl">Projects</h2>
           <div>
-            <ul className="list-disc pl-4">
+            <ul>
               {[
+                {
+                  year: 2025,
+                  title: 'Socialmon',
+                  href: 'https://www.socialmon.ai',
+                  description: (
+                    <>
+                      AI companion to find, share, and save viral marketing
+                      ideas
+                    </>
+                  ),
+                },
+                {
+                  year: 2025,
+                  title: 'create-ts-fast',
+                  href: 'https://github.com/yangshun/create-ts-fast',
+                  description: (
+                    <>CLI tool for scaffolding npm packages in TypeScript</>
+                  ),
+                },
+                {
+                  year: 2024,
+                  title: 'Figma to Code plugin',
+                  href: 'https://www.figma.com/community/plugin/1377511503285748115',
+                  description: (
+                    <>
+                      Figma plugin to convert an element into HTML code with CSS
+                      or Tailwind extremely quickly with a click
+                    </>
+                  ),
+                },
+                {
+                  year: 2023,
+                  title: 'GreatFrontEnd',
+                  href: 'https://www.greatfrontend.com',
+                  description: (
+                    <>
+                      Front end interview preparation and career platform built
+                      by Front End Engineeers for Front End Engineers
+                    </>
+                  ),
+                },
                 {
                   year: 2023,
                   title: 'keyboards.css',
@@ -102,17 +140,6 @@ export default function HomePage({}: InferGetStaticPropsType<
                     <>
                       Front end library-themed keyboards built using Tailwind
                       CSS
-                    </>
-                  ),
-                },
-                {
-                  year: 2018,
-                  title: 'Docusaurus',
-                  href: 'https://docusaurus.io',
-                  description: (
-                    <>
-                      Lead maintainer for one of Meta&apos;s most popular open
-                      source project
                     </>
                   ),
                 },
@@ -151,7 +178,7 @@ export default function HomePage({}: InferGetStaticPropsType<
                   title: 'Front End Interview Handbook',
                   href: 'https://frontendinterviewhandbook.com',
                   description: (
-                    <>Same as Tech Interview Handbook, but for front end</>
+                    <>Tech Interview Handbook, focused on front end</>
                   ),
                 },
                 {
@@ -194,12 +221,11 @@ export default function HomePage({}: InferGetStaticPropsType<
                 },
               ].map(({year, title, href, description}) => (
                 <li key={href}>
-                  <span className="text-zinc-400">{year}</span> —{' '}
+                  <span className="text-zinc-700 font-medium">{year}</span> —{' '}
                   <Link
                     className="text-zinc-500 hover:underline hover:text-zinc-600 font-medium"
                     href={href}
-                    target="_blank"
-                    rel="noreferrer">
+                    target="_blank">
                     {title}
                   </Link>
                   : <span className="text-zinc-500">{description}</span>
@@ -209,23 +235,17 @@ export default function HomePage({}: InferGetStaticPropsType<
           </div>
         </section>
         <section className="grid gap-y-4">
-          <h2 className="tracking-tight font-bold text-xl">
-            External Mentions
+          <h2 className="tracking-tight font-medium text-xl">
+            Public mentions
           </h2>
           <div>
-            <ul className="list-disc pl-4">
+            <ul>
               {[
                 {
                   year: 2022,
                   title:
                     'The future of e-commerce: an inside look at commerce engineering',
                   href: 'https://www.metacareers.com/life/the-future-of-e-commerce-an-inside-look-at-commerce-engineering',
-                },
-                {
-                  year: 2019,
-                  title:
-                    'F8 2019: Using Docusaurus to Create Open Source Websites',
-                  href: 'https://www.youtube.com/watch?v=QcGJsf6mgZE',
                 },
                 {
                   year: 2018,
@@ -240,7 +260,7 @@ export default function HomePage({}: InferGetStaticPropsType<
                 },
               ].map(({year, title, href}) => (
                 <li key={href}>
-                  <span className="text-zinc-400">{year}</span> —{' '}
+                  <span className="text-zinc-700 font-medium">{year}</span> —{' '}
                   <Link
                     className="text-zinc-500 hover:underline hover:text-zinc-600"
                     href={href}
@@ -254,15 +274,20 @@ export default function HomePage({}: InferGetStaticPropsType<
           </div>
         </section>
         <section className="grid gap-y-4">
-          <h2 className="tracking-tight font-bold text-xl">Talks</h2>
+          <h2 className="tracking-tight font-medium text-xl">Talks</h2>
           <div>
-            <ul className="list-disc pl-4">
+            <ul>
               {[
+                {
+                  year: 2023,
+                  title: <>3 Things I Wish I Knew When I Started Coding</>,
+                  href: 'https://www.youtube.com/watch?v=ecMqVk51EsA',
+                },
                 {
                   year: 2019,
                   title: (
                     <>
-                      F8 2019 -- Using Docusaurus to create Open Source Websites
+                      F8 2019: Using Docusaurus to create Open Source Websites
                     </>
                   ),
                   href: 'https://www.youtube.com/watch?v=QcGJsf6mgZE',
@@ -271,7 +296,7 @@ export default function HomePage({}: InferGetStaticPropsType<
                   year: 2019,
                   title: (
                     <>
-                      Facebook Developer Circles Singapore Build Day 2019 --
+                      Facebook Developer Circles Singapore Build Day 2019 —
                       HTML5 Gaming
                     </>
                   ),
@@ -284,7 +309,7 @@ export default function HomePage({}: InferGetStaticPropsType<
                 },
               ].map(({year, title, href}) => (
                 <li>
-                  <span className="text-zinc-400">{year}</span> —{' '}
+                  <span className="text-zinc-700 font-medium">{year}</span> —{' '}
                   <Link
                     className="text-zinc-500 hover:underline hover:text-zinc-600"
                     href={href}
@@ -298,9 +323,9 @@ export default function HomePage({}: InferGetStaticPropsType<
           </div>
         </section>
         <section className="grid gap-y-4">
-          <h2 className="tracking-tight font-bold text-xl">Awards</h2>
+          <h2 className="tracking-tight font-medium text-xl">Awards</h2>
           <div>
-            <ul className="list-disc pl-4">
+            <ul>
               {[
                 {
                   year: 2022,
@@ -529,7 +554,7 @@ export default function HomePage({}: InferGetStaticPropsType<
                 },
               ].map(({year, title}) => (
                 <li>
-                  <span className="text-zinc-400">{year}</span> —{' '}
+                  <span className="text-zinc-700 font-medium">{year}</span> —{' '}
                   <span className="text-zinc-600">{title}</span>
                 </li>
               ))}

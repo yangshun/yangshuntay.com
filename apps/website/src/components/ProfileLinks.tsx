@@ -40,7 +40,7 @@ export default function ProfileLinks() {
       {Object.values(internetProfiles).map(({label, icon: Icon, href}) => (
         <a
           aria-label={label}
-          className="text-zinc-400 hover:text-zinc-500 transition-colors"
+          className="text-zinc-500 hover:text-zinc-600 transition-colors"
           href={href}
           key={href}
           rel="noreferrer noopener"

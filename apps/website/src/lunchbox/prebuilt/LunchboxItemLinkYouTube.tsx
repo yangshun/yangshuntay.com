@@ -33,7 +33,7 @@ export default function LunchboxItemLinkYouTube({
       className={clsx(
         'inline-flex px-4 py-2 rounded-full',
         'transition',
-        'text-xs text-center font-bold tracking-tight',
+        'text-xs text-center font-medium tracking-tight',
         'text-white',
         'bg-[#0f0f0f] hover:bg-[#272727]',
       )}>

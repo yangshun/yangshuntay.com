@@ -33,7 +33,7 @@ export default function LunchboxItemLinkInstagram({
       className={clsx(
         'inline-flex px-3 py-1.5 rounded-lg',
         'transition',
-        'text-xs text-center font-bold text-white active:text-white/80',
+        'text-xs text-center font-medium text-white active:text-white/80',
         'bg-[#4093EF] hover:bg-[#2875CA] active:bg-[#3383DC]',
       )}>
       Follow
