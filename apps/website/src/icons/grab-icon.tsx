@@ -1,4 +1,4 @@
-export default function GrabIcon(props: React.ComponentProps<'svg'>) {
+export function GrabIcon(props: React.ComponentProps<'svg'>) {
   return (
     <svg
       version="1.2"

@@ -1,4 +1,4 @@
-import LunchboxPlaygroundImage from '~/lunchbox/playground/LunchboxPlaygroundImage';
+import { LunchboxPlaygroundImage } from '~/lunchbox/playground/lunchbox-playground-image';
 
 export default function LunchboxImagePage() {
   return (

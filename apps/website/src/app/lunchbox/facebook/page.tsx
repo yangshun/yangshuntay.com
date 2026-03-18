@@ -1,4 +1,4 @@
-import LunchboxPlaygroundFacebook from '~/lunchbox/playground/LunchboxPlaygroundFacebook';
+import { LunchboxPlaygroundFacebook } from '~/lunchbox/playground/lunchbox-playground-facebook';
 
 export default function LunchboxFacebookPage() {
   return (

@@ -1,12 +1,11 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
-import ProfileLinks from '~/components/ProfileLinks';
-import Timestamp from '~/components/Timestamp';
+import { Timestamp } from '~/components/timestamp';
 import { compareDesc } from 'date-fns';
 import { allPosts } from 'content-collections';
-import Header from '~/components/Header';
-import NavLinks from '~/components/NavLinks';
+import { Header } from '~/components/header';
+import { NavLinks } from '~/components/nav-links';
 
 export const metadata: Metadata = {
   title: 'Blog | Yangshun Tay',

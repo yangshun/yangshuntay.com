@@ -1,7 +1,7 @@
-import LunchboxItemLinkGitHub from '../prebuilt/LunchboxItemLinkGitHub';
-import LunchboxPlayground from './LunchboxPlayground';
+import { LunchboxItemLinkGitHub } from '../prebuilt/lunchbox-item-link-github';
+import { LunchboxPlayground } from './lunchbox-playground';
 
-export default function LunchboxPlaygroundGitHub() {
+export function LunchboxPlaygroundGitHub() {
   const image = (
     <img
       alt="GitHub image"

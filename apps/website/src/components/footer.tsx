@@ -1,6 +1,6 @@
-import ProfileLinks from './ProfileLinks';
+import { ProfileLinks } from './profile-links';
 
-export default function Footer() {
+export function Footer() {
   return (
     <footer className="pt-12 grid gap-y-6">
       <hr />

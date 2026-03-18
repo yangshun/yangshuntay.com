@@ -1,6 +1,6 @@
-import { Props as CellProps } from '../core/LunchboxItem';
+import { Props as CellProps } from '../core/lunchbox-item';
 
-import LunchboxItem from '../core/LunchboxItem';
+import { LunchboxItem } from '../core/lunchbox-item';
 import clsx from 'clsx';
 
 export type SelfProps = Readonly<{
@@ -116,7 +116,7 @@ function LunchboxItemLink4x4({
   );
 }
 
-export default function LunchboxItemLink(props: Props) {
+export function LunchboxItemLink(props: Props) {
   const { className, cols, rows, ...rest } = props;
 
   return (

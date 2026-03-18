@@ -15,7 +15,7 @@ type Props = Readonly<{
   icon: IconType;
 }>;
 
-export default function LunchboxIcon({
+export function LunchboxIcon({
   borderRadius = 'full',
   className,
   icon: Icon,

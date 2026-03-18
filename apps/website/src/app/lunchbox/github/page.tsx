@@ -1,4 +1,4 @@
-import LunchboxPlaygroundGitHub from '~/lunchbox/playground/LunchboxPlaygroundGitHub';
+import { LunchboxPlaygroundGitHub } from '~/lunchbox/playground/lunchbox-playground-github';
 
 export default function LunchboxGitHubPage() {
   return (

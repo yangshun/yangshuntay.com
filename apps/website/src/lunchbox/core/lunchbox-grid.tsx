@@ -1,11 +1,11 @@
 import clsx from 'clsx';
-import styles from './styles.module.css';
+import styles from './lunchbox-grid.module.css';
 
 type Props = Readonly<{
   children: React.ReactNode;
 }>;
 
-export default function LunchboxGrid({ children }: Props) {
+export function LunchboxGrid({ children }: Props) {
   return (
     <div
       className={clsx(

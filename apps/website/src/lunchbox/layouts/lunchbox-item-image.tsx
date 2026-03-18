@@ -1,6 +1,6 @@
-import { Props as CellProps } from '../core/LunchboxItem';
+import { Props as CellProps } from '../core/lunchbox-item';
 
-import LunchboxItem from '../core/LunchboxItem';
+import { LunchboxItem } from '../core/lunchbox-item';
 import clsx from 'clsx';
 
 type Props = CellProps & {
@@ -10,7 +10,7 @@ type Props = CellProps & {
   imageClassName?: string;
 };
 
-export default function LunchboxItemImage({
+export function LunchboxItemImage({
   alt,
   caption,
   imageClassName,

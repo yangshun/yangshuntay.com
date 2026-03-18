@@ -15,7 +15,7 @@ const links = [
   },
 ];
 
-export default function NavLinks() {
+export function NavLinks() {
   return (
     <ul className="text-sm flex flex-wrap gap-x-2 border border-zinc-200 px-4 rounded-full shadow-xs hover:shadow-md transition">
       {links.map(({ label, href }) => (

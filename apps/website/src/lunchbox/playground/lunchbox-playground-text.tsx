@@ -1,7 +1,7 @@
-import LunchboxPlayground from './LunchboxPlayground';
-import LunchboxItemText from '../layouts/LunchboxItemText';
+import { LunchboxPlayground } from './lunchbox-playground';
+import { LunchboxItemText } from '../layouts/lunchbox-item-text';
 
-export default function LunchboxPlaygroundText() {
+export function LunchboxPlaygroundText() {
   return (
     <LunchboxPlayground
       cell={LunchboxItemText}

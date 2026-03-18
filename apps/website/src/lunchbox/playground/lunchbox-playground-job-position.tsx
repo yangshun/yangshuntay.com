@@ -1,9 +1,9 @@
-import LunchboxPlayground from './LunchboxPlayground';
-import LunchboxItemJobPosition from '../layouts/LunchboxItemJobPosition';
+import { LunchboxPlayground } from './lunchbox-playground';
+import { LunchboxItemJobPosition } from '../layouts/lunchbox-item-job-position';
 import { BsApple } from 'react-icons/bs';
-import LunchboxIcon from '../core/LunchboxIcon';
+import { LunchboxIcon } from '../core/lunchbox-icon';
 
-export default function LunchboxPlaygroundJobPosition() {
+export function LunchboxPlaygroundJobPosition() {
   return (
     <LunchboxPlayground
       cell={LunchboxItemJobPosition}

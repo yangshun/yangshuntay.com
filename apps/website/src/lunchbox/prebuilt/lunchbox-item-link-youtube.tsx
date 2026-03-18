@@ -1,9 +1,9 @@
 import { BsYoutube } from 'react-icons/bs';
-import { Props as SelfProps } from '../layouts/LunchboxItemLink';
-import { Props as CellProps } from '../core/LunchboxItem';
+import { Props as SelfProps } from '../layouts/lunchbox-item-link';
+import { Props as CellProps } from '../core/lunchbox-item';
 
-import LunchboxIcon from '../core/LunchboxIcon';
-import LunchboxItemLink from '../layouts/LunchboxItemLink';
+import { LunchboxIcon } from '../core/lunchbox-icon';
+import { LunchboxItemLink } from '../layouts/lunchbox-item-link';
 import clsx from 'clsx';
 
 type Props = Pick<SelfProps, 'className' | 'image'> &
@@ -18,7 +18,7 @@ const icon = (
   <LunchboxIcon className="bg-[#ff0000] text-white" icon={BsYoutube} />
 );
 
-export default function LunchboxItemLinkYouTube({
+export function LunchboxItemLinkYouTube({
   title = 'YouTube',
   username,
   subtitle: subtitleProp,

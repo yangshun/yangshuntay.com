@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import Header from '~/components/Header';
+import { Header } from '~/components/header';
 
-import LunchboxGrid from '~/lunchbox/core/LunchboxGrid';
+import { LunchboxGrid } from '~/lunchbox/core/lunchbox-grid';
 
-import LunchboxItemLinkGitHubProject from '~/lunchbox/prebuilt/LunchboxItemLinkGitHubProject';
-import NavLinks from '~/components/NavLinks';
+import { LunchboxItemLinkGitHubProject } from '~/lunchbox/prebuilt/lunchbox-item-link-github-project';
+import { NavLinks } from '~/components/nav-links';
 
 export const metadata: Metadata = {
   title: 'Projects | Yangshun Tay',

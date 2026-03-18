@@ -1,9 +1,9 @@
 import { BsGithub } from 'react-icons/bs';
-import { Props as SelfProps } from '../layouts/LunchboxItemLink';
-import { Props as CellProps } from '../core/LunchboxItem';
+import { Props as SelfProps } from '../layouts/lunchbox-item-link';
+import { Props as CellProps } from '../core/lunchbox-item';
 
-import LunchboxIcon from '../core/LunchboxIcon';
-import LunchboxItemLink from '../layouts/LunchboxItemLink';
+import { LunchboxIcon } from '../core/lunchbox-icon';
+import { LunchboxItemLink } from '../layouts/lunchbox-item-link';
 import clsx from 'clsx';
 
 type Props = Pick<SelfProps, 'className' | 'image'> &
@@ -17,7 +17,7 @@ type Props = Pick<SelfProps, 'className' | 'image'> &
 
 const icon = <LunchboxIcon className="bg-black text-white" icon={BsGithub} />;
 
-export default function LunchboxItemLinkGitHubProject({
+export function LunchboxItemLinkGitHubProject({
   title: titleProp,
   description,
   username,

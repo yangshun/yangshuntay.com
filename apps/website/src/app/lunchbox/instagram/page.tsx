@@ -1,4 +1,4 @@
-import LunchboxPlaygroundInstagram from '~/lunchbox/playground/LunchboxPlaygroundInstagram';
+import { LunchboxPlaygroundInstagram } from '~/lunchbox/playground/lunchbox-playground-instagram';
 
 export default function LunchboxInstagramPage() {
   return (

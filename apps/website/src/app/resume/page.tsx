@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
-import Header from '~/components/Header';
+import { Header } from '~/components/header';
 
-import LunchboxGrid from '~/lunchbox/core/LunchboxGrid';
+import { LunchboxGrid } from '~/lunchbox/core/lunchbox-grid';
 
 import { BsMeta } from 'react-icons/bs';
-import GrabIcon from '~/icons/GrabIcon';
-import LunchboxIcon from '~/lunchbox/core/LunchboxIcon';
+import { GrabIcon } from '~/icons/grab-icon';
+import { LunchboxIcon } from '~/lunchbox/core/lunchbox-icon';
 
-import LunchboxItemJobPosition from '~/lunchbox/layouts/LunchboxItemJobPosition';
-import NavLinks from '~/components/NavLinks';
+import { LunchboxItemJobPosition } from '~/lunchbox/layouts/lunchbox-item-job-position';
+import { NavLinks } from '~/components/nav-links';
 import Link from 'next/link';
 
 export const metadata: Metadata = {

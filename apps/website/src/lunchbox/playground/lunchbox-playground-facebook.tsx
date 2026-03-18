@@ -1,7 +1,7 @@
-import LunchboxPlayground from './LunchboxPlayground';
-import LunchboxItemLinkFacebook from '../prebuilt/LunchboxItemLinkFacebook';
+import { LunchboxPlayground } from './lunchbox-playground';
+import { LunchboxItemLinkFacebook } from '../prebuilt/lunchbox-item-link-facebook';
 
-export default function LunchboxPlaygroundFacebook() {
+export function LunchboxPlaygroundFacebook() {
   const image = (
     <img
       alt="Facebook image"

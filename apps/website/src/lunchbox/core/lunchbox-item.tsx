@@ -15,7 +15,7 @@ type Ratio =
   | Readonly<{ rows: 4; cols: 2 }>
   | Readonly<{ rows: 4; cols: 4 }>;
 
-export default function LunchboxItem({
+export function LunchboxItem({
   border = true,
   children,
   className,

@@ -1,7 +1,7 @@
 import '~/styles/globals.css';
 import type { Metadata } from 'next';
-import Container from '~/components/Container';
-import Footer from '~/components/Footer';
+import { Container } from '~/components/container';
+import { Footer } from '~/components/footer';
 
 export const metadata: Metadata = {
   title: 'Yangshun Tay Homepage',

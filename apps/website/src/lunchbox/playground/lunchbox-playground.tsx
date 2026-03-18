@@ -1,5 +1,5 @@
-import LunchboxGrid from '../core/LunchboxGrid';
-import { Props as LunchboxItemProps } from '../core/LunchboxItem';
+import { LunchboxGrid } from '../core/lunchbox-grid';
+import { Props as LunchboxItemProps } from '../core/lunchbox-item';
 import { ComponentType } from 'react';
 
 type GridCellProps = Pick<LunchboxItemProps, 'rows' | 'cols'>;
@@ -17,7 +17,7 @@ const layouts = [
   { rows: 4, cols: 4 },
 ] as const satisfies ReadonlyArray<GridCellProps>;
 
-export default function LunchboxPlayground<TCellProps extends GridCellProps>({
+export function LunchboxPlayground<TCellProps extends GridCellProps>({
   cell: Cell,
   cellProps,
 }: Props<TCellProps>) {

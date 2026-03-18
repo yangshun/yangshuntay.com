@@ -1,4 +1,4 @@
-import LunchboxPlaygroundTwitter from '~/lunchbox/playground/LunchboxPlaygroundTwitter';
+import { LunchboxPlaygroundTwitter } from '~/lunchbox/playground/lunchbox-playground-twitter';
 
 export default function LunchboxTwitterPage() {
   return (

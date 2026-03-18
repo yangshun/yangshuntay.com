@@ -2,7 +2,7 @@ type Props = Readonly<{
   date: string;
 }>;
 
-export default function Timestamp({ date: dateProp }: Props) {
+export function Timestamp({ date: dateProp }: Props) {
   const date = new Date(dateProp);
   const intlFormat = new Intl.DateTimeFormat('en-US', {
     year: 'numeric',

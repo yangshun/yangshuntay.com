@@ -1,4 +1,4 @@
-import LunchboxPlaygroundYouTube from '~/lunchbox/playground/LunchboxPlaygroundYouTube';
+import { LunchboxPlaygroundYouTube } from '~/lunchbox/playground/lunchbox-playground-youtube';
 
 export default function LunchboxYouTubePage() {
   return (

@@ -1,6 +1,6 @@
-import { Props as CellProps } from '../core/LunchboxItem';
+import { Props as CellProps } from '../core/lunchbox-item';
 
-import LunchboxItem from '../core/LunchboxItem';
+import { LunchboxItem } from '../core/lunchbox-item';
 import clsx from 'clsx';
 
 type Props = CellProps & {
@@ -9,7 +9,7 @@ type Props = CellProps & {
   htmlString: string;
 };
 
-export default function LunchboxItemText({
+export function LunchboxItemText({
   align = 'start',
   htmlString,
   justify = 'start',

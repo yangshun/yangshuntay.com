@@ -1,4 +1,4 @@
-import LunchboxPlaygroundJobPosition from '~/lunchbox/playground/LunchboxPlaygroundJobPosition';
+import { LunchboxPlaygroundJobPosition } from '~/lunchbox/playground/lunchbox-playground-job-position';
 
 export default function LunchboxJobPositionPage() {
   return (

@@ -1,9 +1,9 @@
 import { BsFacebook } from 'react-icons/bs';
-import { Props as SelfProps } from '../layouts/LunchboxItemLink';
-import { Props as CellProps } from '../core/LunchboxItem';
+import { Props as SelfProps } from '../layouts/lunchbox-item-link';
+import { Props as CellProps } from '../core/lunchbox-item';
 
-import LunchboxIcon from '../core/LunchboxIcon';
-import LunchboxItemLink from '../layouts/LunchboxItemLink';
+import { LunchboxIcon } from '../core/lunchbox-icon';
+import { LunchboxItemLink } from '../layouts/lunchbox-item-link';
 import clsx from 'clsx';
 
 type Props = Pick<SelfProps, 'className' | 'image'> &
@@ -18,7 +18,7 @@ const icon = (
   <LunchboxIcon className="bg-[#1877F2] text-white" icon={BsFacebook} />
 );
 
-export default function LunchboxItemLinkFacebook({
+export function LunchboxItemLinkFacebook({
   title = 'Facebook',
   username,
   subtitle: subtitleProp,

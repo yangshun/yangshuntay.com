@@ -34,7 +34,7 @@ const internetProfiles = {
   },
 } as const;
 
-export default function ProfileLinks() {
+export function ProfileLinks() {
   return (
     <div className="text-sm flex flex-wrap gap-x-4">
       {Object.values(internetProfiles).map(({ label, icon: Icon, href }) => (

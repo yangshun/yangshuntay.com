@@ -1,7 +1,7 @@
-import LunchboxPlayground from './LunchboxPlayground';
-import LunchboxItemLinkYouTube from '../prebuilt/LunchboxItemLinkYouTube';
+import { LunchboxPlayground } from './lunchbox-playground';
+import { LunchboxItemLinkYouTube } from '../prebuilt/lunchbox-item-link-youtube';
 
-export default function LunchboxPlaygroundYouTube() {
+export function LunchboxPlaygroundYouTube() {
   const image = (
     <img
       alt="YouTube image"

@@ -3,10 +3,10 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
-import Timestamp from '~/components/Timestamp';
+import { Timestamp } from '~/components/timestamp';
 import { allPosts } from 'content-collections';
 import clsx from 'clsx';
-import Header from '~/components/Header';
+import { Header } from '~/components/header';
 
 type Props = {
   params: Promise<{ slug: string }>;

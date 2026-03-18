@@ -4,8 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "portless yangshuntay next dev",
     "build": "next build",
+    "check": "oxfmt && oxlint && pnpm typecheck",
+    "dev": "portless yangshuntay next dev",
+    "lint": "oxlint",
     "start": "next start",
     "typecheck": "tsc --noEmit"
   },

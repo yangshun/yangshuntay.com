@@ -1,10 +1,10 @@
-import LunchboxPlayground from './LunchboxPlayground';
-import LunchboxItemLinkTwitter from '../prebuilt/LunchboxItemLinkTwitter';
+import { LunchboxPlayground } from './lunchbox-playground';
+import { LunchboxItemLinkTwitter } from '../prebuilt/lunchbox-item-link-twitter';
 
-export default function LunchboxPlaygroundTwitter() {
+export function LunchboxPlaygroundTwitter() {
   const image = (
     <img
-      alt="Twitter image"
+      alt="Twitter"
       className="object-cover rounded-lg w-full"
       src="https://images.unsplash.com/photo-1611605698335-8b1569810432?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
     />

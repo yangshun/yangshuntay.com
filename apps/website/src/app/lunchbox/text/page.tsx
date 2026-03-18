@@ -1,4 +1,4 @@
-import LunchboxPlaygroundText from '~/lunchbox/playground/LunchboxPlaygroundText';
+import { LunchboxPlaygroundText } from '~/lunchbox/playground/lunchbox-playground-text';
 
 export default function LunchboxTextPage() {
   return (

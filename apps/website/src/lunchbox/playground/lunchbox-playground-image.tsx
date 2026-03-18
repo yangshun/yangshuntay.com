@@ -1,7 +1,7 @@
-import LunchboxPlayground from './LunchboxPlayground';
-import LunchboxItemImage from '../layouts/LunchboxItemImage';
+import { LunchboxPlayground } from './lunchbox-playground';
+import { LunchboxItemImage } from '../layouts/lunchbox-item-image';
 
-export default function LunchboxPlaygroundImage() {
+export function LunchboxPlaygroundImage() {
   return (
     <LunchboxPlayground
       cell={LunchboxItemImage}

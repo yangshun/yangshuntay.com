@@ -1,7 +1,7 @@
-import LunchboxPlayground from './LunchboxPlayground';
-import LunchboxItemLinkInstagram from '../prebuilt/LunchboxItemLinkInstagram';
+import { LunchboxPlayground } from './lunchbox-playground';
+import { LunchboxItemLinkInstagram } from '../prebuilt/lunchbox-item-link-instagram';
 
-export default function LunchboxPlaygroundInstagram() {
+export function LunchboxPlaygroundInstagram() {
   const image = (
     <img
       alt="Instagram image"
