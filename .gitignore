@@ -29,5 +29,8 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# ts
+tsconfig.tsbuildinfo
+
 # turbo
 .turbo
