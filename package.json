@@ -2,22 +2,20 @@
   "name": "yangshuntay.com",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
-    "lint": "oxlint .",
-    "lint:fix": "oxlint --fix .",
-    "fmt": "oxfmt .",
-    "fmt:check": "oxfmt --check ."
+    "lint": "vp lint",
+    "lint:fix": "vp lint --fix",
+    "fmt": "vp fmt",
+    "fmt:check": "vp fmt --check",
+    "prepare": "vp config"
   },
   "devDependencies": {
     "eslint-plugin-turbo": "2.8.17",
-    "oxfmt": "0.41.0",
-    "oxlint": "1.56.0",
-    "turbo": "latest"
+    "vite-plus": "catalog:"
   },
   "engines": {
     "node": ">= 24"
   },
-  "packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67"
+  "packageManager": "pnpm@10.32.1"
 }

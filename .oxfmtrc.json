@@ -1,9 +1,0 @@
-{
-  "$schema": "./node_modules/oxfmt/configuration_schema.json",
-  "jsxBracketSameLine": true,
-  "printWidth": 80,
-  "proseWrap": "never",
-  "singleQuote": true,
-  "trailingComma": "all",
-  "sortPackageJson": true
-}

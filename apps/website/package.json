@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "build": "next build",
-    "check": "oxfmt && oxlint && pnpm typecheck",
+    "check": "vp check",
     "dev": "portless yangshuntay next dev",
-    "lint": "oxlint",
+    "lint": "vp lint",
     "start": "next start",
     "typecheck": "tsc --noEmit"
   },
