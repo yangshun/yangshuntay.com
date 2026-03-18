@@ -8,12 +8,12 @@ export type Props = Readonly<{
   Ratio;
 
 type Ratio =
-  | Readonly<{rows: 1; cols: 4}>
-  | Readonly<{rows: 2; cols: 2}>
-  | Readonly<{rows: 2; cols: 3}>
-  | Readonly<{rows: 2; cols: 4}>
-  | Readonly<{rows: 4; cols: 2}>
-  | Readonly<{rows: 4; cols: 4}>;
+  | Readonly<{ rows: 1; cols: 4 }>
+  | Readonly<{ rows: 2; cols: 2 }>
+  | Readonly<{ rows: 2; cols: 3 }>
+  | Readonly<{ rows: 2; cols: 4 }>
+  | Readonly<{ rows: 4; cols: 2 }>
+  | Readonly<{ rows: 4; cols: 4 }>;
 
 export default function LunchboxItem({
   border = true,

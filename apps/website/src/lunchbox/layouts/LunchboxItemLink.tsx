@@ -1,4 +1,4 @@
-import {Props as CellProps} from '../core/LunchboxItem';
+import { Props as CellProps } from '../core/LunchboxItem';
 
 import LunchboxItem from '../core/LunchboxItem';
 import clsx from 'clsx';
@@ -14,7 +14,7 @@ export type SelfProps = Readonly<{
 
 export type Props = CellProps & SelfProps;
 
-function LunchboxItemLink1x4({action, icon, subtitle, title}: SelfProps) {
+function LunchboxItemLink1x4({ action, icon, subtitle, title }: SelfProps) {
   return (
     <div className="w-full flex h-full p-4 items-center justify-between gap-4">
       <div className={clsx('flex items-center gap-3')}>
@@ -29,7 +29,7 @@ function LunchboxItemLink1x4({action, icon, subtitle, title}: SelfProps) {
   );
 }
 
-function LunchboxItemLink2x2({action, icon, subtitle, title}: SelfProps) {
+function LunchboxItemLink2x2({ action, icon, subtitle, title }: SelfProps) {
   return (
     <div className="w-full flex flex-col h-full p-4 md:p-6 gap-4 justify-between">
       <div className={clsx('grid gap-2')}>
@@ -117,7 +117,7 @@ function LunchboxItemLink4x4({
 }
 
 export default function LunchboxItemLink(props: Props) {
-  const {className, cols, rows, ...rest} = props;
+  const { className, cols, rows, ...rest } = props;
 
   return (
     <LunchboxItem

@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import {IconType} from 'react-icons';
+import { IconType } from 'react-icons';
 
 type IconBorderRadius = 'default' | 'lg' | 'full';
 

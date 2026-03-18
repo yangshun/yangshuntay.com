@@ -5,7 +5,7 @@ type Props = Readonly<{
   children: React.ReactNode;
 }>;
 
-export default function LunchboxGrid({children}: Props) {
+export default function LunchboxGrid({ children }: Props) {
   return (
     <div
       className={clsx(

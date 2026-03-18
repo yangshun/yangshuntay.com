@@ -1,4 +1,4 @@
-import {Props as CellProps} from '../core/LunchboxItem';
+import { Props as CellProps } from '../core/LunchboxItem';
 
 import LunchboxItem from '../core/LunchboxItem';
 import clsx from 'clsx';

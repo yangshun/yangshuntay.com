@@ -1,15 +1,15 @@
-import {MDXContent} from '@content-collections/mdx/react';
+import { MDXContent } from '@content-collections/mdx/react';
 import Link from 'next/link';
-import type {Metadata} from 'next';
-import {notFound} from 'next/navigation';
+import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 
 import Timestamp from '~/components/Timestamp';
-import {allPosts} from 'content-collections';
+import { allPosts } from 'content-collections';
 import clsx from 'clsx';
 import Header from '~/components/Header';
 
 type Props = {
-  params: Promise<{slug: string}>;
+  params: Promise<{ slug: string }>;
 };
 
 export async function generateStaticParams() {
@@ -18,8 +18,8 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({params}: Props): Promise<Metadata> {
-  const {slug} = await params;
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
   const post = allPosts.find((post) => post.slug === slug);
 
   if (!post) {
@@ -34,8 +34,8 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
   };
 }
 
-export default async function PostPage({params}: Props) {
-  const {slug} = await params;
+export default async function PostPage({ params }: Props) {
+  const { slug } = await params;
   const post = allPosts.find((post) => post.slug === slug);
 
   if (!post) {

@@ -1,6 +1,6 @@
-import {BsTwitterX} from 'react-icons/bs';
-import {Props as SelfProps} from '../layouts/LunchboxItemLink';
-import {Props as CellProps} from '../core/LunchboxItem';
+import { BsTwitterX } from 'react-icons/bs';
+import { Props as SelfProps } from '../layouts/LunchboxItemLink';
+import { Props as CellProps } from '../core/LunchboxItem';
 
 import LunchboxIcon from '../core/LunchboxIcon';
 import LunchboxItemLink from '../layouts/LunchboxItemLink';

@@ -1,9 +1,9 @@
-import type {Metadata} from 'next';
+import type { Metadata } from 'next';
 import Header from '~/components/Header';
 
 import LunchboxGrid from '~/lunchbox/core/LunchboxGrid';
 
-import {BsMeta} from 'react-icons/bs';
+import { BsMeta } from 'react-icons/bs';
 import GrabIcon from '~/icons/GrabIcon';
 import LunchboxIcon from '~/lunchbox/core/LunchboxIcon';
 
@@ -216,7 +216,7 @@ export default function ResumePage() {
                     <>Entry for the Google Glass Explorers program</>
                   ),
                 },
-              ].map(({year, title, href, description}) => (
+              ].map(({ year, title, href, description }) => (
                 <li key={href}>
                   <span className="text-zinc-700 font-medium">{year}</span> —{' '}
                   <Link
@@ -256,7 +256,7 @@ export default function ResumePage() {
                   title: 'Interview with NUS School of Computing, SoC Bytes',
                   href: 'http://socbytes.blogspot.com/2014/12/nutty-tay.html',
                 },
-              ].map(({year, title, href}) => (
+              ].map(({ year, title, href }) => (
                 <li key={href}>
                   <span className="text-zinc-700 font-medium">{year}</span> —{' '}
                   <Link
@@ -306,7 +306,7 @@ export default function ResumePage() {
                   title: <>All Things Open 2018</>,
                   href: 'https://www.slideshare.net/AllThingsOpen/painless-open-source-documentation-with-docusaurus',
                 },
-              ].map(({year, title, href}) => (
+              ].map(({ year, title, href }) => (
                 <li key={href}>
                   <span className="text-zinc-700 font-medium">{year}</span> —{' '}
                   <Link
@@ -472,7 +472,7 @@ export default function ResumePage() {
                     </>
                   ),
                 },
-                {year: 2013, title: <>Apple WWDC 2013 Student Scholarship</>},
+                { year: 2013, title: <>Apple WWDC 2013 Student Scholarship</> },
                 {
                   year: 2013,
                   title: (
@@ -498,8 +498,8 @@ export default function ResumePage() {
                   year: 2012,
                   title: <>IUMS 2017 Logo Design Competition, Runner-up</>,
                 },
-                {year: 2012, title: <>AngelHack 2012, Gimbal API Award</>},
-                {year: 2012, title: <>Health 2.0 Hackathon, 3rd Runner Up</>},
+                { year: 2012, title: <>AngelHack 2012, Gimbal API Award</> },
+                { year: 2012, title: <>Health 2.0 Hackathon, 3rd Runner Up</> },
                 {
                   year: 2012,
                   title: <>PayPal Hackathon, People&apos;s Choice Award</>,
@@ -552,7 +552,7 @@ export default function ResumePage() {
                   year: 2010,
                   title: <>NUS Kent Ridge Undergradate Scholarship</>,
                 },
-              ].map(({year, title}, index) => (
+              ].map(({ year, title }, index) => (
                 <li key={index}>
                   <span className="text-zinc-700 font-medium">{year}</span> —{' '}
                   <span className="text-zinc-600">{title}</span>

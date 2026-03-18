@@ -1,4 +1,4 @@
-import {Props as CellProps} from '../core/LunchboxItem';
+import { Props as CellProps } from '../core/LunchboxItem';
 
 import LunchboxItem from '../core/LunchboxItem';
 import clsx from 'clsx';
@@ -29,7 +29,7 @@ function TitleLine({
   );
 }
 
-function SubtitleLine({start, end}: Pick<SelfProps, 'start' | 'end'>) {
+function SubtitleLine({ start, end }: Pick<SelfProps, 'start' | 'end'>) {
   return (
     <p className="text-xs flex flex-wrap text-zinc-500 truncate gap-x-1">
       <span>{start}</span>
@@ -39,7 +39,7 @@ function SubtitleLine({start, end}: Pick<SelfProps, 'start' | 'end'>) {
   );
 }
 
-function JobDescription({description}: Pick<SelfProps, 'description'>) {
+function JobDescription({ description }: Pick<SelfProps, 'description'>) {
   return <div className="text-gray-600 text-xs">{description}</div>;
 }
 
@@ -173,7 +173,7 @@ function LunchboxItemJobPosition4x4({
 }
 
 export default function LunchboxItemJobPosition(props: Props) {
-  const {className, cols, rows, ...rest} = props;
+  const { className, cols, rows, ...rest } = props;
 
   return (
     <LunchboxItem

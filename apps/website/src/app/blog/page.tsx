@@ -1,10 +1,10 @@
 import Link from 'next/link';
-import type {Metadata} from 'next';
+import type { Metadata } from 'next';
 
 import ProfileLinks from '~/components/ProfileLinks';
 import Timestamp from '~/components/Timestamp';
-import {compareDesc} from 'date-fns';
-import {allPosts} from 'content-collections';
+import { compareDesc } from 'date-fns';
+import { allPosts } from 'content-collections';
 import Header from '~/components/Header';
 import NavLinks from '~/components/NavLinks';
 

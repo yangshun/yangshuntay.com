@@ -1,10 +1,10 @@
-import {compareDesc} from 'date-fns';
-import {allPosts} from 'content-collections';
+import { compareDesc } from 'date-fns';
+import { allPosts } from 'content-collections';
 import Header from '~/components/Header';
 
 import LunchboxGrid from '~/lunchbox/core/LunchboxGrid';
 
-import {BsMeta} from 'react-icons/bs';
+import { BsMeta } from 'react-icons/bs';
 import GrabIcon from '~/icons/GrabIcon';
 import LunchboxIcon from '~/lunchbox/core/LunchboxIcon';
 
