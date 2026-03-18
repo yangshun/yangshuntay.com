@@ -8,6 +8,7 @@ const posts = defineCollection({
   directory: 'content/blog',
   include: '**/*.md',
   schema: z.object({
+    content: z.string(),
     title: z.string(),
     date: z.string(),
     slug: z.string(),
@@ -26,5 +27,5 @@ const posts = defineCollection({
 });
 
 export default defineConfig({
-  collections: [posts],
+  content: [posts],
 });

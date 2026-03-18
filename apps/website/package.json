@@ -10,8 +10,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@content-collections/core": "^0.11.1",
-    "@content-collections/mdx": "^0.1.6",
+    "@content-collections/core": "^0.14.2",
+    "@content-collections/mdx": "^0.2.2",
     "@content-collections/next": "^0.2.11",
     "@tailwindcss/postcss": "^4.2.1",
     "clsx": "^2.1.1",
