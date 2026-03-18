@@ -36,7 +36,8 @@ export default function LunchboxItem({
         rows === 4 && 'row-span-4',
         rows === cols && 'aspect-square',
         className,
-      )}>
+      )}
+    >
       {children}
     </div>
   );

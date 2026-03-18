@@ -37,7 +37,8 @@ export default function LunchboxItemLinkX({
         'text-white',
         'shadow-xs',
         'bg-[#0f1419] hover:bg-[#272c30]',
-      )}>
+      )}
+    >
       Follow
     </a>
   );

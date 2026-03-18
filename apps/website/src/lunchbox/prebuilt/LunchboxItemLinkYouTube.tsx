@@ -36,7 +36,8 @@ export default function LunchboxItemLinkYouTube({
         'text-xs text-center font-medium tracking-tight',
         'text-white',
         'bg-[#0f0f0f] hover:bg-[#272727]',
-      )}>
+      )}
+    >
       Subscribe
     </a>
   );

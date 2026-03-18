@@ -178,7 +178,8 @@ export default function LunchboxItemJobPosition(props: Props) {
   return (
     <LunchboxItem
       className={clsx('bg-white hover:shadow-lg transition', className)}
-      {...props}>
+      {...props}
+    >
       <div className={clsx('absolute w-full inset-0 flex h-full')}>
         {(() => {
           if (rows === 1 && cols === 4) {

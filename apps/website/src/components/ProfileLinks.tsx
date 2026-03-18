@@ -44,7 +44,8 @@ export default function ProfileLinks() {
           href={href}
           key={href}
           rel="noreferrer noopener"
-          target="_blank">
+          target="_blank"
+        >
           <Icon className="size-5" />
         </a>
       ))}

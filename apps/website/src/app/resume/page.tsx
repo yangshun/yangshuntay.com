@@ -222,7 +222,8 @@ export default function ResumePage() {
                   <Link
                     className="text-zinc-500 hover:underline hover:text-zinc-600 font-medium"
                     href={href}
-                    target="_blank">
+                    target="_blank"
+                  >
                     {title}
                   </Link>
                   : <span className="text-zinc-500">{description}</span>
@@ -262,7 +263,8 @@ export default function ResumePage() {
                     className="text-zinc-500 hover:underline hover:text-zinc-600"
                     href={href}
                     target="_blank"
-                    rel="noreferrer">
+                    rel="noreferrer"
+                  >
                     {title}
                   </Link>
                 </li>
@@ -311,7 +313,8 @@ export default function ResumePage() {
                     className="text-zinc-500 hover:underline hover:text-zinc-600"
                     href={href}
                     target="_blank"
-                    rel="noreferrer">
+                    rel="noreferrer"
+                  >
                     {title}
                   </Link>
                 </li>

@@ -26,7 +26,8 @@ export default function LunchboxIcon({
         'items-center justify-center w-10 h-10 inline-flex shrink-0',
         borderRadiusClass[borderRadius],
         className,
-      )}>
+      )}
+    >
       <Icon className="size-5" />
     </span>
   );

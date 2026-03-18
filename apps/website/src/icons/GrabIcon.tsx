@@ -6,7 +6,8 @@ export default function GrabIcon(props: React.ComponentProps<'svg'>) {
       viewBox="0 0 1409 1530"
       width="1409"
       height="1530"
-      {...props}>
+      {...props}
+    >
       <g fill="currentColor">
         <g>
           <g>

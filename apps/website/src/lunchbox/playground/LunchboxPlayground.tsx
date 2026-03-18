@@ -26,7 +26,7 @@ export default function LunchboxPlayground<TCellProps extends GridCellProps>({
       {layouts.map((layout) => (
         <Cell
           key={`${layout.rows}x${layout.cols}`}
-          {...({ ...layout, ...cellProps } as TCellProps)}
+          {...({...layout, ...cellProps} as TCellProps)}
         />
       ))}
     </LunchboxGrid>

@@ -22,7 +22,8 @@ export default function NavLinks() {
         <li key={href}>
           <Link
             className="block text-zinc-500 hover:text-zinc-700 transition-colors font-medium py-2 px-2"
-            href={href}>
+            href={href}
+          >
             {label}
           </Link>
         </li>

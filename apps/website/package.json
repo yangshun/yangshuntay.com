@@ -2,12 +2,12 @@
   "name": "yangshuntay.com",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "portless yangshuntay next dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit",
-    "lint": "eslint ."
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@content-collections/core": "^0.11.1",
@@ -30,8 +30,6 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@yangshun/tsconfig": "workspace:*",
-    "eslint": "^9.39.4",
-    "eslint-config-custom": "workspace:*",
     "postcss": "^8.5.8",
     "remark-gfm": "^4.0.1",
     "typescript": "^5.9.3"

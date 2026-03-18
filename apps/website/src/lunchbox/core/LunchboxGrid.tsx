@@ -12,7 +12,8 @@ export default function LunchboxGrid({children}: Props) {
         'grid grid-cols-4 md:grid-cols-8 auto-rows-fr',
         'gap-6',
         styles.grid,
-      )}>
+      )}
+    >
       {/* Hack to let the grid know how tall each row should be */}
       <div className="w-0 pb-[100%] col-span-1 row-span-1 col-start-1 row-start-1" />
       {children}

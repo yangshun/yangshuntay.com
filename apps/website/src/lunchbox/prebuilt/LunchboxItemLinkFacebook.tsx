@@ -36,7 +36,8 @@ export default function LunchboxItemLinkFacebook({
         'text-xs text-center font-semibold',
         'text-gray-900',
         'bg-[#e4e6eb] hover:bg-gray-300',
-      )}>
+      )}
+    >
       Follow
     </a>
   );

@@ -35,7 +35,8 @@ export default function LunchboxItemLinkInstagram({
         'transition',
         'text-xs text-center font-medium text-white active:text-white/80',
         'bg-[#4093EF] hover:bg-[#2875CA] active:bg-[#3383DC]',
-      )}>
+      )}
+    >
       Follow
     </a>
   );

@@ -48,7 +48,8 @@ export default async function PostPage({params}: Props) {
         rightContents={
           <Link
             className="text-sm text-zinc-500 hover:underline hover:text-zinc-600 transition-colors"
-            href="/blog">
+            href="/blog"
+          >
             Back to all posts
           </Link>
         }
@@ -70,7 +71,8 @@ export default async function PostPage({params}: Props) {
             'prose-h2:font-semibold prose-h2:tracking-tight',
             'prose-h3:font-semibold prose-h3:tracking-tight',
             'prose-h4:font-semibold prose-h4:tracking-tight',
-          )}>
+          )}
+        >
           <MDXContent code={post.body} />
         </div>
       </article>

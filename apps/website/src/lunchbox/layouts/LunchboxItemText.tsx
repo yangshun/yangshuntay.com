@@ -32,7 +32,8 @@ export default function LunchboxItemText({
           )}
           dangerouslySetInnerHTML={{
             __html: htmlString,
-          }}></div>
+          }}
+        ></div>
       </div>
     </LunchboxItem>
   );

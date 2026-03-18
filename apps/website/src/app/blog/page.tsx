@@ -25,7 +25,8 @@ export default function BlogIndexPage() {
         {posts.map((post) => (
           <li
             className="flex gap-x-4 justify-between md:items-center"
-            key={post.url}>
+            key={post.url}
+          >
             <Link href={post.url} className="hover:underline">
               <h2 className="text-zinc-900 tracking-tight font-medium">
                 {post.title}

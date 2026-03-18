@@ -1,8 +1,10 @@
 {
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
   "bracketSpacing": false,
   "jsxBracketSameLine": true,
   "printWidth": 80,
   "proseWrap": "never",
   "singleQuote": true,
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "sortPackageJson": false
 }
