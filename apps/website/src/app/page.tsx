@@ -1,26 +1,12 @@
-import { compareDesc } from 'date-fns';
-import { allPosts } from 'content-collections';
 import { Header } from '~/components/header';
-
 import { LunchboxGrid } from '~/lunchbox/core/lunchbox-grid';
-
-import { BsMeta } from 'react-icons/bs';
-import { GrabIcon } from '~/icons/grab-icon';
-import { LunchboxIcon } from '~/lunchbox/core/lunchbox-icon';
-
 import { LunchboxItemLinkGitHub } from '~/lunchbox/prebuilt/lunchbox-item-link-github';
 import { LunchboxItemLinkTwitter } from '~/lunchbox/prebuilt/lunchbox-item-link-twitter';
 import { LunchboxItemLinkFacebook } from '~/lunchbox/prebuilt/lunchbox-item-link-facebook';
 import { LunchboxItemLinkInstagram } from '~/lunchbox/prebuilt/lunchbox-item-link-instagram';
-import { LunchboxItemJobPosition } from '~/lunchbox/layouts/lunchbox-item-job-position';
-import { LunchboxItemLinkGitHubProject } from '~/lunchbox/prebuilt/lunchbox-item-link-github-project';
 import { NavLinks } from '~/components/nav-links';
 
 export default function HomePage() {
-  const posts = allPosts.sort((a, b) =>
-    compareDesc(new Date(a.date), new Date(b.date)),
-  );
-
   return (
     <div>
       <Header rightContents={<NavLinks />} />
