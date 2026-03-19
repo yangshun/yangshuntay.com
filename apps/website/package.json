@@ -32,6 +32,7 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@yangshun/tsconfig": "workspace:*",
+    "portless": "^0.7.1",
     "postcss": "^8.5.8",
     "remark-gfm": "^4.0.1",
     "typescript": "^5.9.3"

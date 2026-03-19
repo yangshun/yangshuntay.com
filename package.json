@@ -1,9 +1,15 @@
 {
-  "name": "yangshuntay.com",
+  "name": "yangshuntay.com-workspace",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "vp run --filter ./apps/website build",
+    "check": "vp check",
+    "dev": "vp run --filter ./apps/website dev",
+    "start": "vp run --filter ./apps/website start",
+    "test": "vp test",
+    "typecheck": "vp run --filter ./apps/website typecheck",
     "lint": "vp lint",
     "lint:fix": "vp lint --fix",
     "fmt": "vp fmt",
