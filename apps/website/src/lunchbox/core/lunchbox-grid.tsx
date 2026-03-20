@@ -10,7 +10,7 @@ export function LunchboxGrid({ children }: Props) {
     <div
       className={clsx(
         'grid grid-cols-4 md:grid-cols-8 auto-rows-fr',
-        'gap-6',
+        'gap-4',
         styles.grid,
       )}
     >

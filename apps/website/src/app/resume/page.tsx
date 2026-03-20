@@ -24,7 +24,7 @@ export default function ResumePage() {
       <div className="flex flex-col gap-y-12">
         <section className="grid gap-y-4">
           <h2 className="sr-only tracking-tight font-medium text-xl">About</h2>
-          <p className="text-zinc-600 max-w-md text-pretty">
+          <p className="text-zinc-600 max-w-lg text-pretty">
             Full Front End Stack Engineer, experienced in building products,
             design systems, user experience, and developer tooling.
           </p>
