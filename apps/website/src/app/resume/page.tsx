@@ -1,13 +1,7 @@
 import type { Metadata } from 'next';
 import { Header } from '~/components/header';
-
-import { LunchboxGrid } from '~/lunchbox/core/lunchbox-grid';
-
 import { BsMeta } from 'react-icons/bs';
 import { GrabIcon } from '~/icons/grab-icon';
-import { LunchboxIcon } from '~/lunchbox/core/lunchbox-icon';
-
-import { LunchboxItemJobPosition } from '~/lunchbox/layouts/lunchbox-item-job-position';
 import { NavLinks } from '~/components/nav-links';
 import Link from 'next/link';
 
@@ -15,6 +9,60 @@ export const metadata: Metadata = {
   title: 'Resume | Yangshun Tay',
   description: 'Resume of Yangshun Tay',
 };
+
+const experiences = [
+  {
+    company: 'GreatFrontEnd',
+    jobTitle: 'Co-founder',
+    period: 'Apr 2023 — Present',
+    icon: (
+      <svg
+        aria-label="GreatFrontEnd"
+        className="size-6 shrink-0"
+        fill="currentColor"
+        height="20"
+        viewBox="0 0 26 19"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M9.88273 0L13.0103 3.17047L6.75515 9.48828L13.0103 15.8061L9.88273 18.9766L0.5 9.48828L9.88273 0ZM16.1173 12.6589L12.9897 15.8294L16.1173 18.9999L19.2448 15.8294L16.1173 12.6589ZM25.5 9.48797L22.3724 12.6584L19.2448 9.48797L16.1173 12.6584L12.9897 9.48797L19.2448 3.17017L25.5 9.48797Z"
+          fillRule="evenodd"
+        ></path>
+      </svg>
+    ),
+    achievements: [
+      'Built a JavaScript practice platform with 500+ challenges across coding and quiz formats',
+      'Designed and implemented an in-browser interactive coding workspace with customizable windows and tabs',
+      'Created and maintained a custom design system with 30+ components using Radix UI and Tailwind CSS',
+      'Authored 95% of the challenges and technical content',
+      'Grew the platform to 1.5M monthly pageviews and 80k MAU',
+    ],
+  },
+  {
+    company: 'Meta',
+    jobTitle: 'Staff Engineer',
+    period: 'Nov 2017 — Mar 2023',
+    icon: <BsMeta className="size-5 text-[#0668E1]" />,
+    achievements: [
+      'Full front end stack development',
+      'Led development of meta.com',
+      'Built Docusaurus 2 alpha',
+      'Built design systems used on meta.com and oculus.com',
+    ],
+  },
+  {
+    company: 'Grab',
+    jobTitle: 'Software Engineer',
+    period: 'Jun 2015 — Aug 2017',
+    icon: <GrabIcon className="size-5 text-[#0a9830]" />,
+    achievements: [
+      'Engineering lead for Grab for Work, an enterprise solution for simplifying business transportation',
+      'Worked on web infrastructure; developed automation tools to improve the CI workflow, set up linting, testing, and type coverage',
+    ],
+  },
+] as const;
 
 export default function ResumePage() {
   return (
@@ -31,57 +79,34 @@ export default function ResumePage() {
         </section>
         <section className="grid gap-y-4">
           <h2 className="tracking-tight font-medium text-xl">Experience</h2>
-          <LunchboxGrid>
-            <LunchboxItemJobPosition
-              icon={
-                <LunchboxIcon
-                  className="text-[#0668E1] shadow-xs"
-                  icon={BsMeta}
-                />
-              }
-              company="Meta"
-              description={
-                <ul className="list-disc">
-                  <li>Full front end stack development</li>
-                  <li>Led development of meta.com</li>
-                  <li>Built Docusaurus 2 alpha</li>
-                  <li>Built design systems used on meta.com and oculus.com</li>
-                </ul>
-              }
-              jobTitle="Staff Engineer"
-              start={2017}
-              end={2023}
-              rows={2}
-              cols={4}
-            />
-            <LunchboxItemJobPosition
-              icon={
-                <LunchboxIcon
-                  className="text-[#0a9830] shadow-xs"
-                  icon={GrabIcon}
-                />
-              }
-              company="Grab"
-              description={
-                <ul className="list-disc">
-                  <li>
-                    Engineering lead for Grab for Work, an enterprise solution
-                    for simplifying business transportation
-                  </li>
-                  <li>
-                    Worked on web infrastructure; Developed automation tools to
-                    improve the CI workflow, set up linting, testing, type
-                    coverage
-                  </li>
-                </ul>
-              }
-              jobTitle="Software Engineer"
-              start={2015}
-              end={2017}
-              rows={2}
-              cols={4}
-            />
-          </LunchboxGrid>
+          <div className="flex flex-col gap-12">
+            {experiences.map(
+              ({ company, jobTitle, period, icon, achievements }) => (
+                <article key={company}>
+                  <div className="flex flex-col gap-4 sm:flex-row sm:items-start">
+                    <div className="flex size-10 shrink-0 items-center justify-center rounded-full border border-zinc-200/80 bg-white shadow-xs">
+                      {icon}
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <div className="flex flex-col gap-1">
+                        <h3 className="text-base tracking-tight font-medium text-zinc-950">
+                          {jobTitle}
+                          <span className="mx-2 text-zinc-400">·</span>
+                          {company}
+                        </h3>
+                        <p className="text-base text-zinc-500">{period}</p>
+                      </div>
+                      <ul className="mt-2 list-disc space-y-1 pl-4 text-base text-zinc-600">
+                        {achievements.map((achievement) => (
+                          <li key={achievement}>{achievement}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              ),
+            )}
+          </div>
         </section>
         <section className="grid gap-y-4">
           <h2 className="tracking-tight font-medium text-xl">Projects</h2>
@@ -89,23 +114,25 @@ export default function ResumePage() {
             <ul>
               {[
                 {
-                  year: 2025,
+                  year: 2026,
                   title: 'Socialmon',
                   href: 'https://www.socialmon.ai',
-                  description: (
-                    <>
-                      AI companion to find, share, and save viral marketing
-                      ideas
-                    </>
-                  ),
+                  description:
+                    'AI companion to find, share, and save viral marketing ideas',
+                },
+                {
+                  year: 2026,
+                  title: 'greatstorage',
+                  href: 'https://github.com/yangshun/greatstorage',
+                  description:
+                    'Supercharged localStorage with schema validation, namespacing, and key expiration',
                 },
                 {
                   year: 2025,
                   title: 'create-ts-fast',
                   href: 'https://github.com/yangshun/create-ts-fast',
-                  description: (
-                    <>CLI tool for scaffolding npm packages in TypeScript</>
-                  ),
+                  description:
+                    'CLI tool for scaffolding npm packages in TypeScript',
                 },
                 {
                   year: 2024,
@@ -125,7 +152,7 @@ export default function ResumePage() {
                   description: (
                     <>
                       Front end interview preparation and career platform built
-                      by Front End Engineeers for Front End Engineers
+                      by Front End Engineers for Front End Engineers
                     </>
                   ),
                 },
@@ -145,10 +172,7 @@ export default function ResumePage() {
                   title: 'Docusaurus',
                   href: 'https://docusaurus.io',
                   description: (
-                    <>
-                      Lead maintainer for one of Meta&apos;s most popular open
-                      source project
-                    </>
+                    <>Easy-to-maintain open source documentation websites</>
                   ),
                 },
                 {
@@ -157,17 +181,9 @@ export default function ResumePage() {
                   href: 'https://github.com/yangshun/tree-node-cli',
                   description: (
                     <>
-                      Node.js library to list the contents of directories in a
-                      tree-like format
+                      List directory contents in a tree-like format from the CLI
+                      or Node.js
                     </>
-                  ),
-                },
-                {
-                  year: 2017,
-                  title: 'delete-github-forks',
-                  href: 'https://github.com/yangshun/delete-github-forks',
-                  description: (
-                    <>CLI to bulk delete GitHub forks in two simple steps</>
                   ),
                 },
                 {
@@ -175,7 +191,10 @@ export default function ResumePage() {
                   title: 'Front End Interview Handbook',
                   href: 'https://frontendinterviewhandbook.com',
                   description: (
-                    <>Tech Interview Handbook, focused on front end</>
+                    <>
+                      Front end interview preparation materials for busy
+                      engineers
+                    </>
                   ),
                 },
                 {
@@ -184,17 +203,28 @@ export default function ResumePage() {
                   href: 'https://techinterviewhandbook.org',
                   description: (
                     <>
-                      Interview study notes turned into a website used by
-                      millions of developers over the world
+                      Curated coding interview preparation materials for busy
+                      software engineers
                     </>
                   ),
                 },
                 {
-                  year: 2015,
-                  title: 'NUSWhispers',
-                  href: 'https://facebook.com/nuswhispers',
+                  year: 2017,
+                  title: 'lago',
+                  href: 'https://github.com/yangshun/lago',
                   description: (
-                    <>Started Singapore&apos;s top shitposting platform</>
+                    <>
+                      Data structures and algorithms library in TypeScript and
+                      JavaScript
+                    </>
+                  ),
+                },
+                {
+                  year: 2017,
+                  title: 'delete-github-forks',
+                  href: 'https://github.com/yangshun/delete-github-forks',
+                  description: (
+                    <>Bulk delete your GitHub forks in two simple steps</>
                   ),
                 },
                 {
@@ -203,17 +233,9 @@ export default function ResumePage() {
                   href: 'https://github.com/nusmodifications/nusmods',
                   description: (
                     <>
-                      Led development of the unofficial NUS timetable builder
-                      until it became official
+                      Student-initiated course planning platform for the
+                      National University of Singapore
                     </>
-                  ),
-                },
-                {
-                  year: 2013,
-                  title: '#ifihadglass',
-                  href: 'https://yangshun.github.io/ifihadglass/',
-                  description: (
-                    <>Entry for the Google Glass Explorers program</>
                   ),
                 },
               ].map(({ year, title, href, description }) => (
@@ -278,11 +300,39 @@ export default function ResumePage() {
             <ul>
               {[
                 {
+                  id: 'react-india-2025',
+                  year: 2025,
+                  title: (
+                    <>
+                      React India 2025: Groundpack — Modern lightweight
+                      ESM-based coding environment within the browser
+                    </>
+                  ),
+                  href: 'https://www.youtube.com/live/8UiD-l25z2A?si=c4IjT7K66l2fAtYJ&t=938',
+                },
+                {
+                  id: 'rocket-academy-ama-2023',
                   year: 2023,
-                  title: <>3 Things I Wish I Knew When I Started Coding</>,
+                  title: (
+                    <>
+                      Rocket Academy AMA: 3 Things I Wish I Knew When I Started
+                      Coding
+                    </>
+                  ),
                   href: 'https://www.youtube.com/watch?v=ecMqVk51EsA',
                 },
                 {
+                  id: 'nus-project-mentor-welcome-tea-2023',
+                  year: 2023,
+                  title: (
+                    <>
+                      NUS Project Mentor Welcome Tea 2023: Maximizing your
+                      mentorship
+                    </>
+                  ),
+                },
+                {
+                  id: 'f8-2019',
                   year: 2019,
                   title: (
                     <>
@@ -292,6 +342,7 @@ export default function ResumePage() {
                   href: 'https://www.youtube.com/watch?v=QcGJsf6mgZE',
                 },
                 {
+                  id: 'facebook-developer-circles-singapore-build-day-2019',
                   year: 2019,
                   title: (
                     <>
@@ -302,23 +353,36 @@ export default function ResumePage() {
                   href: 'https://www.facebook.com/khangtoh/videos/oa.936011683431143/10156518641565835/?type=3&theater&ifg=1',
                 },
                 {
+                  id: 'all-things-open-2018',
                   year: 2018,
                   title: <>All Things Open 2018</>,
                   href: 'https://www.slideshare.net/AllThingsOpen/painless-open-source-documentation-with-docusaurus',
                 },
-              ].map(({ year, title, href }) => (
-                <li key={href}>
-                  <span className="text-zinc-700 font-medium">{year}</span> —{' '}
-                  <Link
-                    className="text-zinc-500 hover:underline hover:text-zinc-600"
-                    href={href}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {title}
-                  </Link>
-                </li>
-              ))}
+              ].map(
+                ({
+                  id,
+                  year,
+                  title,
+                  href,
+                }: {
+                  id: string;
+                  year: number;
+                  title: React.ReactNode;
+                  href?: string;
+                }) => (
+                  <li key={id}>
+                    <span className="text-zinc-700 font-medium">{year}</span> —{' '}
+                    <Link
+                      className="text-zinc-500 hover:underline hover:text-zinc-600"
+                      href={href ?? '#'}
+                      target={href ? '_blank' : undefined}
+                      rel="noreferrer noopener"
+                    >
+                      {title}
+                    </Link>
+                  </li>
+                ),
+              )}
             </ul>
           </div>
         </section>
@@ -327,6 +391,10 @@ export default function ResumePage() {
           <div>
             <ul>
               {[
+                {
+                  year: 2026,
+                  title: <>LinkedIn Top Voice 2026</>,
+                },
                 {
                   year: 2022,
                   title: <>Outstanding Young Computing Alumni Award 2021</>,

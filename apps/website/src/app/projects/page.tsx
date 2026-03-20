@@ -27,7 +27,7 @@ export default function ProjectsPage() {
               username="yangshun"
               title="Tech Interview Handbook"
               repoName="tech-interview-handbook"
-              description="All-in-one tech interview resource"
+              description="Coding interview preparation materials for busy software engineers"
               image={
                 <img
                   alt="Tech Interview Handbook"
@@ -43,7 +43,7 @@ export default function ProjectsPage() {
               username="facebook"
               repoName="docusaurus"
               title="Docusaurus"
-              description="Easy to maintain open source documentation websites"
+              description="Easy-to-maintain open source documentation websites"
               image={
                 <img
                   alt="Docusaurus"
@@ -59,7 +59,7 @@ export default function ProjectsPage() {
               username="yangshun"
               repoName="front-end-interview-handbook"
               title="Front End Interview Handbook"
-              description="All-round front end interview preparation"
+              description="Front end interview preparation materials for busy engineers"
               image={
                 <img
                   alt="Front End Interview Handbook"
@@ -71,16 +71,45 @@ export default function ProjectsPage() {
             <LunchboxItemLinkGitHubProject
               rows={1}
               cols={4}
+              username="nusmodifications"
+              repoName="nusmods"
+              title="NUSMods"
+              description="Official course planning platform for the National University of Singapore"
+            />
+            <LunchboxItemLinkGitHubProject
+              rows={1}
+              cols={4}
               username="yangshun"
-              repoName="delete-github-forks"
-              description="Bulk delete your GitHub forks"
+              repoName="lago"
+              description="Data structures and algorithms library in TypeScript and JavaScript"
+            />
+            <LunchboxItemLinkGitHubProject
+              rows={1}
+              cols={4}
+              username="yangshun"
+              repoName="create-ts-fast"
+              description="CLI tool for scaffolding npm packages in TypeScript"
+            />
+            <LunchboxItemLinkGitHubProject
+              rows={1}
+              cols={4}
+              username="yangshun"
+              repoName="greatstorage"
+              description="Supercharged localStorage with schema validation, namespacing, and key expiration"
             />
             <LunchboxItemLinkGitHubProject
               rows={1}
               cols={4}
               username="yangshun"
               repoName="tree-node-cli"
-              description="List directory contents in Node.js"
+              description="List directory contents in a tree-like format"
+            />
+            <LunchboxItemLinkGitHubProject
+              rows={1}
+              cols={4}
+              username="yangshun"
+              repoName="delete-github-forks"
+              description="Bulk delete your GitHub forks"
             />
           </LunchboxGrid>
         </section>
