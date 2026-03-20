@@ -21,7 +21,7 @@ function LunchboxItemLink1x4({ action, icon, subtitle, title }: SelfProps) {
         {icon}
         <div>
           <p className="text-sm font-medium">{title}</p>
-          <p className="text-xs text-zinc-500 truncate">{subtitle}</p>
+          <p className="text-xs text-zinc-500">{subtitle}</p>
         </div>
       </div>
       {action && <div>{action}</div>}
@@ -36,7 +36,7 @@ function LunchboxItemLink2x2({ action, icon, subtitle, title }: SelfProps) {
         {icon}
         <div>
           <p className="text-sm font-medium">{title}</p>
-          <p className="text-xs text-zinc-500 truncate">{subtitle}</p>
+          <p className="text-xs text-zinc-500">{subtitle}</p>
         </div>
       </div>
       {action && <div>{action}</div>}
@@ -58,7 +58,7 @@ function LunchboxItemLink4x2({
           {icon}
           <div className="flex flex-col">
             <p className="text-sm font-medium">{title}</p>
-            <p className="text-xs text-zinc-500 truncate">{subtitle}</p>
+            <p className="text-xs text-zinc-500">{subtitle}</p>
           </div>
         </div>
         {image && <div>{image}</div>}
@@ -82,7 +82,7 @@ function LunchboxItemLink2x4({
           {icon}
           <div className="flex flex-col">
             <p className="text-sm font-medium">{title}</p>
-            <p className="text-xs text-zinc-500 truncate">{subtitle}</p>
+            <p className="text-xs text-zinc-500">{subtitle}</p>
           </div>
         </div>
         {action && <div>{action}</div>}
@@ -106,7 +106,7 @@ function LunchboxItemLink4x4({
           {icon}
           <div className="flex flex-col">
             <p className="text-sm font-medium">{title}</p>
-            <p className="text-xs text-zinc-500 truncate">{subtitle}</p>
+            <p className="text-xs text-zinc-500">{subtitle}</p>
           </div>
         </div>
         {action && <div>{action}</div>}
