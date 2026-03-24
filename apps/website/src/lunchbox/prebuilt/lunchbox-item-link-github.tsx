@@ -4,7 +4,6 @@ import { Props as CellProps } from '../core/lunchbox-item';
 
 import { LunchboxIcon } from '../core/lunchbox-icon';
 import { LunchboxItemLink } from '../layouts/lunchbox-item-link';
-import clsx from 'clsx';
 
 type Props = Pick<SelfProps, 'className' | 'image'> &
   CellProps &
@@ -28,7 +27,7 @@ export function LunchboxItemLinkGitHub({
       href={`https://github.com/${username}`}
       target="_blank"
       rel="noreferrer"
-      className={clsx(
+      className={[
         'inline-flex px-3 py-1.5 rounded-lg',
         'text-xs text-center font-semibold',
         'transition',
@@ -36,7 +35,7 @@ export function LunchboxItemLinkGitHub({
         'border border-[#1f2328]/15',
         'shadow-xs',
         'bg-[#f6f8fa] hover:bg-[#f3f4f6]',
-      )}
+      ]}
     >
       Follow
     </a>

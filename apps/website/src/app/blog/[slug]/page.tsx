@@ -5,7 +5,6 @@ import { notFound } from 'next/navigation';
 
 import { Timestamp } from '~/components/timestamp';
 import { allPosts } from 'content-collections';
-import clsx from 'clsx';
 import { Header } from '~/components/header';
 
 type Props = {
@@ -65,13 +64,13 @@ export default async function PostPage({ params }: Props) {
         </p>
         <hr className="my-4" />
         <div
-          className={clsx(
+          className={[
             'prose prose-zinc',
             'prose-h1:font-semibold prose-h1:tracking-tight',
             'prose-h2:font-semibold prose-h2:tracking-tight',
             'prose-h3:font-semibold prose-h3:tracking-tight',
             'prose-h4:font-semibold prose-h4:tracking-tight',
-          )}
+          ]}
         >
           <MDXContent code={post.body} />
         </div>

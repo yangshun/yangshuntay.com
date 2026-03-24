@@ -1,13 +1,13 @@
+import type { ClassValue } from 'reclassify';
 import { Props as CellProps } from '../core/lunchbox-item';
 
 import { LunchboxItem } from '../core/lunchbox-item';
-import clsx from 'clsx';
 
 type Props = CellProps & {
   alt?: string;
   caption?: string;
   src: string;
-  imageClassName?: string;
+  imageClassName?: ClassValue;
 };
 
 export function LunchboxItemImage({
@@ -21,10 +21,10 @@ export function LunchboxItemImage({
     <LunchboxItem border={false} {...props}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        className={clsx(
+        className={[
           'absolute inset-0 w-full h-full object-cover',
           imageClassName,
-        )}
+        ]}
         alt={alt}
         src={src}
       />

@@ -4,7 +4,6 @@ import { Props as CellProps } from '../core/lunchbox-item';
 
 import { LunchboxIcon } from '../core/lunchbox-icon';
 import { LunchboxItemLink } from '../layouts/lunchbox-item-link';
-import clsx from 'clsx';
 
 type Props = Pick<SelfProps, 'className' | 'image'> &
   CellProps &
@@ -30,14 +29,14 @@ export function LunchboxItemLinkTwitter({
       href={`https://x.com/${username}`}
       target="_blank"
       rel="noreferrer"
-      className={clsx(
+      className={[
         'inline-flex px-3 py-1.5 rounded-full',
         'transition',
         'text-xs text-center font-semibold',
         'text-white',
         'shadow-xs',
         'bg-[#0f1419] hover:bg-[#272c30]',
-      )}
+      ]}
     >
       Follow
     </a>

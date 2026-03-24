@@ -1,7 +1,6 @@
 import { Props as CellProps } from '../core/lunchbox-item';
 
 import { LunchboxItem } from '../core/lunchbox-item';
-import clsx from 'clsx';
 
 type Props = CellProps & {
   align?: 'start' | 'center' | 'end';
@@ -19,17 +18,17 @@ export function LunchboxItemText({
     <LunchboxItem {...props}>
       <div className="absolute left-4 right-4 top-4 bottom-4">
         <div
-          className={clsx(
-            'text-ellipsis h-full overflow-hidden',
-            'flex',
-            align === 'start' && 'items-start',
-            align === 'center' && 'items-center',
-            align === 'end' && 'items-end',
-            justify === 'start' && 'justify-start',
-            justify === 'center' && 'justify-center',
-            justify === 'end' && 'justify-end',
-            'text-ellipsis',
-          )}
+          className={[
+            'flex h-full overflow-hidden text-ellipsis',
+            {
+              'items-start': align === 'start',
+              'items-center': align === 'center',
+              'items-end': align === 'end',
+              'justify-start': justify === 'start',
+              'justify-center': justify === 'center',
+              'justify-end': justify === 'end',
+            },
+          ]}
           dangerouslySetInnerHTML={{
             __html: htmlString,
           }}

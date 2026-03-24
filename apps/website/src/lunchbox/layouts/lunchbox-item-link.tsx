@@ -1,10 +1,10 @@
+import type { ClassValue } from 'reclassify';
 import { Props as CellProps } from '../core/lunchbox-item';
 
 import { LunchboxItem } from '../core/lunchbox-item';
-import clsx from 'clsx';
 
 export type SelfProps = Readonly<{
-  className?: string;
+  className?: ClassValue;
   title: string;
   subtitle?: string;
   icon: React.ReactElement;
@@ -17,7 +17,7 @@ export type Props = CellProps & SelfProps;
 function LunchboxItemLink1x4({ action, icon, subtitle, title }: SelfProps) {
   return (
     <div className="w-full flex h-full p-4 items-center justify-between gap-4">
-      <div className={clsx('flex items-center gap-3')}>
+      <div className="flex items-center gap-3">
         {icon}
         <div>
           <p className="text-sm font-medium">{title}</p>
@@ -32,7 +32,7 @@ function LunchboxItemLink1x4({ action, icon, subtitle, title }: SelfProps) {
 function LunchboxItemLink2x2({ action, icon, subtitle, title }: SelfProps) {
   return (
     <div className="w-full flex flex-col h-full p-4 md:p-6 gap-4 justify-between">
-      <div className={clsx('grid gap-2')}>
+      <div className="grid gap-2">
         {icon}
         <div>
           <p className="text-sm font-medium">{title}</p>
@@ -53,8 +53,8 @@ function LunchboxItemLink4x2({
 }: SelfProps) {
   return (
     <div className="w-full flex flex-col h-full p-6 gap-4 justify-between">
-      <div className={clsx('grid gap-4')}>
-        <div className={clsx('grid gap-2')}>
+      <div className="grid gap-4">
+        <div className="grid gap-2">
           {icon}
           <div className="flex flex-col">
             <p className="text-sm font-medium">{title}</p>
@@ -78,7 +78,7 @@ function LunchboxItemLink2x4({
   return (
     <div className="w-full flex h-full p-6 gap-4 justify-between items-stretch">
       <div className="flex flex-col justify-between">
-        <div className={clsx('grid gap-2')}>
+        <div className="grid gap-2">
           {icon}
           <div className="flex flex-col">
             <p className="text-sm font-medium">{title}</p>
@@ -101,8 +101,8 @@ function LunchboxItemLink4x4({
 }: SelfProps) {
   return (
     <div className="w-full flex flex-col h-full p-6 items-stretch justify-between gap-4">
-      <div className={clsx('flex justify-between gap-4')}>
-        <div className={clsx('grid gap-2')}>
+      <div className="flex justify-between gap-4">
+        <div className="grid gap-2">
           {icon}
           <div className="flex flex-col">
             <p className="text-sm font-medium">{title}</p>
@@ -121,10 +121,10 @@ export function LunchboxItemLink(props: Props) {
 
   return (
     <LunchboxItem
-      className={clsx('bg-white hover:shadow-lg transition', className)}
       {...props}
+      className={['bg-white hover:shadow-lg transition', className]}
     >
-      <div className={clsx('absolute w-full inset-0 flex h-full')}>
+      <div className="absolute inset-0 flex h-full w-full">
         {(() => {
           if (rows === 1 && cols === 4) {
             return <LunchboxItemLink1x4 {...rest} />;

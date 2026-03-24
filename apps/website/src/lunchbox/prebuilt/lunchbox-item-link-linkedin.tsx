@@ -4,7 +4,6 @@ import { Props as CellProps } from '../core/lunchbox-item';
 
 import { LunchboxIcon } from '../core/lunchbox-icon';
 import { LunchboxItemLink } from '../layouts/lunchbox-item-link';
-import clsx from 'clsx';
 
 type Props = Pick<SelfProps, 'className' | 'image'> &
   CellProps &
@@ -30,13 +29,13 @@ export function LunchboxItemLinkLinkedIn({
       href={`https://www.linkedin.com/in/${username}`}
       target="_blank"
       rel="noreferrer"
-      className={clsx(
+      className={[
         'inline-flex items-center',
         'pr-1.5 rounded-sm',
         'text-xs text-center font-semibold',
         'transition',
         'text-[#0A66C2] hover:bg-[#378FE9]/10',
-      )}
+      ]}
     >
       <BsPlus className="size-6" /> Follow
     </a>

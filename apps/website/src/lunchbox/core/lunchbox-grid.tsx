@@ -1,4 +1,3 @@
-import clsx from 'clsx';
 import styles from './lunchbox-grid.module.css';
 
 type Props = Readonly<{
@@ -8,11 +7,11 @@ type Props = Readonly<{
 export function LunchboxGrid({ children }: Props) {
   return (
     <div
-      className={clsx(
+      className={[
         'grid grid-cols-4 md:grid-cols-8 auto-rows-fr',
         'gap-4',
         styles.grid,
-      )}
+      ]}
     >
       {/* Hack to let the grid know how tall each row should be */}
       <div className="w-0 pb-[100%] col-span-1 row-span-1 col-start-1 row-start-1" />

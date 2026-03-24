@@ -1,10 +1,10 @@
+import type { ClassValue } from 'reclassify';
 import { Props as CellProps } from '../core/lunchbox-item';
 
 import { LunchboxItem } from '../core/lunchbox-item';
-import clsx from 'clsx';
 
 export type SelfProps = Readonly<{
-  className?: string;
+  className?: ClassValue;
   company: string;
   description?: React.ReactNode;
   jobTitle?: string;
@@ -52,7 +52,7 @@ function LunchboxItemJobPosition1x4({
 }: SelfProps) {
   return (
     <div className="w-full flex h-full p-3 items-center justify-between">
-      <div className={clsx('flex items-center gap-3')}>
+      <div className="flex items-center gap-3">
         {icon}
         <div className="flex flex-col">
           <TitleLine jobTitle={jobTitle} company={company} />
@@ -72,7 +72,7 @@ function LunchboxItemJobPosition2x2({
 }: SelfProps) {
   return (
     <div className="w-full flex flex-col h-full p-6 gap-2 justify-between">
-      <div className={clsx('grid gap-2')}>
+      <div className="grid gap-2">
         {icon}
         <div className="flex flex-col">
           <TitleLine jobTitle={jobTitle} company={company} />
@@ -94,8 +94,8 @@ function LunchboxItemJobPosition4x2({
 }: SelfProps) {
   return (
     <div className="w-full flex flex-col h-full p-6 gap-2 justify-between">
-      <div className={clsx('grid gap-4')}>
-        <div className={clsx('grid gap-2')}>
+      <div className="grid gap-4">
+        <div className="grid gap-2">
           {icon}
           <div className="flex flex-col">
             <TitleLine jobTitle={jobTitle} company={company} />
@@ -121,7 +121,7 @@ function LunchboxItemJobPosition2x4({
   return (
     <div className="w-full flex flex-col h-full p-6 gap-2 justify-between">
       <div className="grid gap-2">
-        <div className={clsx('flex gap-2 items-center')}>
+        <div className="flex items-center gap-2">
           {icon}
           <div className="flex flex-col">
             <TitleLine jobTitle={jobTitle} company={company} />
@@ -154,7 +154,7 @@ function LunchboxItemJobPosition4x4({
   return (
     <div className="w-full flex flex-col h-full p-6 gap-2 justify-between">
       <div className="grid gap-2">
-        <div className={clsx('flex gap-2 items-center')}>
+        <div className="flex items-center gap-2">
           {icon}
           <div className="flex flex-col">
             <TitleLine jobTitle={jobTitle} company={company} />
@@ -177,10 +177,10 @@ export function LunchboxItemJobPosition(props: Props) {
 
   return (
     <LunchboxItem
-      className={clsx('bg-white hover:shadow-lg transition', className)}
       {...props}
+      className={['bg-white hover:shadow-lg transition', className]}
     >
-      <div className={clsx('absolute w-full inset-0 flex h-full')}>
+      <div className="absolute inset-0 flex h-full w-full">
         {(() => {
           if (rows === 1 && cols === 4) {
             return <LunchboxItemJobPosition1x4 {...rest} />;
