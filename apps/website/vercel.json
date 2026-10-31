@@ -1,4 +1,8 @@
 {
+  "framework": null,
+  "buildCommand": "vp run build",
+  "outputDirectory": "dist/client",
+  "cleanUrls": true,
   "github": {
     "silent": true
   }

@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Anchor } from './anchor';
 
 type Props = Readonly<{
   rightContents: React.ReactNode;
@@ -7,9 +7,9 @@ type Props = Readonly<{
 export function Header({ rightContents }: Props) {
   return (
     <div className="flex justify-between pb-8 items-end">
-      <Link className="font-medium tracking-tight text-2xl" href="/">
+      <Anchor className="font-medium tracking-tight text-2xl" href="/">
         Yangshun Tay
-      </Link>
+      </Anchor>
       {rightContents}
     </div>
   );

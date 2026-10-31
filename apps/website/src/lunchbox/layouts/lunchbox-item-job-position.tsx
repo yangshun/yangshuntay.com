@@ -176,10 +176,7 @@ export function LunchboxItemJobPosition(props: Props) {
   const { className, cols, rows, ...rest } = props;
 
   return (
-    <LunchboxItem
-      {...props}
-      className={['bg-white hover:shadow-lg transition', className]}
-    >
+    <LunchboxItem {...props} className={['bg-white transition', className]}>
       <div className="absolute inset-0 flex h-full w-full">
         {(() => {
           if (rows === 1 && cols === 4) {

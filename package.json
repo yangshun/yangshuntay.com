@@ -14,14 +14,15 @@
     "lint:fix": "vp lint --fix",
     "fmt": "vp fmt",
     "fmt:check": "vp fmt --check",
-    "prepare": "vp config"
+    "prepare": "vp config --no-agent"
   },
   "devDependencies": {
     "eslint-plugin-turbo": "2.8.17",
+    "vite": "catalog:",
     "vite-plus": "catalog:"
   },
   "engines": {
-    "node": ">= 24"
+    "node": ">=24.21.0"
   },
   "packageManager": "pnpm@10.32.1"
 }

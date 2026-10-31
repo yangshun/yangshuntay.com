@@ -1,16 +1,13 @@
-import { Header } from '~/components/header';
 import { LunchboxGrid } from '~/lunchbox/core/lunchbox-grid';
 import { LunchboxItemLinkGitHub } from '~/lunchbox/prebuilt/lunchbox-item-link-github';
 import { LunchboxItemLinkTwitter } from '~/lunchbox/prebuilt/lunchbox-item-link-twitter';
 import { LunchboxItemLinkFacebook } from '~/lunchbox/prebuilt/lunchbox-item-link-facebook';
 import { LunchboxItemLinkInstagram } from '~/lunchbox/prebuilt/lunchbox-item-link-instagram';
-import { NavLinks } from '~/components/nav-links';
 import { LunchboxItemLinkLinkedIn } from '~/lunchbox/prebuilt/lunchbox-item-link-linkedin';
 
 export default function HomePage() {
   return (
     <div>
-      <Header rightContents={<NavLinks />} />
       <div className="flex flex-col gap-y-12">
         <section className="grid gap-y-4">
           <h2 className="sr-only tracking-tight font-medium text-4xl">About</h2>

@@ -1,6 +1,7 @@
 import { BsInstagram } from 'react-icons/bs';
 import { Props as SelfProps } from '../layouts/lunchbox-item-link';
 import { Props as CellProps } from '../core/lunchbox-item';
+import { Anchor } from '~/components/anchor';
 
 import { LunchboxIcon } from '../core/lunchbox-icon';
 import { LunchboxItemLink } from '../layouts/lunchbox-item-link';
@@ -25,10 +26,8 @@ export function LunchboxItemLinkInstagram({
 }: Props) {
   const subtitle = subtitleProp ?? `@${username}`;
   const action = (
-    <a
+    <Anchor
       href={`https://instagram.com/${username}`}
-      target="_blank"
-      rel="noreferrer"
       className={[
         'inline-flex px-3 py-1.5 rounded-lg',
         'transition',
@@ -37,7 +36,7 @@ export function LunchboxItemLinkInstagram({
       ]}
     >
       Follow
-    </a>
+    </Anchor>
   );
 
   return (

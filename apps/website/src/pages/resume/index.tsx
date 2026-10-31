@@ -1,14 +1,6 @@
-import type { Metadata } from 'next';
-import { Header } from '~/components/header';
+import { Anchor } from '~/components/anchor';
 import { BsMeta } from 'react-icons/bs';
 import { GrabIcon } from '~/icons/grab-icon';
-import { NavLinks } from '~/components/nav-links';
-import Link from 'next/link';
-
-export const metadata: Metadata = {
-  title: 'Resume | Yangshun Tay',
-  description: 'Resume of Yangshun Tay',
-};
 
 const experiences = [
   {
@@ -67,7 +59,6 @@ const experiences = [
 export default function ResumePage() {
   return (
     <div>
-      <Header rightContents={<NavLinks />} />
       <h1 className="sr-only">Yangshun Tay Resume</h1>
       <div className="flex flex-col gap-y-12">
         <section className="grid gap-y-4">
@@ -240,14 +231,16 @@ export default function ResumePage() {
                 },
               ].map(({ year, title, href, description }) => (
                 <li key={href}>
-                  <span className="text-zinc-700 font-medium">{year}</span> —{' '}
-                  <Link
+                  <span className="text-zinc-700 font-medium tabular-nums">
+                    {year}
+                  </span>{' '}
+                  —{' '}
+                  <Anchor
                     className="text-zinc-500 hover:underline hover:text-zinc-600 font-medium"
                     href={href}
-                    target="_blank"
                   >
                     {title}
-                  </Link>
+                  </Anchor>
                   : <span className="text-zinc-500">{description}</span>
                 </li>
               ))}
@@ -280,15 +273,16 @@ export default function ResumePage() {
                 },
               ].map(({ year, title, href }) => (
                 <li key={href}>
-                  <span className="text-zinc-700 font-medium">{year}</span> —{' '}
-                  <Link
+                  <span className="text-zinc-700 font-medium tabular-nums">
+                    {year}
+                  </span>{' '}
+                  —{' '}
+                  <Anchor
                     className="text-zinc-500 hover:underline hover:text-zinc-600"
                     href={href}
-                    target="_blank"
-                    rel="noreferrer"
                   >
                     {title}
-                  </Link>
+                  </Anchor>
                 </li>
               ))}
             </ul>
@@ -371,15 +365,16 @@ export default function ResumePage() {
                   href?: string;
                 }) => (
                   <li key={id}>
-                    <span className="text-zinc-700 font-medium">{year}</span> —{' '}
-                    <Link
+                    <span className="text-zinc-700 font-medium tabular-nums">
+                      {year}
+                    </span>{' '}
+                    —{' '}
+                    <Anchor
                       className="text-zinc-500 hover:underline hover:text-zinc-600"
                       href={href ?? '#'}
-                      target={href ? '_blank' : undefined}
-                      rel="noreferrer noopener"
                     >
                       {title}
-                    </Link>
+                    </Anchor>
                   </li>
                 ),
               )}
@@ -622,8 +617,10 @@ export default function ResumePage() {
                 },
               ].map(({ year, title }, index) => (
                 <li key={index}>
-                  <span className="text-zinc-700 font-medium">{year}</span> —{' '}
-                  <span className="text-zinc-600">{title}</span>
+                  <span className="text-zinc-700 font-medium tabular-nums">
+                    {year}
+                  </span>{' '}
+                  — <span className="text-zinc-600">{title}</span>
                 </li>
               ))}
             </ul>

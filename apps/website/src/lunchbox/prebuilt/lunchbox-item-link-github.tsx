@@ -1,6 +1,7 @@
 import { BsGithub } from 'react-icons/bs';
 import { Props as SelfProps } from '../layouts/lunchbox-item-link';
 import { Props as CellProps } from '../core/lunchbox-item';
+import { Anchor } from '~/components/anchor';
 
 import { LunchboxIcon } from '../core/lunchbox-icon';
 import { LunchboxItemLink } from '../layouts/lunchbox-item-link';
@@ -23,10 +24,8 @@ export function LunchboxItemLinkGitHub({
 }: Props) {
   const subtitle = subtitleProp ?? username;
   const action = (
-    <a
+    <Anchor
       href={`https://github.com/${username}`}
-      target="_blank"
-      rel="noreferrer"
       className={[
         'inline-flex px-3 py-1.5 rounded-lg',
         'text-xs text-center font-semibold',
@@ -38,7 +37,7 @@ export function LunchboxItemLinkGitHub({
       ]}
     >
       Follow
-    </a>
+    </Anchor>
   );
 
   return (

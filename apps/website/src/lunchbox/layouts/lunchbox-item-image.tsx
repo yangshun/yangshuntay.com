@@ -19,7 +19,6 @@ export function LunchboxItemImage({
 }: Props) {
   return (
     <LunchboxItem border={false} {...props}>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         className={[
           'absolute inset-0 w-full h-full object-cover',

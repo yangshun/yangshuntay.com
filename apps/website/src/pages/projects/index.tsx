@@ -1,20 +1,10 @@
-import type { Metadata } from 'next';
-import { Header } from '~/components/header';
-
 import { LunchboxGrid } from '~/lunchbox/core/lunchbox-grid';
 
 import { LunchboxItemLinkGitHubProject } from '~/lunchbox/prebuilt/lunchbox-item-link-github-project';
-import { NavLinks } from '~/components/nav-links';
-
-export const metadata: Metadata = {
-  title: 'Projects | Yangshun Tay',
-  description: 'Projects by Yangshun Tay',
-};
 
 export default function ProjectsPage() {
   return (
     <div>
-      <Header rightContents={<NavLinks />} />
       <h1 className="sr-only">Yangshun&apos;s Projects</h1>
       <div className="flex flex-col gap-y-12">
         <section className="grid gap-y-6">

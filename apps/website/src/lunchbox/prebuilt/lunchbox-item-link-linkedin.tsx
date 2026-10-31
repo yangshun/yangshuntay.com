@@ -1,6 +1,7 @@
 import { BsLinkedin, BsPlus } from 'react-icons/bs';
 import { Props as SelfProps } from '../layouts/lunchbox-item-link';
 import { Props as CellProps } from '../core/lunchbox-item';
+import { Anchor } from '~/components/anchor';
 
 import { LunchboxIcon } from '../core/lunchbox-icon';
 import { LunchboxItemLink } from '../layouts/lunchbox-item-link';
@@ -25,10 +26,8 @@ export function LunchboxItemLinkLinkedIn({
 }: Props) {
   const subtitle = subtitleProp ?? username;
   const action = (
-    <a
+    <Anchor
       href={`https://www.linkedin.com/in/${username}`}
-      target="_blank"
-      rel="noreferrer"
       className={[
         'inline-flex items-center',
         'pr-1.5 rounded-sm',
@@ -38,7 +37,7 @@ export function LunchboxItemLinkLinkedIn({
       ]}
     >
       <BsPlus className="size-6" /> Follow
-    </a>
+    </Anchor>
   );
 
   return (

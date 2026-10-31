@@ -8,9 +8,11 @@ node_modules
 # testing
 coverage
 
-# next.js
-.next/
-out/
+# build output
+.void/
+.void-wrangler.jsonc
+.wrangler/
+dist/
 build
 
 # misc

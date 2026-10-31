@@ -4,20 +4,18 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "next build",
+    "build": "vp build",
     "check": "vp check",
-    "dev": "portless yangshuntay next dev",
+    "dev": "PORTLESS_PORT=1355 PORTLESS_HTTPS=0 portless yangshuntay vp dev",
     "lint": "vp lint",
-    "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "start": "vp preview",
+    "typecheck": "void prepare && tsc --noEmit"
   },
   "dependencies": {
     "@content-collections/core": "^0.14.3",
     "@content-collections/mdx": "^0.2.2",
-    "@content-collections/next": "^0.2.11",
-    "@tailwindcss/postcss": "^4.2.2",
     "date-fns": "^4.1.0",
-    "next": "^16.2.1",
+    "hono": "^4.13.13",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-icons": "^5.6.0",
@@ -26,14 +24,20 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.0",
+    "@content-collections/vite": "^0.3.1",
+    "@hono/node-server": "^2.1.5",
     "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/vite": "^4.2.2",
     "@types/node": "25.5.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "@void/react": "^1.4.0",
     "@yangshun/tsconfig": "workspace:*",
-    "postcss": "^8.5.8",
+    "portless": "^0.15.12",
     "remark-gfm": "^4.0.1",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.2",
+    "vite": "catalog:",
+    "vite-plus": "catalog:",
+    "void": "^1.4.0"
   }
 }
