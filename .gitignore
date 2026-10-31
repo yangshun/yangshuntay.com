@@ -12,6 +12,7 @@ coverage
 .void/
 .void-wrangler.jsonc
 .wrangler/
+.cloudflare/
 dist/
 build
 

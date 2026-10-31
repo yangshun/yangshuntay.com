@@ -19,19 +19,19 @@ Visit `http://yangshuntay.localhost:1355`.
 - `vp check` runs format, lint, and type checks across the workspace.
 - `vp test` runs the workspace test suite.
 
-Use `vp run build` from the workspace root, or `vp build` inside `apps/website`.
+Run `vp run build` from the workspace root or from `apps/website`.
 
 The site uses Void's file-based React pages in `apps/website/src/pages`. Blog content stays in `apps/website/content/blog` and is compiled with Content Collections and MDX. All routes, including blog posts and Lunchbox examples, are prerendered at build time with their existing URLs and page metadata.
 
-Cloudflare serves the static output from `apps/website/dist/client`. Deployment settings live in `apps/website/cloudflare.json`. Void renders React and MDX at build time; Cloudflare hosts the generated files with clean URLs and a custom 404 page. There is no application Worker or server runtime. Both `www.yangshuntay.com` and `yangshuntay.com` are configured as custom domains; the existing Cloudflare redirect rule sends the apex to `www` and preserves paths and query strings.
+Cloudflare serves the static output from `apps/website/dist/client`. Deployment settings live in `apps/website/cloudflare.json`. The build packages those settings and `dist/client` into cf’s assets-only Build Output under `.cloudflare/output`. Void renders React and MDX at build time; Cloudflare hosts the generated files with clean URLs and a custom 404 page. There is no application Worker or server runtime. Both `www.yangshuntay.com` and `yangshuntay.com` are configured as custom domains; the existing Cloudflare redirect rule sends the apex to `www` and preserves paths and query strings.
 
-Run `vp run deploy` from the workspace root to build and deploy. Wrangler uses a Cloudflare login for the personal account, or `CLOUDFLARE_API_TOKEN` for CI. The token must have access to the account configured in `cloudflare.json`. Pages navigation uses the generated `_void/pages` files, so publish the entire static directory.
+Run `vp run deploy` from the workspace root to build and deploy. `cf` uses a Cloudflare login for the personal account, or `CLOUDFLARE_API_TOKEN` for CI. The token must have access to the account configured in `cloudflare.json`. Pages navigation uses the generated `_void/pages` files, so publish the entire static directory.
 
 ## Git deployments
 
 Cloudflare Workers Builds connects `yangshun/yangshuntay.com` to the `yangshuntay-com` Worker. Pushes to `main` deploy production from the repository root using Node.js 24.22.2:
 
 - Build command: `./node_modules/.bin/vp run build`
-- Deploy command: `cd apps/website && ./node_modules/.bin/vp exec wrangler deploy --config cloudflare.json`
+- Deploy command: `cd apps/website && ./node_modules/.bin/vp exec cf deploy --prebuilt`
 
 Cloudflare installs the workspace dependencies using `pnpm-lock.yaml` and the pinned package manager before running the build. The deployed assets are the contents of `apps/website/dist/client`.

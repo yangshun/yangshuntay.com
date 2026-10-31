@@ -4,13 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vp build",
+    "build": "vp build && node scripts/prepare-cloudflare.mjs",
     "check": "vp check",
     "dev": "PORTLESS_PORT=1355 PORTLESS_HTTPS=0 portless yangshuntay vp dev",
     "lint": "vp lint",
     "start": "vp preview",
     "typecheck": "void prepare && tsc --noEmit",
-    "deploy": "vp build && wrangler deploy --config cloudflare.json"
+    "deploy": "vp run build && cf deploy --prebuilt"
   },
   "dependencies": {
     "@content-collections/core": "^0.14.3",
@@ -25,6 +25,8 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
+    "@cloudflare/build-output-utils": "0.9.6",
+    "@cloudflare/config": "0.29.0",
     "@content-collections/vite": "^0.3.1",
     "@hono/node-server": "^2.1.5",
     "@tailwindcss/typography": "^0.5.19",
@@ -34,12 +36,12 @@
     "@types/react-dom": "^19.2.3",
     "@void/react": "^1.4.0",
     "@yangshun/tsconfig": "workspace:*",
+    "cf": "1.0.0-beta.26",
     "portless": "^0.15.12",
     "remark-gfm": "^4.0.1",
     "typescript": "^6.0.2",
     "vite": "catalog:",
     "vite-plus": "catalog:",
-    "void": "^1.4.0",
-    "wrangler": "4.156.0"
+    "void": "^1.4.0"
   }
 }

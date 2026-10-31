@@ -1,25 +1,14 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "yangshuntay-com",
-  "account_id": "c9d3d3304c5e8ffd1c928e6b53249a2a",
-  "compatibility_date": "2026-10-31",
-  "workers_dev": true,
-  "preview_urls": false,
-  "assets": {
-    "directory": "./dist/client",
-    "html_handling": "drop-trailing-slash",
-    "not_found_handling": "404-page"
-  },
-  "routes": [
-    {
-      "pattern": "www.yangshuntay.com",
-      "custom_domain": true,
-      "zone_id": "e4ca4bd0a142284cc2b42a6e2363b870"
+  "accountId": "c9d3d3304c5e8ffd1c928e6b53249a2a",
+  "worker": {
+    "name": "yangshuntay-com",
+    "compatibilityDate": "2026-10-31",
+    "workersDev": true,
+    "previewUrls": false,
+    "assets": {
+      "htmlHandling": "drop-trailing-slash",
+      "notFoundHandling": "404-page"
     },
-    {
-      "pattern": "yangshuntay.com",
-      "custom_domain": true,
-      "zone_id": "e4ca4bd0a142284cc2b42a6e2363b870"
-    }
-  ]
+    "domains": ["www.yangshuntay.com", "yangshuntay.com"]
+  }
 }
