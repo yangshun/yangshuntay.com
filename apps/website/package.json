@@ -4,13 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vp build && node scripts/prepare-cloudflare.mjs",
+    "build": "vp build",
     "check": "vp check",
     "dev": "PORTLESS_PORT=1355 PORTLESS_HTTPS=0 portless yangshuntay vp dev",
     "lint": "vp lint",
     "start": "vp preview",
     "typecheck": "void prepare && tsc --noEmit",
-    "deploy": "vp run build && cf deploy --prebuilt"
+    "deploy": "vp run build && cf deploy"
   },
   "dependencies": {
     "@content-collections/core": "^0.14.3",
@@ -25,8 +25,6 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@cloudflare/build-output-utils": "0.9.6",
-    "@cloudflare/config": "0.29.0",
     "@content-collections/vite": "^0.3.1",
     "@hono/node-server": "^2.1.5",
     "@tailwindcss/typography": "^0.5.19",
@@ -42,6 +40,7 @@
     "typescript": "^6.0.2",
     "vite": "catalog:",
     "vite-plus": "catalog:",
-    "void": "^1.4.0"
+    "void": "^1.4.0",
+    "wrangler": "4.156.0"
   }
 }
