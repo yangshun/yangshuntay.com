@@ -14,7 +14,8 @@
     "lint:fix": "vp lint --fix",
     "fmt": "vp fmt",
     "fmt:check": "vp fmt --check",
-    "prepare": "vp config --no-agent"
+    "prepare": "vp config --no-agent",
+    "deploy": "vp run --filter ./apps/website deploy"
   },
   "devDependencies": {
     "eslint-plugin-turbo": "2.8.17",

@@ -9,7 +9,8 @@
     "dev": "PORTLESS_PORT=1355 PORTLESS_HTTPS=0 portless yangshuntay vp dev",
     "lint": "vp lint",
     "start": "vp preview",
-    "typecheck": "void prepare && tsc --noEmit"
+    "typecheck": "void prepare && tsc --noEmit",
+    "deploy": "vp build && wrangler deploy --config cloudflare.json"
   },
   "dependencies": {
     "@content-collections/core": "^0.14.3",
@@ -38,6 +39,7 @@
     "typescript": "^6.0.2",
     "vite": "catalog:",
     "vite-plus": "catalog:",
-    "void": "^1.4.0"
+    "void": "^1.4.0",
+    "wrangler": "4.156.0"
   }
 }
